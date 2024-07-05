@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포인트홈</title>
+    <style>
+        @keyframes tripleDotBlink1 {
+            0% {
+                opacity: 0.2;
+            }
+
+            20% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes tripleDotBlink2 {
+            20% {
+                opacity: 0.2;
+            }
+
+            40% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes tripleDotBlink3 {
+            40% {
+                opacity: 0.2;
+            }
+
+            60% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+    <script>
+        function closeHander() {
+            // console.log('close');
+            const {
+                webkit, PointHome
+            } = window;
+
+            const closeProtocol = {
+                id: 'mainLoading',
+                type: 'close',
+                subject: 'main',
+                subType: '',
+                parameter: '',
+                callback: '',
+            };
+
+            if (PointHome) { // AOS
+                PointHome.postMessage(closeProtocol);
+            }
+            else if (webkit) { // IOS
+                webkit.messageHandlers.PointHome.postMessage(closeProtocol);
+            }
+        }
+        setTimeout(() => {
+            const closeRef = document.getElementById('closeRef');
+            if (closeRef) {
+                closeRef.style.setProperty('opacity', '1');
+            }
+        }, 3000);
+    </script>
+
+</head>
+
+<body>
+    <div
+        style="position: fixed; top: 0px; right: 0px; bottom: 0px; left: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <div id="closeRef" onclick="closeHander()"
+            style="position: absolute; top: 0px; right: 0px; padding: 16px; opacity: 0; transition: all 0.2s;">
+            <span
+                style="font-size: 12px; font-weight: 700; padding: 3px 6px 3px 6px; border: 1px solid #80868B; border-radius: 6px; color: #80868B;">
+                닫기
+            </span>
+        </div>
+        <svg width="38" height="38" viewBox="0 0 24 6" fill="none" xmlns="http://www.w3.org/2000/svg"
+            style="width: 38px; height: 38px;">
+            <circle cx="3" cy="3" r="3" fill="#0091EA"
+                style="opacity: 0.2; animation: tripleDotBlink1 1s linear infinite" />
+            <circle cx="12" cy="3" r="3" fill="#0091EA"
+                style="opacity: 0.2; animation: tripleDotBlink2 1s linear infinite" />
+            <circle cx="21" cy="3" r="3" fill="#0091EA"
+                style="opacity: 0.2; animation: tripleDotBlink3 1s linear infinite" />
+        </svg>
+    </div>
+</body>
+
+</html>

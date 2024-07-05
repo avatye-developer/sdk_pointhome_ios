@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포인트홈 - 네트워크 오류</title>
+    <style>
+        .title {
+            margin-bottom: 20px;
+            padding-top: 60px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+            text-align: center;
+        }
+
+        .description {
+            margin-bottom: 30px;
+            font-size: 16px;
+            color: #000;
+            text-align: center;
+        }
+
+        .button {
+            width: 155px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0044D2;
+            border-radius: 16px;
+            cursor: pointer;
+        }
+
+        .button-text {
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+
+    <script>
+        function closeHander() {
+            // console.log('close');
+            const {
+                webkit, PointHome
+            } = window;
+
+            const closeProtocol = {
+                id: 'mainLoading',
+                type: 'close',
+                subject: 'main',
+                subType: '',
+                parameter: '',
+                callback: '',
+            };
+
+            if (PointHome) { // AOS
+                PointHome.postMessage(closeProtocol);
+            }
+            else if (webkit) { // IOS
+                webkit.messageHandlers.PointHome.postMessage(closeProtocol);
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <div
+        style="position: fixed; top: 0px; right: 0px; bottom: 0px; left: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #f0f0f0;">
+        <div
+            style="width: 100px; height: 100px; background-color: #FFFFFF; display: flex; align-items: center; justify-content: center; border-radius: 50%;">
+            <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M27.7271 7.99105C19.3048 4.9942 10.0321 6.43136 2.43898 12.3025C1.93231 12.6984 1.83733 13.4426 2.23316 13.9651C2.629 14.4717 3.37317 14.5667 3.89567 14.1709C10.5019 9.05927 18.506 7.6312 25.8992 9.88663L27.7271 7.99105ZM22.0725 13.8551C16.9221 12.9874 11.5637 14.3066 7.03066 17.8125C6.52399 18.2084 6.42898 18.9525 6.82481 19.475C7.22065 19.9817 7.96482 20.0767 8.48732 19.6808C11.9669 16.9956 16.002 15.7747 19.9868 16.018L22.0725 13.8551ZM22.4399 16.3553L24.3411 14.3837C26.6478 15.0733 28.8796 16.2162 30.939 17.8125C31.4615 18.2084 31.5565 18.9525 31.1448 19.475C30.939 19.7759 30.5906 19.9342 30.2265 19.9342C29.9731 19.9342 29.7198 19.855 29.4982 19.6808C27.3143 17.9955 24.9116 16.887 22.4399 16.3553ZM15.2318 20.9491C13.4101 21.4562 11.6457 22.3371 10.0232 23.5917C9.51649 23.9875 9.42148 24.7317 9.81731 25.2542C10.0259 25.5212 10.3313 25.6739 10.6499 25.7007L15.2318 20.9491ZM15.7759 23.2662L18.4995 20.4417C21.7859 20.325 25.0956 21.375 27.9623 23.5917C28.4848 23.9875 28.5798 24.7317 28.1681 25.2542C27.9465 25.555 27.5982 25.7134 27.2498 25.7134C26.9965 25.7134 26.7431 25.6342 26.5215 25.46C23.2972 22.9634 19.4 22.2322 15.7759 23.2662ZM27.969 10.6214L29.7301 8.79513C31.7492 9.69996 33.7056 10.8691 35.5623 12.3025C36.0848 12.6984 36.1798 13.4426 35.7682 13.9651C35.5465 14.2659 35.1823 14.4242 34.834 14.4242C34.5807 14.4242 34.3273 14.345 34.1056 14.1709C32.1629 12.6703 30.1004 11.4871 27.969 10.6214ZM22.389 31.255C22.6107 31.4292 22.864 31.5083 23.1173 31.5083C23.4815 31.5083 23.8298 31.3342 24.0357 31.0492C24.4473 30.5267 24.3523 29.7825 23.8298 29.3867C20.8848 27.1067 17.0848 27.1067 14.1398 29.3867C13.6332 29.7825 13.5382 30.5267 13.934 31.0492C14.3298 31.5559 15.074 31.6509 15.5965 31.255C17.6548 29.6559 20.3307 29.6559 22.389 31.255Z"
+                    fill="#637181" />
+                <path
+                    d="M31.6941 3.28016C32.0917 3.66352 32.1032 4.29658 31.7198 4.69414L4.71985 32.6941C4.33648 33.0917 3.70342 33.1032 3.30587 32.7198C2.90831 32.3365 2.8968 31.7034 3.28016 31.3059L30.2802 3.30587C30.6635 2.90831 31.2966 2.8968 31.6941 3.28016Z"
+                    fill="#E9313C" />
+            </svg>
+        </div>
+        <div class="title">네트워크 오류</div>
+        <div class="description">네트워크 오류가 발생하였습니다. <br>
+            네트워크 상태와 설정 확인 후 다시 시도해주세요.
+        </div>
+        <div class="button" onclick="closeHander()">
+            <span class="button-text">닫기</span>
+        </div>
+    </div>
+</body>
+
+</html>

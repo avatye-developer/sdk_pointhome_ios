@@ -1,0 +1,242 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AvatyePointHome
+import AdSupport
+import AppTrackingTransparency
+import AvatyeAdCash
+import CommonCrypto
+import CoreTelephony
+import DeveloperToolsSupport
+import Foundation
+import Network
+import Security
+import Swift
+import SwiftUI
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol AdPopupViewDelegate : AnyObject {
+  func onBannerLoaded(_ apid: Swift.String)
+  func onBannerFailed(_ apid: Swift.String, error: AvatyeAdCash.AdCashErrorModel)
+  func onBannerClicked(_ apid: Swift.String)
+  func onBannerRemoved(_ apid: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class UtiityManager {
+  @objc deinit
+}
+public struct userProfileResponse : Swift.Codable {
+  public let profile: AvatyePointHome.userProfile?
+  public let cash: AvatyePointHome.userCash?
+  public let button: AvatyePointHome.userButton?
+  public let ticket: AvatyePointHome.userTicket?
+  public let box: AvatyePointHome.userBox?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct userProfile : Swift.Codable {
+  public let userID: Swift.String
+  public let isGuest: Swift.Bool
+  public let nickname: Swift.String?
+  public let birthDate: Swift.String?
+  public let gender: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct userCash : Swift.Codable {
+  public let balance: Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct userButton : Swift.Codable {
+  public let gettableCash: Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct userTicket : Swift.Codable {
+  public let touchTicket: AvatyePointHome.userTicketModel?
+  public let videoTicket: AvatyePointHome.userTicketModel?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct userTicketModel : Swift.Codable {
+  public let receivedCount: Swift.Int
+  public let limitCount: Swift.Int
+  public let period: Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct userBox : Swift.Codable {
+  public let isCashBoxGettable: Swift.Bool
+  public let isAttendanceBoxGettable: Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol AvatyePHDelegate : ObjectiveC.NSObjectProtocol {
+  func pointHomeEventListener(event: Swift.String)
+  func pointHomeSystemEventListener(event: Swift.String)
+  func pointHomeSliderOpened(caller: Swift.String)
+  func pointHomeSliderClosed(caller: Swift.String)
+}
+public class AvatyePHService {
+  public var delegate: (any AvatyePointHome.AvatyePHDelegate)?
+  public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil)
+  public func setCashButton()
+  public func removePHService()
+  public func openPointHome(completion: @escaping (AvatyePointHome.PointHomeOpen<Swift.String, AvatyePointHome.PointHomeErrorModel>) -> Swift.Void)
+  public func closePointHome(completion: @escaping () -> Swift.Void)
+  public func sendMessage(message: Swift.String, completion: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func convertFunc(convert: @escaping ((Swift.String) async throws -> Swift.String))
+  #endif
+  @objc deinit
+}
+extension AvatyePointHome.AvatyePHService : AvatyePointHome.PHWebViewDelegate {
+  public func pointHomeOpenDelegate(caller: Swift.String)
+  public func PointHomeCloseDelegate(caller: Swift.String)
+  public func webSystemEventListener(event: Swift.String)
+  public func webEventListener(event: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class AvatyePH {
+  public static func initialize(appId: Swift.String, appSecretKey: Swift.String, logLevel: AvatyePointHome.LogLevel = .info)
+  public static func devModeChange(value: Swift.String? = nil)
+  public static func testModeChange(value: Swift.Bool)
+  public static func getUserProfile(appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil, resource: Swift.String? = nil, completion: @escaping (AvatyePointHome.PointHomeResultType<AvatyePointHome.userProfileResponse>) -> Swift.Void)
+  public static func withDrawUser(appId: Swift.String, userKey: Swift.String, reason: Swift.String = "default", completion: @escaping (AvatyePointHome.PointHomeWithDrawType) -> Swift.Void)
+  @objc deinit
+}
+public class TokenUtil {
+  public init()
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getToken(appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String, isChanneling: Swift.Bool) async throws -> Swift.Result<Swift.String, AvatyePointHome.TokenError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getOTP(appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String, isChanneling: Swift.Bool) async throws -> Swift.Result<Swift.String, AvatyePointHome.TokenError>
+  #endif
+  public func deleteToken(appId: Swift.String, userKey: Swift.String)
+  @objc deinit
+}
+@objc public class AvatyeWebSDKController : ObjectiveC.NSObject, WebKit.WKScriptMessageHandler {
+  public init(rootWebView: WebKit.WKWebView)
+  @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @objc deinit
+}
+public enum PointHomeOpenType {
+  case success
+  case pathErr
+  case serverErr
+  case inMaintenance
+  case networkFail
+  case unRecognizedError
+  case expireToken
+  public static func == (a: AvatyePointHome.PointHomeOpenType, b: AvatyePointHome.PointHomeOpenType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PointHomeOpen<T, E> {
+  case success(T)
+  case failure(E)
+}
+public struct PointHomeErrorModel : Swift.Error {
+  public let code: Swift.Int
+  public let type: Swift.String
+  public let message: Swift.String
+}
+public enum TokenError : Swift.Error {
+  case pathErr
+  case serverErr
+  case inMaintenance
+  case networkFail
+  case unRecognizedError
+  case expireToken
+  public static func == (a: AvatyePointHome.TokenError, b: AvatyePointHome.TokenError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PointHomeError {
+  case EXCEPTION_UNKNOWN
+  case NETWORK_ERROR
+  case EXCEPTION_KNOWN
+  case INITIALIZE_ERROR
+  case EXPIRE_TOKEN
+  case INVALID_USERKEY
+  case SERVER_ERROR
+  case IN_MAINTENANCE
+  public static func == (a: AvatyePointHome.PointHomeError, b: AvatyePointHome.PointHomeError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PointHomeResultType<T> {
+  case success(T)
+  case pathErr
+  case serverErr
+  case inMaintenance
+  case networkFail
+  case unRecognizedError
+  case expireToken
+  case notAgreed
+}
+public enum PointHomeWithDrawType {
+  case success
+  case unRecognizedError
+  case notAgreed
+  public static func == (a: AvatyePointHome.PointHomeWithDrawType, b: AvatyePointHome.PointHomeWithDrawType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum LogLevel : Swift.Int, Swift.CustomStringConvertible {
+  case debug
+  case info
+  case error
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class PointHomeLogger {
+  public static func debug(_ message: Swift.String, file: Swift.String = #file, line: Swift.Int = #line, function: Swift.String = #function)
+  public static func info(_ message: Swift.String, file: Swift.String = #file, line: Swift.Int = #line, function: Swift.String = #function)
+  public static func error(_ message: Swift.String, file: Swift.String = #file, line: Swift.Int = #line, function: Swift.String = #function)
+  @objc deinit
+}
+extension Foundation.Data {
+  public func sha256() -> Swift.String
+}
+extension Swift.String {
+  public func sha256() -> Swift.String
+}
+public protocol PHWebViewDelegate : AnyObject {
+  func webEventListener(event: Swift.String)
+  func webSystemEventListener(event: Swift.String)
+  func pointHomeOpenDelegate(caller: Swift.String)
+  func PointHomeCloseDelegate(caller: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class Reachability {
+  public class func isConnectedToNetwork() -> Swift.Bool
+  @objc deinit
+}
+extension AvatyePointHome.PointHomeOpenType : Swift.Equatable {}
+extension AvatyePointHome.PointHomeOpenType : Swift.Hashable {}
+extension AvatyePointHome.TokenError : Swift.Equatable {}
+extension AvatyePointHome.TokenError : Swift.Hashable {}
+extension AvatyePointHome.PointHomeError : Swift.Equatable {}
+extension AvatyePointHome.PointHomeError : Swift.Hashable {}
+extension AvatyePointHome.PointHomeWithDrawType : Swift.Equatable {}
+extension AvatyePointHome.PointHomeWithDrawType : Swift.Hashable {}
+extension AvatyePointHome.LogLevel : Swift.Equatable {}
+extension AvatyePointHome.LogLevel : Swift.Hashable {}
+extension AvatyePointHome.LogLevel : Swift.RawRepresentable {}

@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "AvatyePointHome"
-  spec.version      = "2.0.1"
+  spec.version      = "2.0.2"
   spec.summary      = "Avatye pointhome xcframework"
 
   spec.description  = <<-DESC
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :text => "Copyright (c) 2024 Avatye Corp." }
   spec.author       = { "LimJaeHyuk" => "lim0202jh@avatye.com" }
   
-  #spec.source      = { :git => "https://github.com/avatye-developer/sdk_pointhome_ios.git", :tag => "v"+spec.version.to_s }
+  spec.source      = { :git => "https://github.com/avatye-developer/sdk_pointhome_ios.git", :tag => "v"+spec.version.to_s }
 
   spec.ios.deployment_target = "13.0"
 

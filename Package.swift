@@ -24,7 +24,8 @@ let package = Package(
             name: "AvatyeAdCash",
             dependencies: [
                 .product(name: "AvatyeAdCash", package: "AvatyeAdCash"),
-            ]
+            ],
+            path: "./path/to/your/AvatyeAdCashSources" // AvatyeAdCash 소스 파일 경로 설정
         ),
         .binaryTarget(
             name: "AvatyePointHomeTarget",

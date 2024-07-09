@@ -16,6 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
+            name: "AvatyeAdCash",
             url: "https://github.com/avatye-developer/sdk_adcash_ios",
             .upToNextMajor(from: "4.0.3")
         )
@@ -24,8 +25,8 @@ let package = Package(
         .target(
             name: "AvatyePointHomeTarget",
             dependencies: [
-                "AdPopcornSSP",
-                "AvatyeAdCashTarget"
+                .product(name: "AdPopcornSSP", package: "AvatyeAdCash"),
+                .product(name: "AvatyeAdCashTarget", package: "AvatyeAdCash")
             ]
 //            path: "./Sources"
         )

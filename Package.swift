@@ -16,8 +16,8 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/YourGitHubUser/AvatyeAdCash.git",
-            .upToNextMajor(from: "1.0.0")
+            url: "https://github.com/avatye-developer/sdk_adcash_ios",
+            .upToNextMajor(from: "4.0.3")
         )
     ],
     targets: [

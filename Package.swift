@@ -22,13 +22,17 @@ let package = Package(
         )
     ],
     targets: [
+        .binaryTarget(
+            name: "AvatyePointHomeSdk",
+            path: "./AvatyePointHome.xcframework"
+         ),
         .target(
             name: "AvatyePointHomeTarget",
             dependencies: [
                 .product(name: "AdPopcornSSP", package: "AvatyeAdCash"),
-                .product(name: "AvatyeAdCashTarget", package: "AvatyeAdCash")
+                .product(name: "AvatyeAdCashTarget", package: "AvatyeAdCash"),
+                "AvatyePointHomeSdk"
             ]
-//            path: "./Sources"
         )
     ]
 )

@@ -11,25 +11,23 @@ let package = Package(
     products: [
         .library(
             name: "AvatyePointHome",
-            targets: ["AvatyeAdCash", "AvatyePointHomeTarget"]
+            targets: ["AvatyePointHomeTarget"]
         ),
     ],
     dependencies: [
-        .package(name: "AvatyeAdCash",
-                 url: "https://github.com/avatye-developer/sdk_adcash_ios",
-                 Version(4,0,3)..<Version(5,0,0))
+        .package(
+            url: "https://github.com/YourGitHubUser/AvatyeAdCash.git",
+            .upToNextMajor(from: "1.0.0")
+        )
     ],
     targets: [
         .target(
-            name: "AvatyeAdCash",
-            dependencies: [
-                .product(name: "AvatyeAdCash", package: "AvatyeAdCash"),
-            ],
-            path: "./path/to/your/AvatyeAdCashSources" // AvatyeAdCash 소스 파일 경로 설정
-        ),
-        .binaryTarget(
             name: "AvatyePointHomeTarget",
-            path: "./AvatyePointHome.xcframework"
+            dependencies: [
+                "AdPopcornSSP",
+                "AvatyeAdCashTarget"
+            ]
+//            path: "./Sources"
         )
     ]
 )

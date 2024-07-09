@@ -31,9 +31,8 @@ let package = Package(
             dependencies: [
                 .product(name: "AdPopcornSSP", package: "AvatyeAdCash"),
                 .product(name: "AvatyeAdCashTarget", package: "AvatyeAdCash"),
-                "AvatyePointHomeSdk"
-            ],
-            path: "./Sources"
+                .target(name: "AvatyePointHomeSdk")
+            ]
         )
     ]
 )

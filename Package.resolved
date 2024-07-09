@@ -1,0 +1,15 @@
+{
+  "originHash" : "49010212c0d43fe950feaf2e5166077f0acb01181827e79cea2f5d9b2e02cded",
+  "pins" : [
+    {
+      "identity" : "sdk_adcash_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/avatye-developer/sdk_adcash_ios",
+      "state" : {
+        "revision" : "0c0fd77c95e8fd1f9ee7356d1b543e5f5ef2e755",
+        "version" : "4.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}

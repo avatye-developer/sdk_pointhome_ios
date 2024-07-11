@@ -16,6 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
+            name: "AvatyeAdCash",
             url: "https://github.com/avatye-developer/sdk_adcash_ios",
             .upToNextMajor(from: "4.0.3")
         )
@@ -29,10 +30,10 @@ let package = Package(
             name: "AvatyePointHomeWrapper",
             dependencies: [
                 "AvatyePointHomeTarget",
-                .product(name: "AdPopcornSSP", package: "AvatyeAdCash"),
-                .product(name: "AvatyeAdCashTarget", package: "AvatyeAdCash")
+                .product(name: "AvatyeAdCash", package: "AvatyeAdCash"),
+//                .product(name: "AvatyeAdCashTarget", package: "AvatyeAdCash")
             ],
-            path: "./Sources" // SPM 요구사항을 만족시키기 위한 빈 디렉토리
+            path: "./Sources/AvatyePointHomeWrapper" // SPM 요구사항을 만족시키기 위한 빈 디렉토리
         )
     ]
 )

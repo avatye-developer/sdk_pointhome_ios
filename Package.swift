@@ -29,10 +29,11 @@ let package = Package(
         .target(
             name: "AvatyePointHomeTarget",
             dependencies: [
+                "AvatyePointHomeSdk",
                 .product(name: "AdPopcornSSP", package: "AvatyeAdCash"),
-                .product(name: "AvatyeAdCashTarget", package: "AvatyeAdCash"),
-                .target(name: "AvatyePointHomeSdk")
-            ]
+                .product(name: "AvatyeAdCashTarget", package: "AvatyeAdCash")
+            ],
+            path: "."
         )
     ]
 )

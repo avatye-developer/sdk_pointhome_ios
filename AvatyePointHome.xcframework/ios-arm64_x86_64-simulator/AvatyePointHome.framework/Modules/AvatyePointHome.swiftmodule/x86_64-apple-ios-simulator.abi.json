@@ -16,8 +16,8 @@
       },
       {
         "kind": "Import",
-        "name": "AvatyeAdCash",
-        "printedName": "AvatyeAdCash",
+        "name": "AdCashFramework",
+        "printedName": "AdCashFramework",
         "declKind": "Import",
         "moduleName": "AvatyePointHome"
       },
@@ -72,13 +72,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "AdCashErrorModel",
-                "printedName": "AvatyeAdCash.AdCashErrorModel",
-                "usr": "c:@M@AvatyeAdCash@objc(cs)AdCashErrorModel"
+                "printedName": "AdCashFramework.AdCashErrorModel",
+                "usr": "c:@M@AdCashFramework@objc(cs)AdCashErrorModel"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15AvatyePointHome19AdPopupViewDelegateP14onBannerFailed_5errorySS_0aD4Cash0dL10ErrorModelCtF",
-            "mangledName": "$s15AvatyePointHome19AdPopupViewDelegateP14onBannerFailed_5errorySS_0aD4Cash0dL10ErrorModelCtF",
+            "usr": "s:15AvatyePointHome19AdPopupViewDelegateP14onBannerFailed_5errorySS_0D13CashFramework0dL10ErrorModelCtF",
+            "mangledName": "$s15AvatyePointHome19AdPopupViewDelegateP14onBannerFailed_5errorySS_0D13CashFramework0dL10ErrorModelCtF",
             "moduleName": "AvatyePointHome",
             "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.AdPopupViewDelegate>",
             "sugared_genericSig": "<Self where Self : AvatyePointHome.AdPopupViewDelegate>",
@@ -2094,6 +2094,27 @@
             "declKind": "Func",
             "usr": "s:15AvatyePointHome0A9PHServiceC13setCashButtonyyF",
             "mangledName": "$s15AvatyePointHome0A9PHServiceC13setCashButtonyyF",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserAgent",
+            "printedName": "getUserAgent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0A9PHServiceC12getUserAgentSSyF",
+            "mangledName": "$s15AvatyePointHome0A9PHServiceC12getUserAgentSSyF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
               "AccessControl"
@@ -5475,8 +5496,8 @@
       },
       {
         "kind": "Import",
-        "name": "AvatyeAdCash",
-        "printedName": "AvatyeAdCash",
+        "name": "AdCashFramework",
+        "printedName": "AdCashFramework",
         "declKind": "Import",
         "moduleName": "AvatyePointHome"
       },
@@ -5987,8 +6008,8 @@
       },
       {
         "kind": "Import",
-        "name": "AvatyeAdCash",
-        "printedName": "AvatyeAdCash",
+        "name": "AdCashFramework",
+        "printedName": "AdCashFramework",
         "declKind": "Import",
         "moduleName": "AvatyePointHome"
       },
@@ -7380,56 +7401,56 @@
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AdPopupView.swift",
       "kind": "IntegerLiteral",
-      "offset": 590,
+      "offset": 593,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AdPopupView.swift",
       "kind": "IntegerLiteral",
-      "offset": 630,
+      "offset": 633,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AdPopupView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1329,
+      "offset": 1332,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AdPopupView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1353,
+      "offset": 1356,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AdPopupView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1568,
+      "offset": 1571,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AdPopupView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1587,
+      "offset": 1590,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AdPopupView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1609,
+      "offset": 1612,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AdPopupView.swift",
       "kind": "StringLiteral",
-      "offset": 368,
+      "offset": 371,
       "length": 11,
       "value": "\"AvatyePointHome.AdPopupView\""
     },
@@ -7626,27 +7647,27 @@
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
       "offset": 417,
-      "length": 8,
-      "value": "\"1.6.14\""
+      "length": 7,
+      "value": "\"1.7.0\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 453,
+      "offset": 452,
       "length": 38,
       "value": "\"00000000-0000-0000-0000-000000000000\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 532,
+      "offset": 531,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 8832,
+      "offset": 8831,
       "length": 9,
       "value": "\"default\""
     },
@@ -7751,42 +7772,42 @@
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 504,
+      "offset": 507,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3436,
+      "offset": 3439,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3455,
+      "offset": 3458,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3480,
+      "offset": 3483,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3510,
+      "offset": 3513,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3531,
+      "offset": 3534,
       "length": 1,
       "value": "1"
     },
@@ -7856,21 +7877,21 @@
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebView.swift",
       "kind": "StringLiteral",
-      "offset": 477,
+      "offset": 480,
       "length": 11,
       "value": "\"AvatyePointHome.LeakAvoider\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1258,
+      "offset": 1261,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebView.swift",
       "kind": "StringLiteral",
-      "offset": 906,
+      "offset": 909,
       "length": 9,
       "value": "\"AvatyePointHome.PHWebView\""
     },

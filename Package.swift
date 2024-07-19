@@ -18,7 +18,7 @@ let package = Package(
         .package(
             name: "AvatyeAdCash",
             url: "https://github.com/avatye-developer/sdk_adcash_ios",
-            .upToNextMajor(from: "3.1.9")
+            .upToNextMajor(from: "3.1.11")
         )
     ],
     targets: [
@@ -31,7 +31,6 @@ let package = Package(
             dependencies: [
                 "AvatyePointHomeTarget",
                 .product(name: "AvatyeAdCash", package: "AvatyeAdCash"),
-//                .product(name: "AvatyeAdCashTarget", package: "AvatyeAdCash")
             ],
             path: "./Sources/AvatyePointHomeWrapper" // SPM 요구사항을 만족시키기 위한 빈 디렉토리
         )

@@ -228,7 +228,7 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+eFpxiVBH5kcdFJ+TGdM3+/z1nw=
+		KMI919F6BukEqgXEi1mcu0kbFio=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -244,11 +244,11 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DxvyYfbI7Xi5DpdQ8q0snu9kYn0=
+		M6f4cK7MtYEIJEvG/ilClBZC8so=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+eFpxiVBH5kcdFJ+TGdM3+/z1nw=
+		KMI919F6BukEqgXEi1mcu0kbFio=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -264,7 +264,7 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bJI7AwR3lmu8olYD5bZXrxxBCyI=
+		eVC6aTkbjPl+OCA7Naz5p8I7aLI=
 		</data>
 		<key>NetworkError.html</key>
 		<data>
@@ -653,7 +653,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IwbLo/PVadE6ZICr4q1ghTErv/vJ6K2yONipULsQNhA=
+			Gq7qOaCKArvCj3sdHzJoGB2M0e2zRCOvBMY4O7lQAec=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -681,14 +681,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AUt39PKn/4z83kd93E1uKTIrgXNQfPTKaXj1X3YoX9Y=
+			EHDElgEYWckVZorKWSsSsHEHqEp77BTSXlpCk9O2K6g=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IwbLo/PVadE6ZICr4q1ghTErv/vJ6K2yONipULsQNhA=
+			Gq7qOaCKArvCj3sdHzJoGB2M0e2zRCOvBMY4O7lQAec=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -716,7 +716,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tsXLd539vIOG1155ZKSs5nglXGH14PvqcnBCLIUmdDE=
+			VAz0CSYPPGywF8UyWLBptN57vzg3/uFcE4/ShgZJ1kw=
 			</data>
 		</dict>
 		<key>NetworkError.html</key>

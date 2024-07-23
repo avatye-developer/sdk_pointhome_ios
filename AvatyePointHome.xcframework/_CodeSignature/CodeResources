@@ -220,7 +220,7 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/AvatyePointHome</key>
 		<data>
-		Mo/o5/Cm1kH3Ifmv0fL5VD9rFyU=
+		0WZlPZmzUuA7DsZ7wW8DdCeStyA=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Info.plist</key>
 		<data>
@@ -232,7 +232,7 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hSjjX5WOKm8Y4Cuy4+mj/PgXcS0=
+		g/llNTda2p0+5laYtduYvbUhcHI=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -252,7 +252,7 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		aeU3f0hiWVDfXEv0m927875k+Nk=
+		TykZxLsIYPT3VmmqjxYA2lblibI=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/README.md</key>
 		<data>
@@ -260,7 +260,7 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ZZB7tAcSLhWAQFoYDEjrJxQrotY=
+		UhkTD3Pak7VRlCMQ0lWXq+XkqA8=
 		</data>
 		<key>ios-arm64/Resources/Assets.car</key>
 		<data>
@@ -482,7 +482,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AvatyePointHome</key>
 		<data>
-		IMuaYYxA4syFEdJUrbL8RfrMW2s=
+		f6Vcgz+rGL4PHFmX8REzTjR6BBA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Info.plist</key>
 		<data>
@@ -494,7 +494,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		m+eqqAch6Q5syjjM/Sp/rV+DUJc=
+		91FJ8gZ97yfXEWHhDn6nQ1PArd0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -510,7 +510,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		m+eqqAch6Q5syjjM/Sp/rV+DUJc=
+		91FJ8gZ97yfXEWHhDn6nQ1PArd0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -530,7 +530,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		aeU3f0hiWVDfXEv0m927875k+Nk=
+		TykZxLsIYPT3VmmqjxYA2lblibI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/README.md</key>
 		<data>
@@ -538,7 +538,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/_CodeSignature/CodeResources</key>
 		<data>
-		3tJc8C7jYIl7qrJU7+Q9epEjQrM=
+		7Ry/nNQ6MxkSAvpEYt8CHXDkJIE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Resources/Assets.car</key>
 		<data>
@@ -1116,11 +1116,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Mo/o5/Cm1kH3Ifmv0fL5VD9rFyU=
+			0WZlPZmzUuA7DsZ7wW8DdCeStyA=
 			</data>
 			<key>hash2</key>
 			<data>
-			G47GXr+/LgMbuWNRqBTTCILL/vkJeuv/aP3fDMJhTpw=
+			OAqM3bF/9TZhnDSgSSA56iS0ihxCPmLc+g7QgEfdbXk=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Info.plist</key>
@@ -1149,11 +1149,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hSjjX5WOKm8Y4Cuy4+mj/PgXcS0=
+			g/llNTda2p0+5laYtduYvbUhcHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Az5NzPEaGJ0fTIJmUaNqcYR7bYUEa2+ZtRDsyLg/soQ=
+			KXwm7UrwmdocgZD04fR/3lctFZbNuya3pCUGSHsKS9E=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1204,11 +1204,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aeU3f0hiWVDfXEv0m927875k+Nk=
+			TykZxLsIYPT3VmmqjxYA2lblibI=
 			</data>
 			<key>hash2</key>
 			<data>
-			+LttNykPBVlr/aba9nSQHXE8Ns7WUEDxUbd3Bb+6/EU=
+			rZQpBcNm5miRlAZ4KkfiMNO+bB0NvJeOxPvka7FU52s=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/README.md</key>
@@ -1226,11 +1226,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZZB7tAcSLhWAQFoYDEjrJxQrotY=
+			UhkTD3Pak7VRlCMQ0lWXq+XkqA8=
 			</data>
 			<key>hash2</key>
 			<data>
-			P0HZtY7X6sm24tuGLRbNyHASbgxjJKZDuI+LvBjf2SQ=
+			kyP2lTc6QGv76EEZtny5xZrpCMYiw8VJ6nZZUN/WE60=
 			</data>
 		</dict>
 		<key>ios-arm64/Resources/Assets.car</key>
@@ -1813,11 +1813,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IMuaYYxA4syFEdJUrbL8RfrMW2s=
+			f6Vcgz+rGL4PHFmX8REzTjR6BBA=
 			</data>
 			<key>hash2</key>
 			<data>
-			RosJr2hzZUHdxb6uLtUyQXqLRfBjoR4fr+LRlLY4pes=
+			U9ELszZ7FPMHQhW07cQBPenqkX6ezUNk0n+MbboJk6w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Info.plist</key>
@@ -1846,11 +1846,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m+eqqAch6Q5syjjM/Sp/rV+DUJc=
+			91FJ8gZ97yfXEWHhDn6nQ1PArd0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gxoi1yCFtfwhFyDy3KOBxisBtq8+mMXWHD9mWfL4m0o=
+			wBttnxKXFNC6am/gaqx1V7jCXy60tSRvP0G0DZTkEoU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1890,11 +1890,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m+eqqAch6Q5syjjM/Sp/rV+DUJc=
+			91FJ8gZ97yfXEWHhDn6nQ1PArd0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gxoi1yCFtfwhFyDy3KOBxisBtq8+mMXWHD9mWfL4m0o=
+			wBttnxKXFNC6am/gaqx1V7jCXy60tSRvP0G0DZTkEoU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1945,11 +1945,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aeU3f0hiWVDfXEv0m927875k+Nk=
+			TykZxLsIYPT3VmmqjxYA2lblibI=
 			</data>
 			<key>hash2</key>
 			<data>
-			+LttNykPBVlr/aba9nSQHXE8Ns7WUEDxUbd3Bb+6/EU=
+			rZQpBcNm5miRlAZ4KkfiMNO+bB0NvJeOxPvka7FU52s=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/README.md</key>
@@ -1967,11 +1967,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3tJc8C7jYIl7qrJU7+Q9epEjQrM=
+			7Ry/nNQ6MxkSAvpEYt8CHXDkJIE=
 			</data>
 			<key>hash2</key>
 			<data>
-			PFtUn6UhWMfBHl/Be0n7UESXc08XjagG2JKRZ0kEd84=
+			TysJg+Rq102m7r2Tu2t7xPc3wW9ijZW/IdBAQQoyJDM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Resources/Assets.car</key>

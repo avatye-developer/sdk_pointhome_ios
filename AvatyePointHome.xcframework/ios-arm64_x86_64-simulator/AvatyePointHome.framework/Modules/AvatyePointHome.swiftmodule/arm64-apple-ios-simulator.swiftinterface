@@ -74,6 +74,13 @@ public struct userBox : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct acceptedUserModel : Swift.Codable {
+  public let usable: Swift.Bool
+  public let message: Swift.String?
+  public init(usable: Swift.Bool, message: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public protocol AvatyePHDelegate : ObjectiveC.NSObjectProtocol {
   func pointHomeEventListener(event: Swift.String)
   func pointHomeSystemEventListener(event: Swift.String)
@@ -85,12 +92,16 @@ public class AvatyePHService {
   public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil)
   public func setCashButton()
   public func getUserAgent() -> Swift.String
+  public func encryptTokenFunc()
   public func removePHService()
   public func openPointHome(completion: @escaping (AvatyePointHome.PointHomeOpen<Swift.String, AvatyePointHome.PointHomeErrorModel>) -> Swift.Void)
   public func closePointHome(completion: @escaping () -> Swift.Void)
   public func sendMessage(message: Swift.String, completion: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
   #if compiler(>=5.3) && $AsyncAwait
   public func convertFunc(convert: @escaping ((Swift.String) async throws -> Swift.String))
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func acceptUserFunc(closeure: @escaping ((Swift.String) async throws -> AvatyePointHome.acceptedUserModel))
   #endif
   @objc deinit
 }

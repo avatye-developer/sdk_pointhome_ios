@@ -1778,6 +1778,233 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "acceptedUserModel",
+        "printedName": "acceptedUserModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "usable",
+            "printedName": "usable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AvatyePointHome17acceptedUserModelV6usableSbvp",
+            "mangledName": "$s15AvatyePointHome17acceptedUserModelV6usableSbvp",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AvatyePointHome17acceptedUserModelV6usableSbvg",
+                "mangledName": "$s15AvatyePointHome17acceptedUserModelV6usableSbvg",
+                "moduleName": "AvatyePointHome",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AvatyePointHome17acceptedUserModelV7messageSSSgvp",
+            "mangledName": "$s15AvatyePointHome17acceptedUserModelV7messageSSSgvp",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AvatyePointHome17acceptedUserModelV7messageSSSgvg",
+                "mangledName": "$s15AvatyePointHome17acceptedUserModelV7messageSSSgvg",
+                "moduleName": "AvatyePointHome",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(usable:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "acceptedUserModel",
+                "printedName": "AvatyePointHome.acceptedUserModel",
+                "usr": "s:15AvatyePointHome17acceptedUserModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AvatyePointHome17acceptedUserModelV6usable7messageACSb_SSSgtcfc",
+            "mangledName": "$s15AvatyePointHome17acceptedUserModelV6usable7messageACSb_SSSgtcfc",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "acceptedUserModel",
+                "printedName": "AvatyePointHome.acceptedUserModel",
+                "usr": "s:15AvatyePointHome17acceptedUserModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AvatyePointHome17acceptedUserModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15AvatyePointHome17acceptedUserModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AvatyePointHome",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome17acceptedUserModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15AvatyePointHome17acceptedUserModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AvatyePointHome",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15AvatyePointHome17acceptedUserModelV",
+        "mangledName": "$s15AvatyePointHome17acceptedUserModelV",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -2123,6 +2350,26 @@
           },
           {
             "kind": "Function",
+            "name": "encryptTokenFunc",
+            "printedName": "encryptTokenFunc()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0A9PHServiceC16encryptTokenFuncyyF",
+            "mangledName": "$s15AvatyePointHome0A9PHServiceC16encryptTokenFuncyyF",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "removePHService",
             "printedName": "removePHService()",
             "children": [
@@ -2344,6 +2591,45 @@
             "declKind": "Func",
             "usr": "s:15AvatyePointHome0A9PHServiceC11convertFunc0E0yS2SYaKc_tF",
             "mangledName": "$s15AvatyePointHome0A9PHServiceC11convertFunc0E0yS2SYaKc_tF",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "acceptUserFunc",
+            "printedName": "acceptUserFunc(closeure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) async throws -> AvatyePointHome.acceptedUserModel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "acceptedUserModel",
+                    "printedName": "AvatyePointHome.acceptedUserModel",
+                    "usr": "s:15AvatyePointHome17acceptedUserModelV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0A9PHServiceC14acceptUserFunc8closeureyAA08acceptedF5ModelVSSYaKc_tF",
+            "mangledName": "$s15AvatyePointHome0A9PHServiceC14acceptUserFunc8closeureyAA08acceptedF5ModelVSSYaKc_tF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
               "AccessControl"
@@ -7539,6 +7825,20 @@
       "value": "\"\/button\""
     },
     {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1513,
+      "length": 9,
+      "value": "\"account\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1526,
+      "length": 24,
+      "value": "\"\/account\/token\/encrypt\""
+    },
+    {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AvatyeCasButton.swift",
       "kind": "StringLiteral",
       "offset": 387,
@@ -7644,11 +7944,25 @@
       "value": "\"GET\""
     },
     {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/Services.swift",
+      "kind": "Dictionary",
+      "offset": 3455,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/Services.swift",
+      "kind": "StringLiteral",
+      "offset": 3526,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 7,
-      "value": "\"1.7.2\""
+      "value": "\"1.7.3\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
@@ -7779,35 +8093,35 @@
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3439,
+      "offset": 3517,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3458,
+      "offset": 3536,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3483,
+      "offset": 3561,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3513,
+      "offset": 3591,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3534,
+      "offset": 3612,
       "length": 1,
       "value": "1"
     },

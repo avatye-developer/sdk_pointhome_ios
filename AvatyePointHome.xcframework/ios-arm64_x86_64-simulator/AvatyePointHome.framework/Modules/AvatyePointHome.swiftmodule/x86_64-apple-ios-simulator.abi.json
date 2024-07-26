@@ -8212,35 +8212,42 @@
     {
       "filePath": "\/Users\/imjaehyeog\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-asfygwawfqclnyexcjmtuohgulur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 733,
+      "offset": 745,
+      "length": 18,
+      "value": "\"adPopCloseButton\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-asfygwawfqclnyexcjmtuohgulur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
       "length": 12,
       "value": "\"cashButton\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-asfygwawfqclnyexcjmtuohgulur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 879,
+      "offset": 1039,
       "length": 14,
       "value": "\"networkError\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-asfygwawfqclnyexcjmtuohgulur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1019,
+      "offset": 1179,
       "length": 10,
       "value": "\"noButton\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-asfygwawfqclnyexcjmtuohgulur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1161,
+      "offset": 1321,
       "length": 13,
       "value": "\"serverCheck\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-asfygwawfqclnyexcjmtuohgulur\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1310,
+      "offset": 1470,
       "length": 15,
       "value": "\"warningButton\""
     }

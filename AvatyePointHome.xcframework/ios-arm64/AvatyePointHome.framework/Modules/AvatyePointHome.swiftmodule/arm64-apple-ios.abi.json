@@ -2803,16 +2803,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "AvatyePH",
         "printedName": "AvatyePH",
@@ -5720,6 +5710,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7839,20 +7839,6 @@
       "value": "\"\/account\/token\/encrypt\""
     },
     {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AvatyeCasButton.swift",
-      "kind": "StringLiteral",
-      "offset": 387,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AvatyeCasButton.swift",
-      "kind": "StringLiteral",
-      "offset": 189,
-      "length": 16,
-      "value": "\"AvatyePointHome.AvatyeCashButton\""
-    },
-    {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/Services.swift",
       "kind": "Dictionary",
       "offset": 231,
@@ -7962,7 +7948,7 @@
       "kind": "StringLiteral",
       "offset": 417,
       "length": 7,
-      "value": "\"1.7.6\""
+      "value": "\"1.7.7\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
@@ -8012,6 +7998,20 @@
       "offset": 607,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AvatyeCashButton.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AvatyeCashButton.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 16,
+      "value": "\"AvatyePointHome.AvatyeCashButton\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Util\/KeyChainUtil.swift",
@@ -8093,35 +8093,35 @@
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3517,
+      "offset": 3471,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3536,
+      "offset": 3490,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3561,
+      "offset": 3515,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3591,
+      "offset": 3545,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3612,
+      "offset": 3566,
       "length": 1,
       "value": "1"
     },

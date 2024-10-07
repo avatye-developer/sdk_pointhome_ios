@@ -89,7 +89,7 @@ public protocol AvatyePHDelegate : ObjectiveC.NSObjectProtocol {
 }
 public class AvatyePHService {
   public var delegate: (any AvatyePointHome.AvatyePHDelegate)?
-  public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil)
+  public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil, fullScreen: Swift.Bool = false)
   public func setCashButton()
   public func getUserAgent() -> Swift.String
   public func encryptTokenFunc()

@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/AvatyePointHome</key>
 		<data>
-		9Sh0Rqdx23QiGsFVZH2qFQImbZs=
+		Zgn6JdxNrKOufXJxJe0qmtnSYpo=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Info.plist</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		rMiL/fMQdGqjd2OjGshbKIg4sLM=
+		EePH8CGoYUCq5vNewr6FGltOKQY=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		2OaF25TadVO4xld1zn729N7BKvA=
+		YMzHhT+hkAU35Lul0Pe1iNgqHRs=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		2OaF25TadVO4xld1zn729N7BKvA=
+		YMzHhT+hkAU35Lul0Pe1iNgqHRs=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/NetworkError.html</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/_CodeSignature/CodeResources</key>
 		<data>
-		wddOUX8Y8Q7nsuu4qzPKPh10iaY=
+		WzYXMPciGz26TSL9sQkHOgZb63w=
 		</data>
 		<key>ios-arm64/Resources/Assets.car</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AvatyePointHome</key>
 		<data>
-		47Ic2Ft9If3FRpDvgSA6GOOITgg=
+		lsTk65y/ngJo9LvyHxBhuyCKx+Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Info.plist</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		y/HcU6XPstiUDz1SaizOs6wM7a4=
+		K+JDuKOByyna6hbjgqIRGadLRcY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ui4YMfM9ZJB8pLc156ux0EZwxUY=
+		m7VL7xIWIBQjkeouw9pLm3E8frA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -82,15 +82,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ui4YMfM9ZJB8pLc156ux0EZwxUY=
+		m7VL7xIWIBQjkeouw9pLm3E8frA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		y/HcU6XPstiUDz1SaizOs6wM7a4=
+		K+JDuKOByyna6hbjgqIRGadLRcY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		v1kgxPtV8SBXVZOK2MHeyqYy9Ms=
+		Co3gshe/l7cyvyQ+c6PG8UAM76c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		v1kgxPtV8SBXVZOK2MHeyqYy9Ms=
+		Co3gshe/l7cyvyQ+c6PG8UAM76c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/NetworkError.html</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/_CodeSignature/CodeResources</key>
 		<data>
-		AFKpEIaGEgGUBhbNzhGRDoZcQbo=
+		bAHCQL8WU5i+DQwj32lSqVxAF84=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Resources/Assets.car</key>
 		<data>
@@ -134,11 +134,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9Sh0Rqdx23QiGsFVZH2qFQImbZs=
+			Zgn6JdxNrKOufXJxJe0qmtnSYpo=
 			</data>
 			<key>hash2</key>
 			<data>
-			gYAR+RA3q2zT+VSZkYOvXBniVUQO+Y+MmO3IF7N/Y68=
+			ns62JxxDlgDQyQ72I/4o1wQw1z4ufBjJAswtNkP5j6o=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Info.plist</key>
@@ -167,22 +167,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rMiL/fMQdGqjd2OjGshbKIg4sLM=
+			EePH8CGoYUCq5vNewr6FGltOKQY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xhuv0Fz60Rkc7NmhlC3Ht/bPShptpJViCHIldTu9zwA=
+			LUHONFp2+jBUIHO6qSlOnxaDdKLZ3wtuQbpuPr0QHLs=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2OaF25TadVO4xld1zn729N7BKvA=
+			YMzHhT+hkAU35Lul0Pe1iNgqHRs=
 			</data>
 			<key>hash2</key>
 			<data>
-			1BFxcmajrG9/obgf1IcVBCMKhRXIPzH4VtogXEfp1RY=
+			f/CjPecFtm/NYhb4VomUD/ZusZc5TArd8FI6BX/z3XM=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -200,11 +200,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2OaF25TadVO4xld1zn729N7BKvA=
+			YMzHhT+hkAU35Lul0Pe1iNgqHRs=
 			</data>
 			<key>hash2</key>
 			<data>
-			1BFxcmajrG9/obgf1IcVBCMKhRXIPzH4VtogXEfp1RY=
+			f/CjPecFtm/NYhb4VomUD/ZusZc5TArd8FI6BX/z3XM=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/NetworkError.html</key>
@@ -233,11 +233,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wddOUX8Y8Q7nsuu4qzPKPh10iaY=
+			WzYXMPciGz26TSL9sQkHOgZb63w=
 			</data>
 			<key>hash2</key>
 			<data>
-			2dezJC1oRowKB1LZ/m6F1G6B0/A8m6Wtb7uajuDbKWk=
+			0a+c9QEoaAZLeesASXXr3so+v8UmIJsje0EntABO/o4=
 			</data>
 		</dict>
 		<key>ios-arm64/Resources/Assets.car</key>
@@ -266,11 +266,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			47Ic2Ft9If3FRpDvgSA6GOOITgg=
+			lsTk65y/ngJo9LvyHxBhuyCKx+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			UnvwmtKdNBiMpX93Be05bpk6+hYUHmew1E3rpVddZfM=
+			N9g4d8xCWWC6x/QDhSbazosepLEHlPLK8PodnoDTHdg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Info.plist</key>
@@ -299,22 +299,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y/HcU6XPstiUDz1SaizOs6wM7a4=
+			K+JDuKOByyna6hbjgqIRGadLRcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			WKcQzPX0L3RI5F6TSpj4C7I86lG7DzuOFgori4v7yVE=
+			pqARMxtTmuV2uoHMiP/DaahgrGYR492hmD7p0QX9iKc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ui4YMfM9ZJB8pLc156ux0EZwxUY=
+			m7VL7xIWIBQjkeouw9pLm3E8frA=
 			</data>
 			<key>hash2</key>
 			<data>
-			zQVjGOvDaTsb6N7HpyVb6Ar56VlWPRDTxRHtWdWJ7ts=
+			42G6GHBm3M3HVip+lyeTbahFIgRWbUPDqNOrRrUg+qY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -332,33 +332,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ui4YMfM9ZJB8pLc156ux0EZwxUY=
+			m7VL7xIWIBQjkeouw9pLm3E8frA=
 			</data>
 			<key>hash2</key>
 			<data>
-			zQVjGOvDaTsb6N7HpyVb6Ar56VlWPRDTxRHtWdWJ7ts=
+			42G6GHBm3M3HVip+lyeTbahFIgRWbUPDqNOrRrUg+qY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y/HcU6XPstiUDz1SaizOs6wM7a4=
+			K+JDuKOByyna6hbjgqIRGadLRcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			WKcQzPX0L3RI5F6TSpj4C7I86lG7DzuOFgori4v7yVE=
+			pqARMxtTmuV2uoHMiP/DaahgrGYR492hmD7p0QX9iKc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v1kgxPtV8SBXVZOK2MHeyqYy9Ms=
+			Co3gshe/l7cyvyQ+c6PG8UAM76c=
 			</data>
 			<key>hash2</key>
 			<data>
-			BRIlbvlTC9ZWq7G2Vr04BYtk3CqbKPQOLNjm/7Ereu4=
+			UYRkTvGv1tEp86ZkUcP65VoswSRrZWby3BLHS3SJhfk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -376,11 +376,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v1kgxPtV8SBXVZOK2MHeyqYy9Ms=
+			Co3gshe/l7cyvyQ+c6PG8UAM76c=
 			</data>
 			<key>hash2</key>
 			<data>
-			BRIlbvlTC9ZWq7G2Vr04BYtk3CqbKPQOLNjm/7Ereu4=
+			UYRkTvGv1tEp86ZkUcP65VoswSRrZWby3BLHS3SJhfk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/NetworkError.html</key>
@@ -409,11 +409,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AFKpEIaGEgGUBhbNzhGRDoZcQbo=
+			bAHCQL8WU5i+DQwj32lSqVxAF84=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZyPb1POEr4cRD6rPQGT6mg9apxa4JwuYriblmfIUvT0=
+			jdHHB2Y/u+XRNLDB69f+KfMXwlVjxiax6QYRHKIWiRM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Resources/Assets.car</key>

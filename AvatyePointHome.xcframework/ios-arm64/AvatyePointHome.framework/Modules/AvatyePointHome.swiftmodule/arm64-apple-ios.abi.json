@@ -2256,7 +2256,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(rootViewController:appId:appSecretKey:userKey:)",
+            "printedName": "init(rootViewController:appId:appSecretKey:userKey:fullScreen:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2296,11 +2296,18 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15AvatyePointHome0A9PHServiceC18rootViewController5appId0H9SecretKey04userK0ACSo06UIViewG0C_S3SSgtcfc",
-            "mangledName": "$s15AvatyePointHome0A9PHServiceC18rootViewController5appId0H9SecretKey04userK0ACSo06UIViewG0C_S3SSgtcfc",
+            "usr": "s:15AvatyePointHome0A9PHServiceC18rootViewController5appId0H9SecretKey04userK010fullScreenACSo06UIViewG0C_S3SSgSbtcfc",
+            "mangledName": "$s15AvatyePointHome0A9PHServiceC18rootViewController5appId0H9SecretKey04userK010fullScreenACSo06UIViewG0C_S3SSgSbtcfc",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
               "AccessControl"
@@ -7741,6 +7748,20 @@
       "value": "\"AvatyePointHome.AdPopupView\""
     },
     {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePHService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 706,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePHService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 899,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
       "kind": "StringLiteral",
       "offset": 953,
@@ -7948,7 +7969,7 @@
       "kind": "StringLiteral",
       "offset": 417,
       "length": 7,
-      "value": "\"1.7.7\""
+      "value": "\"1.7.8\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",

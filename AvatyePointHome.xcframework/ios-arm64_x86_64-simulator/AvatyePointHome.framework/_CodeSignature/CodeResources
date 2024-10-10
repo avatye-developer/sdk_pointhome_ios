@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		K+JDuKOByyna6hbjgqIRGadLRcY=
+		g+p0mdfH8d/68we0IF91niKxwiQ=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		u0I6XPQD0oDb5ICGlL9Jix0ZQ5U=
+		JZ9IZCo3Zkss8KR0UJhZM9pBCz4=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		K+JDuKOByyna6hbjgqIRGadLRcY=
+		g+p0mdfH8d/68we0IF91niKxwiQ=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		I3dnQk3xPBMgDfdqlNPedePM37I=
+		+46Om509wIWn/DBEbJakiv/rgsY=
 		</data>
 		<key>NetworkError.html</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pqARMxtTmuV2uoHMiP/DaahgrGYR492hmD7p0QX9iKc=
+			Jl/zeL0yneJoMqxNi5L/M2jnEJw7e8g9mC2zCDDTTJc=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kLrqeuOGttJLfnta9cf2fv7oxRLuXs7cAVNkzY5uIhU=
+			0DHT0Nr3BGEhcGJNakmwAFkkvZhLNOVOEx6EQ1Z+qJQ=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pqARMxtTmuV2uoHMiP/DaahgrGYR492hmD7p0QX9iKc=
+			Jl/zeL0yneJoMqxNi5L/M2jnEJw7e8g9mC2zCDDTTJc=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			daybBlHBoTaCn745hYdJWleOqIFVe2Ikf/F/Pw4AlgE=
+			Rw9ulWqXSHxhqUEK/7b4MdbbPaYoDgYov8gu/5xHHT0=
 			</data>
 		</dict>
 		<key>NetworkError.html</key>

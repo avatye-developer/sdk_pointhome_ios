@@ -23,6 +23,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "AvatyePointHome.xcframework"
 
   spec.dependency "AvatyeAdCash", '3.1.13'
-  spec.dependency "SVGKit"
+  spec.dependency "SVGKit", "3.0.0"
 
 end

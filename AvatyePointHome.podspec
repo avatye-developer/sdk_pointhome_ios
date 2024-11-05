@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "AvatyePointHome"
-  spec.version      = "1.8.0-alpha"
+  spec.version      = "1.7.10"
   spec.summary      = "Avatye pointhome xcframework"
 
   spec.description  = <<-DESC
@@ -16,12 +16,13 @@ Pod::Spec.new do |spec|
   
   spec.source      = { :git => "https://github.com/avatye-developer/sdk_pointhome_ios.git", :tag => spec.version.to_s }
 
-  spec.ios.deployment_target = "12.0"
+  spec.ios.deployment_target = "13.0"
 
   spec.swift_versions = ["5.0"]
 
   spec.vendored_frameworks = "AvatyePointHome.xcframework"
 
   spec.dependency "AvatyeAdCash", '3.1.13'
+  spec.dependency "SVGKit"
 
 end

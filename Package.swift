@@ -18,7 +18,12 @@ let package = Package(
         .package(
             name: "AvatyeAdCash",
             url: "https://github.com/avatye-developer/sdk_adcash_ios",
-            .exact("3.1.12")
+            .exact("3.1.13")
+        ),
+        .package(
+            name: "SVGKit",
+            url: "https://github.com/SVGKit/SVGKit.git",
+            .upToNextMajor(from: "3.0.0") // 가능한 버전을 선택
         )
     ],
     targets: [

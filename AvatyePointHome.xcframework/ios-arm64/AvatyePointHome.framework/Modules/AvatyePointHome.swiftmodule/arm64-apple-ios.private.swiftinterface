@@ -9,7 +9,6 @@ import CoreTelephony
 import DeveloperToolsSupport
 import Foundation
 import Network
-import SVGKit
 import Security
 import Swift
 import SwiftUI

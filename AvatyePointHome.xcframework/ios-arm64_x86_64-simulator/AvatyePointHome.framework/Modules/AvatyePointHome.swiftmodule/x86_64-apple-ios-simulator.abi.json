@@ -6626,13 +6626,6 @@
       },
       {
         "kind": "Import",
-        "name": "SVGKit",
-        "printedName": "SVGKit",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -9139,21 +9132,21 @@
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AvatyeCashButton.swift",
       "kind": "StringLiteral",
-      "offset": 428,
+      "offset": 414,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AvatyeCashButton.swift",
       "kind": "StringLiteral",
-      "offset": 14309,
+      "offset": 14373,
       "length": 9,
       "value": "\"#0091EA\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AvatyeCashButton.swift",
       "kind": "StringLiteral",
-      "offset": 203,
+      "offset": 189,
       "length": 16,
       "value": "\"AvatyePointHome.AvatyeCashButton\""
     },

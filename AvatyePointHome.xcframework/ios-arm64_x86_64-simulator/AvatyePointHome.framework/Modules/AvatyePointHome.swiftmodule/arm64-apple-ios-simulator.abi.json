@@ -8696,132 +8696,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1002,
-      "length": 9,
-      "value": "\"account\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1015,
-      "length": 9,
-      "value": "\"\/signin\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1084,
-      "length": 9,
-      "value": "\"account\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1097,
-      "length": 9,
-      "value": "\"\/signup\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1169,
-      "length": 9,
-      "value": "\"account\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1182,
-      "length": 11,
-      "value": "\"\/withdraw\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1301,
-      "length": 13,
-      "value": "\"application\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1318,
-      "length": 11,
-      "value": "\"\/settings\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1374,
-      "length": 13,
-      "value": "\"application\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1391,
-      "length": 13,
-      "value": "\"\/initialize\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1498,
-      "length": 9,
-      "value": "\"account\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1511,
-      "length": 7,
-      "value": "\"\/info\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1566,
-      "length": 9,
-      "value": "\"content\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1579,
-      "length": 9,
-      "value": "\"\/button\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1641,
-      "length": 9,
-      "value": "\"content\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1654,
-      "length": 15,
-      "value": "\"\/button\/basic\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1714,
-      "length": 9,
-      "value": "\"account\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/APIConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 1727,
-      "length": 24,
-      "value": "\"\/account\/token\/encrypt\""
-    },
-    {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Network\/Services.swift",
       "kind": "Dictionary",
       "offset": 231,
@@ -8994,7 +8868,7 @@
       "kind": "StringLiteral",
       "offset": 417,
       "length": 8,
-      "value": "\"1.7.10\""
+      "value": "\"1.7.11\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
@@ -9139,7 +9013,7 @@
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AvatyeCashButton.swift",
       "kind": "StringLiteral",
-      "offset": 14373,
+      "offset": 15360,
       "length": 9,
       "value": "\"#0091EA\""
     },
@@ -9328,28 +9202,42 @@
     {
       "filePath": "\/Users\/imjaehyeog\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-cwyevqrnmmjinobttvfncsxzayeg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1039,
+      "offset": 1035,
+      "length": 12,
+      "value": "\"goldTicket\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-cwyevqrnmmjinobttvfncsxzayeg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1181,
       "length": 14,
       "value": "\"networkError\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-cwyevqrnmmjinobttvfncsxzayeg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1321,
       "length": 10,
       "value": "\"noButton\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-cwyevqrnmmjinobttvfncsxzayeg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1321,
+      "offset": 1465,
+      "length": 14,
+      "value": "\"noGoldTicket\""
+    },
+    {
+      "filePath": "\/Users\/imjaehyeog\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-cwyevqrnmmjinobttvfncsxzayeg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1611,
       "length": 13,
       "value": "\"serverCheck\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-cwyevqrnmmjinobttvfncsxzayeg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1470,
+      "offset": 1760,
       "length": 15,
       "value": "\"warningButton\""
     }

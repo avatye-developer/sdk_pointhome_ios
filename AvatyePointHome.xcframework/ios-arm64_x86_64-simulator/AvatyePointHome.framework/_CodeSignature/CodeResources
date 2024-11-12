@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lHgM8vEO1O2HbPNMAXsc4Gp9bww=
+			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -209,7 +209,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ywoCWV+a3BtH3WfabI4b8BPg/oY=
+			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -228,7 +228,7 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		fCA5ZcTkTMiMkIybzGkF5DFZ3PQ=
+		iwrPaQCUOR42ShVQPEs8jVH7TLA=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -244,11 +244,11 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eNUE5fKwrRuIHsEYZyBnCGga/ig=
+		Pe2XZ0i4rvBWenSHrDZ6MlUk/7E=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fCA5ZcTkTMiMkIybzGkF5DFZ3PQ=
+		iwrPaQCUOR42ShVQPEs8jVH7TLA=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -264,7 +264,7 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8ZJZ9ayzZRlg2/zQ/lb8xJaZz8Q=
+		y37CcvAfvIT988b+E8If1g3k7rY=
 		</data>
 		<key>NetworkError.html</key>
 		<data>
@@ -281,7 +281,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VOD6W7Swy0KSIefX2CbqnPUidLdhE04PedE+AsMri/c=
+			ztaAi0sUxGCrT6tiwkQpGRgXg1EmfLrIjCi7XbIIT6k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -626,7 +626,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iCJP70Bbg2YZwcLhst46EkMf+dg1Q5TuXWEApzVMhw4=
+			ztaAi0sUxGCrT6tiwkQpGRgXg1EmfLrIjCi7XbIIT6k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -649,7 +649,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v8OPC3B35FBar52GQ9MWUUjRQv0yFjhbv/Nw2qd22PM=
+			Q6tgZmdKFz+E3fEmMDCMXkzOcmwRgqQ2tGoIdgC3zaA=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -677,14 +677,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mkVROccto9Iy5J79UfPRdQ7eKWbHSqpVz+0GbbWa06I=
+			eExN0qnRaCP3Di8ssSmGMWXpBUhnt48S8chzW9FEvFw=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v8OPC3B35FBar52GQ9MWUUjRQv0yFjhbv/Nw2qd22PM=
+			Q6tgZmdKFz+E3fEmMDCMXkzOcmwRgqQ2tGoIdgC3zaA=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -712,7 +712,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ELNqQONU+dz1xif8d1rPILmhL4Pz4x/DEYrlnhGKTuY=
+			7vECpoZmhlOpLRIioAjLua/WOiIl2Io0vZZMFhSv4lc=
 			</data>
 		</dict>
 		<key>NetworkError.html</key>

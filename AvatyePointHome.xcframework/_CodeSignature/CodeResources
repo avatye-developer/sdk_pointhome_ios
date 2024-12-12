@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
+			lHgM8vEO1O2HbPNMAXsc4Gp9bww=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -209,7 +209,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
+			ywoCWV+a3BtH3WfabI4b8BPg/oY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -220,7 +220,7 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/AvatyePointHome</key>
 		<data>
-		pKBQ96SMcKWqM5Qej1TKdOxwcqo=
+		GT4OnhulQ3fwsrl7yXGU3LIaBgU=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Info.plist</key>
 		<data>
@@ -232,7 +232,7 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		CjLzq5hElLP0stZaGZ0T6Rx18vI=
+		UuM5eSLQxoGq53ecJteFbqvzSck=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -256,13 +256,13 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/_CodeSignature/CodeResources</key>
 		<data>
-		6IRiIQWr/ODrALyvl/awwlTsrFI=
+		pm4BPyMRAhaMaM8oWgxQPDvoTh4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
+			lHgM8vEO1O2HbPNMAXsc4Gp9bww=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -463,7 +463,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
+			ywoCWV+a3BtH3WfabI4b8BPg/oY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -474,7 +474,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AvatyePointHome</key>
 		<data>
-		DfiGmOD3QMSabFuXzv5A2X/qzdk=
+		TL8WKwHrrJ/6O37Ee88HiOccMdA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Info.plist</key>
 		<data>
@@ -486,7 +486,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iwrPaQCUOR42ShVQPEs8jVH7TLA=
+		mekDykmt0jTWKE0xAQpiEKAtCRY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -502,7 +502,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iwrPaQCUOR42ShVQPEs8jVH7TLA=
+		mekDykmt0jTWKE0xAQpiEKAtCRY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -526,7 +526,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Q9ap6q2XxoljWEBIH2WjNE+LXLs=
+		+xZ3IP7CqF1yg4j7VNIJgxRPGnk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -535,11 +535,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
+			lHgM8vEO1O2HbPNMAXsc4Gp9bww=
 			</data>
 			<key>hash2</key>
 			<data>
-			ztaAi0sUxGCrT6tiwkQpGRgXg1EmfLrIjCi7XbIIT6k=
+			VOD6W7Swy0KSIefX2CbqnPUidLdhE04PedE+AsMri/c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1076,11 +1076,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
+			ywoCWV+a3BtH3WfabI4b8BPg/oY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ztaAi0sUxGCrT6tiwkQpGRgXg1EmfLrIjCi7XbIIT6k=
+			iCJP70Bbg2YZwcLhst46EkMf+dg1Q5TuXWEApzVMhw4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1100,11 +1100,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pKBQ96SMcKWqM5Qej1TKdOxwcqo=
+			GT4OnhulQ3fwsrl7yXGU3LIaBgU=
 			</data>
 			<key>hash2</key>
 			<data>
-			MKHZG+Jq9da1tybRmKg7J31zzeYCniBDUAS0Loym1Bk=
+			YrNU35o5DqR+aZYBBXl7cVZRNEN3RtZDNgrF2igxIrk=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Info.plist</key>
@@ -1133,11 +1133,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CjLzq5hElLP0stZaGZ0T6Rx18vI=
+			UuM5eSLQxoGq53ecJteFbqvzSck=
 			</data>
 			<key>hash2</key>
 			<data>
-			9o6uD5gGnzRHgFqMy3Zo8ZC0iauiCLDRlDWAoa8QVWs=
+			C0IfFc4cNqYktaNH0vRtwRujrZgi2ZMnKoJoolI2bn8=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1199,22 +1199,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6IRiIQWr/ODrALyvl/awwlTsrFI=
+			pm4BPyMRAhaMaM8oWgxQPDvoTh4=
 			</data>
 			<key>hash2</key>
 			<data>
-			N8vv/Kp2im97VjTZ2pks8fzxYElRDgSzKnNtMSVGA2M=
+			c8KgEaxi+M3JZGAXobmtNIiMU/qJn7KEG/uLHyG2ZfY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
+			lHgM8vEO1O2HbPNMAXsc4Gp9bww=
 			</data>
 			<key>hash2</key>
 			<data>
-			ztaAi0sUxGCrT6tiwkQpGRgXg1EmfLrIjCi7XbIIT6k=
+			VOD6W7Swy0KSIefX2CbqnPUidLdhE04PedE+AsMri/c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1751,11 +1751,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
+			ywoCWV+a3BtH3WfabI4b8BPg/oY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ztaAi0sUxGCrT6tiwkQpGRgXg1EmfLrIjCi7XbIIT6k=
+			iCJP70Bbg2YZwcLhst46EkMf+dg1Q5TuXWEApzVMhw4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1775,11 +1775,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DfiGmOD3QMSabFuXzv5A2X/qzdk=
+			TL8WKwHrrJ/6O37Ee88HiOccMdA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6VLNOjFsfKU6QFuJxek7sdG/p7Emwp8v/6mshOCSecE=
+			lwRYtPa+N3dDaXWwsrZdQyK7epK0Pa0Aap8QKqXqgAM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Info.plist</key>
@@ -1808,11 +1808,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iwrPaQCUOR42ShVQPEs8jVH7TLA=
+			mekDykmt0jTWKE0xAQpiEKAtCRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q6tgZmdKFz+E3fEmMDCMXkzOcmwRgqQ2tGoIdgC3zaA=
+			SzAKHhOgDRuNP0NWq9Eb+UX4XsHW807qCnLDOt3JHdI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1852,11 +1852,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iwrPaQCUOR42ShVQPEs8jVH7TLA=
+			mekDykmt0jTWKE0xAQpiEKAtCRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q6tgZmdKFz+E3fEmMDCMXkzOcmwRgqQ2tGoIdgC3zaA=
+			SzAKHhOgDRuNP0NWq9Eb+UX4XsHW807qCnLDOt3JHdI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1918,11 +1918,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q9ap6q2XxoljWEBIH2WjNE+LXLs=
+			+xZ3IP7CqF1yg4j7VNIJgxRPGnk=
 			</data>
 			<key>hash2</key>
 			<data>
-			OS6XeM2V4v8x70i+rnxTaqGHvonLJKxAaHoMe5aP8fM=
+			sHyOO6atHgoUwFMxTt6t2ydKgfHMkfWIKbKa//pQY9c=
 			</data>
 		</dict>
 	</dict>

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "AvatyePointHome"
-  spec.version      = "1.7.14"
+  spec.version      = "1.7.14-HANA"
   spec.summary      = "Avatye pointhome xcframework"
 
   spec.description  = <<-DESC
@@ -22,6 +22,6 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks = "AvatyePointHome.xcframework"
 
-  spec.dependency "AvatyeAdCash", '3.1.16'
+  spec.dependency "AvatyeAdCash", '3.0.6'
 
 end

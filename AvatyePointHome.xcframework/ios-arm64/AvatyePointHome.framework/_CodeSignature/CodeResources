@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lHgM8vEO1O2HbPNMAXsc4Gp9bww=
+			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -209,7 +209,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ywoCWV+a3BtH3WfabI4b8BPg/oY=
+			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -228,7 +228,7 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		v59lsFWGPW9y6onzRaE+W1n6OvM=
+		ipazBIw8l5W5gLPIYttVKskWfAk=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -244,7 +244,7 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		XoLMFACAbOa1AgkCOmo9L68J/B8=
+		+y54IVWvpJIpjgDff/R2eAQxOuo=
 		</data>
 		<key>NetworkError.html</key>
 		<data>
@@ -261,7 +261,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VOD6W7Swy0KSIefX2CbqnPUidLdhE04PedE+AsMri/c=
+			ztaAi0sUxGCrT6tiwkQpGRgXg1EmfLrIjCi7XbIIT6k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -606,7 +606,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iCJP70Bbg2YZwcLhst46EkMf+dg1Q5TuXWEApzVMhw4=
+			ztaAi0sUxGCrT6tiwkQpGRgXg1EmfLrIjCi7XbIIT6k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -629,7 +629,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uQJqQcBVgcuPsjwy+5L8QfQVbqYpGV3XIPxx9qH/t4w=
+			ow0zJRFf9Y9umDTjJ8s3P4QrGuiCYxdJg7/P7ZP+Oic=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -657,7 +657,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HPNWPugxPJHF2ipxOYC1//yk3kl5kQo4GTkHAlCIpus=
+			gCybRlSmq1vPCP6G1QuncAZGlYzgKcAcF/gAHPDVAhw=
 			</data>
 		</dict>
 		<key>NetworkError.html</key>

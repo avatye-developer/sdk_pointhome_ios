@@ -29,7 +29,7 @@ public protocol AdPopupViewDelegate : AnyObject {
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CBPointHomeWebView : WebKit.WKWebView {
   @_Concurrency.MainActor(unsafe) public var delegate: (any AvatyePointHome.PHWebViewDelegate)?
-  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String)
+  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String, openKey: Swift.String = "pointhome")
   @_Concurrency.MainActor(unsafe) public func startWebView(widgetID: Swift.String, actionID: Swift.String)
   @objc deinit
 }
@@ -106,7 +106,7 @@ public protocol AvatyePHDelegate : ObjectiveC.NSObjectProtocol {
 }
 public class AvatyePHService {
   public var delegate: (any AvatyePointHome.AvatyePHDelegate)?
-  public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil, fullScreen: Swift.Bool = true)
+  public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil, openKey: Swift.String = "pointhome", fullScreen: Swift.Bool = false)
   public func setCashButton()
   public func getUserAgent() -> Swift.String
   public func removePHService()

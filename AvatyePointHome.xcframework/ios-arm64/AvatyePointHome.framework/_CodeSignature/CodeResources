@@ -216,11 +216,19 @@
 		</dict>
 		<key>Assets.car</key>
 		<data>
+<<<<<<< HEAD
 		3DJbv340Ioa9iPtHMLpESMg3PXA=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		/BcAoPwun45KzXYCM4g6fU/PlEY=
+=======
+		idDZnPakvQRwCg4RQBdjlhn1+KU=
+		</data>
+		<key>Info.plist</key>
+		<data>
+		5VYWUOND1LaVS9gniOFdkYY0hqQ=
+>>>>>>> 727c4b39b72a166e7a32c8e9b876262e793beee8
 		</data>
 		<key>Loading.html</key>
 		<data>
@@ -228,7 +236,11 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
+<<<<<<< HEAD
 		8OsmQEXO/cweKjGYwFsi+fCTg/k=
+=======
+		ZKl0G39aUk+xtcdaBG2C+1mPYaU=
+>>>>>>> 727c4b39b72a166e7a32c8e9b876262e793beee8
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -244,7 +256,11 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
+<<<<<<< HEAD
 		p1Pk/4Yh96bLFYlxhIt7jzusAmI=
+=======
+		Dza5JOIInyKa6vudX9QNmamB65s=
+>>>>>>> 727c4b39b72a166e7a32c8e9b876262e793beee8
 		</data>
 		<key>NetworkError.html</key>
 		<data>
@@ -615,7 +631,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			2Ey3QaptHJShfiL15J70vYpi7MkoXpyPXv0aE1B18GU=
+=======
+			PO8fRP6T72yF33OcTp2YqqaK3ychby9+BVzW0lrqH5Y=
+>>>>>>> 727c4b39b72a166e7a32c8e9b876262e793beee8
 			</data>
 		</dict>
 		<key>Loading.html</key>
@@ -629,7 +649,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			TC9tKh7UfDUK8lLCb1Ahx87xuc6Kpaza8q88tjy3s00=
+=======
+			HuVTJQeEkV1uLUg1gbzd+zlcdhCRxYWTFNxt9rR61co=
+>>>>>>> 727c4b39b72a166e7a32c8e9b876262e793beee8
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -657,7 +681,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			dWoJLhwgjEDtUYVvUKUPyjAC51xkdIZHgqnE4H6gMPg=
+=======
+			2Hs/wgsfV7HMkbtQ8d9AXLpMLY0zk+FEd2INQyUh+b4=
+>>>>>>> 727c4b39b72a166e7a32c8e9b876262e793beee8
 			</data>
 		</dict>
 		<key>NetworkError.html</key>

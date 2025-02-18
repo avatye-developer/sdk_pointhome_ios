@@ -4,10 +4,6 @@ Pod::Spec.new do |spec|
   spec.version      = "1.8.2"
   spec.summary      = "Avatye pointhome xcframework"
 
-  spec.name = "AvatyePointHome"
-  spec.version = "1.8.1"
-  spec.summary = "Avatye pointhome xcframework"
-
   spec.description = <<-DESC
   Library for providing a reward point system for iOS apps in Avatye
   DESC

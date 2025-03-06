@@ -108,7 +108,7 @@ public protocol AvatyePHDelegate : ObjectiveC.NSObjectProtocol {
 public class AvatyePHService {
   public var delegate: (any AvatyePointHome.AvatyePHDelegate)?
   public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil, openKey: Swift.String = "pointhome", fullScreen: Swift.Bool = false)
-  public func setCashButton()
+  public func setCashButton(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1)
   public func getUserAgent() -> Swift.String
   public func removePHService()
   public func openPointHome(completion: @escaping (AvatyePointHome.PointHomeOpen<Swift.String, AvatyePointHome.PointHomeErrorModel>) -> Swift.Void)

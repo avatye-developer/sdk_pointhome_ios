@@ -11462,7 +11462,7 @@
       "kind": "StringLiteral",
       "offset": 417,
       "length": 7,
-      "value": "\"1.8.3\""
+      "value": "\"1.8.4\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
@@ -16593,14 +16593,14 @@
       "kind": "IntegerLiteral",
       "offset": 13928,
       "length": 3,
-      "value": "-16"
+      "value": "-20"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AvatyeCashButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 14043,
-      "length": 2,
-      "value": "52"
+      "offset": 14041,
+      "length": 4,
+      "value": "-280"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Sub\/AvatyeCashButton.swift",

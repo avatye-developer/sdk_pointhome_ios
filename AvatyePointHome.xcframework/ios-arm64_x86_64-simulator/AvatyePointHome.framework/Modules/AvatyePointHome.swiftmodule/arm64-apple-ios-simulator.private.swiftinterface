@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AvatyePointHome
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AvatyePointHome
 import AdCashFramework
 import AdSupport
 import AppTrackingTransparency
@@ -24,6 +23,21 @@ public protocol AdPopupViewDelegate : AnyObject {
   func onBannerFailed(_ apid: Swift.String, error: AdCashFramework.AdCashErrorModel)
   func onBannerClicked(_ apid: Swift.String)
   func onBannerRemoved(_ apid: Swift.String)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AdPopupView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any AvatyePointHome.AdPopupViewDelegate)?
+  @_Concurrency.MainActor(unsafe) public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, apid: Swift.String, size: AdCashFramework.BannerAdSize)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) public func setAdPopupView(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1, backdrop: Swift.Bool = true, closeButton: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public func popupAdLoad()
+  @_Concurrency.MainActor(unsafe) public func showAdPopupView(delay: CoreFoundation.CGFloat = 0, size: CoreFoundation.CGFloat = 18, margin: CoreFoundation.CGFloat = 1, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func removeAdPopup()
+}
+extension AvatyePointHome.AdPopupView : AdCashFramework.BannerAdLoaderDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerLoaded(_ apid: Swift.String, adView: UIKit.UIView, size: CoreFoundation.CGSize)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerRemoved(_ apid: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerClicked(_ apid: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerFailed(_ apid: Swift.String, error: AdCashFramework.AdCashErrorModel)
 }
 @_hasMissingDesignatedInitializers public class UtiityManager {
   @objc deinit
@@ -118,8 +132,9 @@ public class AvatyePHService {
   public func convertFunc(convert: @escaping ((Swift.String) async throws -> Swift.String))
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func acceptUserFunc(closeure: @escaping ((Swift.String) async throws -> AvatyePointHome.acceptedUserModel))
+  public func acceptUserFunc(closure: @escaping ((Swift.String) async throws -> AvatyePointHome.acceptedUserModel))
   #endif
+  public func GFPAdManagerRegisterFunc(_ closure: @escaping (WebKit.WKWebView) -> Swift.Void)
   public func userDataChanged(token: Swift.String, completion: @escaping (AvatyePointHome.PointHomeCBType) -> Swift.Void)
   @objc deinit
 }
@@ -128,6 +143,20 @@ extension AvatyePointHome.AvatyePHService : AvatyePointHome.PHWebViewDelegate {
   public func PointHomeCloseDelegate(caller: Swift.String)
   public func webSystemEventListener(event: Swift.String)
   public func webEventListener(event: Swift.String)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AdBannerView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any AvatyePointHome.AdPopupViewDelegate)?
+  @_Concurrency.MainActor(unsafe) public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, apid: Swift.String, size: AdCashFramework.BannerAdSize)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) public func popupAdLoad()
+  @_Concurrency.MainActor(unsafe) public func removeAdBanner()
+  @_Concurrency.MainActor(unsafe) public func showAdBannerView(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1, bgColor: Swift.String? = nil, completion: (() -> Swift.Void)? = nil)
+}
+extension AvatyePointHome.AdBannerView : AdCashFramework.BannerAdLoaderDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerLoaded(_ apid: Swift.String, adView: UIKit.UIView, size: CoreFoundation.CGSize)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerFailed(_ apid: Swift.String, error: AdCashFramework.AdCashErrorModel)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerClicked(_ apid: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerRemoved(_ apid: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class AvatyePH {
   public static func initialize(appId: Swift.String, appSecretKey: Swift.String, useExternalToken: Swift.Bool = false, logLevel: AvatyePointHome.LogLevel = .info)

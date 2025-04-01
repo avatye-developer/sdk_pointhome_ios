@@ -4673,6 +4673,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "AdCashFramework",
+        "printedName": "AdCashFramework",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
         "kind": "TypeDecl",
         "name": "AvatyePH",
         "printedName": "AvatyePH",
@@ -10087,63 +10094,63 @@
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 417,
+      "offset": 440,
       "length": 7,
       "value": "\"1.8.5\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 452,
+      "offset": 475,
       "length": 7,
       "value": "\"1.6.0\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 487,
+      "offset": 510,
       "length": 38,
       "value": "\"00000000-0000-0000-0000-000000000000\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 566,
+      "offset": 589,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "BooleanLiteral",
-      "offset": 660,
+      "offset": 683,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "BooleanLiteral",
-      "offset": 726,
+      "offset": 749,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 781,
       "length": 11,
       "value": "\"pointhome\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "BooleanLiteral",
-      "offset": 1762,
+      "offset": 1785,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 10371,
+      "offset": 10730,
       "length": 9,
       "value": "\"default\""
     },

@@ -4734,8 +4734,8 @@
           },
           {
             "kind": "Function",
-            "name": "setMediation",
-            "printedName": "setMediation(appLovinKey:pangleKey:vungleKey:)",
+            "name": "initializeAppLovin",
+            "printedName": "initializeAppLovin(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4747,12 +4747,28 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0A2PHC18initializeAppLovinyySSFZ",
+            "mangledName": "$s15AvatyePointHome0A2PHC18initializeAppLovinyySSFZ",
+            "moduleName": "AvatyePointHome",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializePangle",
+            "printedName": "initializePangle(_:)",
+            "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Void",
+                "printedName": "()"
               },
               {
                 "kind": "TypeNominal",
@@ -4762,8 +4778,36 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15AvatyePointHome0A2PHC12setMediation11appLovinKey06pangleI006vungleI0ySS_S2StFZ",
-            "mangledName": "$s15AvatyePointHome0A2PHC12setMediation11appLovinKey06pangleI006vungleI0ySS_S2StFZ",
+            "usr": "s:15AvatyePointHome0A2PHC16initializePangleyySSFZ",
+            "mangledName": "$s15AvatyePointHome0A2PHC16initializePangleyySSFZ",
+            "moduleName": "AvatyePointHome",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeVungle",
+            "printedName": "initializeVungle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0A2PHC16initializeVungleyySSFZ",
+            "mangledName": "$s15AvatyePointHome0A2PHC16initializeVungleyySSFZ",
             "moduleName": "AvatyePointHome",
             "static": true,
             "declAttributes": [
@@ -10190,7 +10234,7 @@
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 10701,
+      "offset": 10779,
       "length": 9,
       "value": "\"default\""
     },

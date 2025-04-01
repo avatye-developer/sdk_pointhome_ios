@@ -160,7 +160,9 @@ extension AvatyePointHome.AdBannerView : AdCashFramework.BannerAdLoaderDelegate 
 }
 @_hasMissingDesignatedInitializers public class AvatyePH {
   public static func initialize(appId: Swift.String, appSecretKey: Swift.String, useExternalToken: Swift.Bool = false, logLevel: AvatyePointHome.LogLevel = .info)
-  public static func setMediation(appLovinKey: Swift.String, pangleKey: Swift.String, vungleKey: Swift.String)
+  public static func initializeAppLovin(_ appLovinKey: Swift.String)
+  public static func initializePangle(_ pangleKey: Swift.String)
+  public static func initializeVungle(_ vungleKey: Swift.String)
   public static func devModeChange(value: Swift.String? = nil)
   public static func testModeChange(value: Swift.Bool)
   public static func getUserProfile(appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil, resource: Swift.String? = nil, completion: @escaping (AvatyePointHome.PointHomeResultType<AvatyePointHome.userProfileResponse>) -> Swift.Void)

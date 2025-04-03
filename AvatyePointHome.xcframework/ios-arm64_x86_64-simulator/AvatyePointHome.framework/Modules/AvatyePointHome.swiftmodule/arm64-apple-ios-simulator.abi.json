@@ -3584,7 +3584,8 @@
             "mangledName": "$s15AvatyePointHome0A9PHServiceC12getUserAgentSSyF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3604,7 +3605,8 @@
             "mangledName": "$s15AvatyePointHome0A9PHServiceC06removeD0yyF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },

@@ -22,6 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks = "AvatyePointHome.xcframework"
 
-  spec.dependency "AvatyeAdCash", '~> 3.1.25'
+  spec.dependency "AvatyeAdCash/Core", '~> 3.1.25'
+  spec.dependency "AvatyeAdCash/Mezzo", '~> 3.1.25'
 
 end

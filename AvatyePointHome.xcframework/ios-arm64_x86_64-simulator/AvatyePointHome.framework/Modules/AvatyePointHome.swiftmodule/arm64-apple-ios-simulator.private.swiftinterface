@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AvatyePointHome
 import AdCashFramework
 import AdSupport
@@ -24,40 +24,40 @@ public protocol AdPopupViewDelegate : AnyObject {
   func onBannerClicked(_ apid: Swift.String)
   func onBannerRemoved(_ apid: Swift.String)
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AdPopupView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: (any AvatyePointHome.AdPopupViewDelegate)?
-  @_Concurrency.MainActor(unsafe) public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, apid: Swift.String, size: AdCashFramework.BannerAdSize)
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AdPopupView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AvatyePointHome.AdPopupViewDelegate)?
+  @_Concurrency.MainActor @preconcurrency public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, apid: Swift.String, size: AdCashFramework.BannerAdSize)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) public func setAdPopupView(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1, backdrop: Swift.Bool = true, closeButton: Swift.Bool = true)
-  @_Concurrency.MainActor(unsafe) public func popupAdLoad()
-  @_Concurrency.MainActor(unsafe) public func showAdPopupView(delay: CoreFoundation.CGFloat = 0, size: CoreFoundation.CGFloat = 18, margin: CoreFoundation.CGFloat = 1, completion: (() -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) public func removeAdPopup()
+  @_Concurrency.MainActor @preconcurrency public func setAdPopupView(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1, backdrop: Swift.Bool = true, closeButton: Swift.Bool = true)
+  @_Concurrency.MainActor @preconcurrency public func popupAdLoad()
+  @_Concurrency.MainActor @preconcurrency public func showAdPopupView(delay: CoreFoundation.CGFloat = 0, size: CoreFoundation.CGFloat = 18, margin: CoreFoundation.CGFloat = 1, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func removeAdPopup()
 }
 extension AvatyePointHome.AdPopupView : AdCashFramework.BannerAdLoaderDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerLoaded(_ apid: Swift.String, adView: UIKit.UIView, size: CoreFoundation.CGSize)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerRemoved(_ apid: Swift.String)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerClicked(_ apid: Swift.String)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerFailed(_ apid: Swift.String, error: AdCashFramework.AdCashErrorModel)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onBannerLoaded(_ apid: Swift.String, adView: UIKit.UIView, size: CoreFoundation.CGSize)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onBannerRemoved(_ apid: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onBannerClicked(_ apid: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onBannerFailed(_ apid: Swift.String, error: AdCashFramework.AdCashErrorModel)
 }
 @_hasMissingDesignatedInitializers public class UtiityManager {
   @objc deinit
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CBPointHomeWebView : WebKit.WKWebView {
-  @_Concurrency.MainActor(unsafe) public var delegate: (any AvatyePointHome.PHWebViewDelegate)?
-  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String, openKey: Swift.String = "pointhome")
-  @_Concurrency.MainActor(unsafe) public func startWebView(widgetID: Swift.String, actionID: Swift.String)
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class CBPointHomeWebView : WebKit.WKWebView {
+  @_Concurrency.MainActor @preconcurrency public var delegate: (any AvatyePointHome.PHWebViewDelegate)?
+  @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String, openKey: Swift.String = "pointhome")
+  @_Concurrency.MainActor @preconcurrency public func startWebView(widgetID: Swift.String, actionID: Swift.String)
   @objc deinit
 }
 extension AvatyePointHome.CBPointHomeWebView : WebKit.WKNavigationDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
 }
 extension AvatyePointHome.CBPointHomeWebView : AvatyePointHome.PHWebViewDelegate {
-  @_Concurrency.MainActor(unsafe) public func webEventListener(event: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func webSystemEventListener(event: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func pointHomeOpenDelegate(caller: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func PointHomeCloseDelegate(caller: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func webEventListener(event: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func webSystemEventListener(event: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func pointHomeOpenDelegate(caller: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func PointHomeCloseDelegate(caller: Swift.String)
 }
 public struct userProfileResponse : Swift.Codable {
   public let profile: AvatyePointHome.userProfile?
@@ -128,12 +128,8 @@ public class AvatyePHService {
   public func openPointHome(completion: @escaping (AvatyePointHome.PointHomeOpen<Swift.String, AvatyePointHome.PointHomeErrorModel>) -> Swift.Void)
   public func closePointHome(completion: @escaping () -> Swift.Void)
   public func sendMessage(message: Swift.String, completion: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
-  #if compiler(>=5.3) && $AsyncAwait
   public func convertFunc(convert: @escaping ((Swift.String) async throws -> Swift.String))
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func acceptUserFunc(closure: @escaping ((Swift.String) async throws -> AvatyePointHome.acceptedUserModel))
-  #endif
   public func GFPAdManagerRegisterFunc(_ closure: @escaping (WebKit.WKWebView) -> Swift.Void)
   public func userDataChanged(token: Swift.String, completion: @escaping (AvatyePointHome.PointHomeCBType) -> Swift.Void)
   @objc deinit
@@ -144,19 +140,19 @@ extension AvatyePointHome.AvatyePHService : AvatyePointHome.PHWebViewDelegate {
   public func webSystemEventListener(event: Swift.String)
   public func webEventListener(event: Swift.String)
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class AdBannerView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: (any AvatyePointHome.AdPopupViewDelegate)?
-  @_Concurrency.MainActor(unsafe) public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, apid: Swift.String, size: AdCashFramework.BannerAdSize)
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AdBannerView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AvatyePointHome.AdPopupViewDelegate)?
+  @_Concurrency.MainActor @preconcurrency public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, apid: Swift.String, size: AdCashFramework.BannerAdSize)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) public func popupAdLoad()
-  @_Concurrency.MainActor(unsafe) public func removeAdBanner()
-  @_Concurrency.MainActor(unsafe) public func showAdBannerView(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1, bgColor: Swift.String? = nil, completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func popupAdLoad()
+  @_Concurrency.MainActor @preconcurrency public func removeAdBanner()
+  @_Concurrency.MainActor @preconcurrency public func showAdBannerView(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1, bgColor: Swift.String? = nil, completion: ((Swift.Bool) -> Swift.Void))
 }
 extension AvatyePointHome.AdBannerView : AdCashFramework.BannerAdLoaderDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerLoaded(_ apid: Swift.String, adView: UIKit.UIView, size: CoreFoundation.CGSize)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerFailed(_ apid: Swift.String, error: AdCashFramework.AdCashErrorModel)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerClicked(_ apid: Swift.String)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func onBannerRemoved(_ apid: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onBannerLoaded(_ apid: Swift.String, adView: UIKit.UIView, size: CoreFoundation.CGSize)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onBannerFailed(_ apid: Swift.String, error: AdCashFramework.AdCashErrorModel)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onBannerClicked(_ apid: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onBannerRemoved(_ apid: Swift.String)
 }
 @_hasMissingDesignatedInitializers public class AvatyePH {
   public static func initialize(appId: Swift.String, appSecretKey: Swift.String, useExternalToken: Swift.Bool = false, logLevel: AvatyePointHome.LogLevel = .info)
@@ -171,18 +167,14 @@ extension AvatyePointHome.AdBannerView : AdCashFramework.BannerAdLoaderDelegate 
 }
 public class TokenUtil {
   public init()
-  #if compiler(>=5.3) && $AsyncAwait
   public func getToken(appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String, isChanneling: Swift.Bool) async throws -> Swift.Result<Swift.String, AvatyePointHome.TokenError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func getOTP(appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String, isChanneling: Swift.Bool) async throws -> Swift.Result<Swift.String, AvatyePointHome.TokenError>
-  #endif
   public func deleteToken(appId: Swift.String, userKey: Swift.String)
   @objc deinit
 }
-@objc public class AvatyeWebSDKController : ObjectiveC.NSObject, WebKit.WKScriptMessageHandler {
-  public init(rootWebView: WebKit.WKWebView)
-  @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+@objc @_Concurrency.MainActor @preconcurrency public class AvatyeWebSDKController : ObjectiveC.NSObject, WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor @preconcurrency public init(rootWebView: WebKit.WKWebView)
+  @_Concurrency.MainActor @preconcurrency @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
   @objc deinit
 }
 public enum PointHomeCBType {
@@ -300,6 +292,7 @@ public protocol PHWebViewDelegate : AnyObject {
   public class func isConnectedToNetwork() -> Swift.Bool
   @objc deinit
 }
+extension AvatyePointHome.AvatyeWebSDKController : Swift.Sendable {}
 extension AvatyePointHome.PointHomeCBType : Swift.Equatable {}
 extension AvatyePointHome.PointHomeCBType : Swift.Hashable {}
 extension AvatyePointHome.PointHomeOpenType : Swift.Equatable {}

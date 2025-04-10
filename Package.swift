@@ -18,7 +18,7 @@ let package = Package(
         .package(
             name: "AvatyeAdCash",
             url: "https://github.com/avatye-developer/sdk_adcash_ios",
-            .upToNextMinor(from: "3.1.25")
+            .upToNextMinor(from: "3.1.26")
         )
     ],
     targets: [

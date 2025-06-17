@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AvatyePointHome
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AvatyePointHome
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import AdCashFramework
 import AdSupport
 import AppTrackingTransparency
@@ -128,8 +129,8 @@ public class AvatyePHService {
   public func openPointHome(completion: @escaping (AvatyePointHome.PointHomeOpen<Swift.String, AvatyePointHome.PointHomeErrorModel>) -> Swift.Void)
   public func closePointHome(completion: @escaping () -> Swift.Void)
   public func sendMessage(message: Swift.String, completion: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
-  public func convertFunc(convert: @escaping ((Swift.String) async throws -> Swift.String))
-  public func acceptUserFunc(closure: @escaping ((Swift.String) async throws -> AvatyePointHome.acceptedUserModel))
+  public func convertFunc(convert: @escaping (Swift.String) async throws -> Swift.String)
+  public func acceptUserFunc(closure: @escaping (Swift.String) async throws -> AvatyePointHome.acceptedUserModel)
   public func GFPAdManagerRegisterFunc(_ closure: @escaping (WebKit.WKWebView) -> Swift.Void)
   public func userDataChanged(token: Swift.String, completion: @escaping (AvatyePointHome.PointHomeCBType) -> Swift.Void)
   @objc deinit
@@ -146,7 +147,7 @@ extension AvatyePointHome.AvatyePHService : AvatyePointHome.PHWebViewDelegate {
   @objc deinit
   @_Concurrency.MainActor @preconcurrency public func popupAdLoad()
   @_Concurrency.MainActor @preconcurrency public func removeAdBanner()
-  @_Concurrency.MainActor @preconcurrency public func showAdBannerView(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1, bgColor: Swift.String? = nil, completion: ((Swift.Bool) -> Swift.Void))
+  @_Concurrency.MainActor @preconcurrency public func showAdBannerView(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1, bgColor: Swift.String? = nil, completion: (Swift.Bool) -> Swift.Void)
 }
 extension AvatyePointHome.AdBannerView : AdCashFramework.BannerAdLoaderDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func onBannerLoaded(_ apid: Swift.String, adView: UIKit.UIView, size: CoreFoundation.CGSize)

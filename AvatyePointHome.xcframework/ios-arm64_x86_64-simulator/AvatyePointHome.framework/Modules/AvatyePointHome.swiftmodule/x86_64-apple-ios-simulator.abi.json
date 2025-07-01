@@ -9248,8 +9248,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "sha256",
-            "printedName": "sha256()",
+            "name": "avaSha256",
+            "printedName": "avaSha256()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9259,8 +9259,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Foundation4DataV15AvatyePointHomeE6sha256SSyF",
-            "mangledName": "$s10Foundation4DataV15AvatyePointHomeE6sha256SSyF",
+            "usr": "s:10Foundation4DataV15AvatyePointHomeE9avaSha256SSyF",
+            "mangledName": "$s10Foundation4DataV15AvatyePointHomeE9avaSha256SSyF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
               "AccessControl"
@@ -9692,6 +9692,41 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -9736,41 +9771,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
             "name": "Transferable",
             "printedName": "Transferable",
             "children": [
@@ -9807,8 +9807,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "sha256",
-            "printedName": "sha256()",
+            "name": "avaSha256",
+            "printedName": "avaSha256()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9818,8 +9818,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:SS15AvatyePointHomeE6sha256SSyF",
-            "mangledName": "$sSS15AvatyePointHomeE6sha256SSyF",
+            "usr": "s:SS15AvatyePointHomeE9avaSha256SSyF",
+            "mangledName": "$sSS15AvatyePointHomeE9avaSha256SSyF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
               "RawDocComment"
@@ -10817,7 +10817,7 @@
       "kind": "StringLiteral",
       "offset": 440,
       "length": 7,
-      "value": "\"1.8.5\""
+      "value": "\"1.8.7\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",

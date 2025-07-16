@@ -121,11 +121,13 @@ public protocol AvatyePHDelegate : ObjectiveC.NSObjectProtocol {
   func pointHomeSliderClosed(caller: Swift.String)
 }
 public class AvatyePHService {
+  @objc deinit
   public var delegate: (any AvatyePointHome.AvatyePHDelegate)?
   public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil, openKey: Swift.String = "pointhome", fullScreen: Swift.Bool = false)
   public func setCashButton(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1)
   public func getUserAgent() -> Swift.String
   public func removePHService()
+  public func clearWebview()
   public func openPointHome(completion: @escaping (AvatyePointHome.PointHomeOpen<Swift.String, AvatyePointHome.PointHomeErrorModel>) -> Swift.Void)
   public func closePointHome(completion: @escaping () -> Swift.Void)
   public func sendMessage(message: Swift.String, completion: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
@@ -133,7 +135,6 @@ public class AvatyePHService {
   public func acceptUserFunc(closure: @escaping (Swift.String) async throws -> AvatyePointHome.acceptedUserModel)
   public func GFPAdManagerRegisterFunc(_ closure: @escaping (WebKit.WKWebView) -> Swift.Void)
   public func userDataChanged(token: Swift.String, completion: @escaping (AvatyePointHome.PointHomeCBType) -> Swift.Void)
-  @objc deinit
 }
 extension AvatyePointHome.AvatyePHService : AvatyePointHome.PHWebViewDelegate {
   public func pointHomeOpenDelegate(caller: Swift.String)

@@ -114,33 +114,6 @@ public struct acceptedUserModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public protocol AvatyePHDelegate : ObjectiveC.NSObjectProtocol {
-  func pointHomeEventListener(event: Swift.String)
-  func pointHomeSystemEventListener(event: Swift.String)
-  func pointHomeSliderOpened(caller: Swift.String)
-  func pointHomeSliderClosed(caller: Swift.String)
-}
-public class AvatyePHService {
-  public var delegate: (any AvatyePointHome.AvatyePHDelegate)?
-  public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil, openKey: Swift.String = "pointhome", fullScreen: Swift.Bool = false)
-  public func setCashButton(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1)
-  public func getUserAgent() -> Swift.String
-  public func removePHService()
-  public func openPointHome(completion: @escaping (AvatyePointHome.PointHomeOpen<Swift.String, AvatyePointHome.PointHomeErrorModel>) -> Swift.Void)
-  public func closePointHome(completion: @escaping () -> Swift.Void)
-  public func sendMessage(message: Swift.String, completion: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
-  public func convertFunc(convert: @escaping (Swift.String) async throws -> Swift.String)
-  public func acceptUserFunc(closure: @escaping (Swift.String) async throws -> AvatyePointHome.acceptedUserModel)
-  public func GFPAdManagerRegisterFunc(_ closure: @escaping (WebKit.WKWebView) -> Swift.Void)
-  public func userDataChanged(token: Swift.String, completion: @escaping (AvatyePointHome.PointHomeCBType) -> Swift.Void)
-  @objc deinit
-}
-extension AvatyePointHome.AvatyePHService : AvatyePointHome.PHWebViewDelegate {
-  public func pointHomeOpenDelegate(caller: Swift.String)
-  public func PointHomeCloseDelegate(caller: Swift.String)
-  public func webSystemEventListener(event: Swift.String)
-  public func webEventListener(event: Swift.String)
-}
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AdBannerView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AvatyePointHome.AdPopupViewDelegate)?
   @_Concurrency.MainActor @preconcurrency public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, apid: Swift.String, size: AdCashFramework.BannerAdSize)
@@ -257,6 +230,24 @@ public enum PointHomeWithDrawType {
   public var hashValue: Swift.Int {
     get
   }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class PHWebViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AvatyePointHome.PHWebViewDelegate)?
+  @_Concurrency.MainActor @preconcurrency public func openPointHome(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil, openKey: Swift.String = "pointhome", fullScreen: Swift.Bool = false, completion: @escaping (AvatyePointHome.PointHomeOpen<Swift.String, AvatyePointHome.PointHomeErrorModel>) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension AvatyePointHome.PHWebViewController : AvatyePointHome.PHWebViewDelegate {
+  @_Concurrency.MainActor @preconcurrency public func pointHomeOpenDelegate(caller: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func PointHomeCloseDelegate(caller: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func webSystemEventListener(event: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func webEventListener(event: Swift.String)
 }
 public enum LogLevel : Swift.Int, Swift.CustomStringConvertible {
   case debug

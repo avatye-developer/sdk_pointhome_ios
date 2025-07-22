@@ -3,42 +3,6 @@
 
 import PackageDescription
 let package = Package(
-<<<<<<< HEAD
-    name: "AvatyePointHome",
-    platforms: [
-        .iOS(.v13)
-    ],
-    products: [
-        .library(
-            name: "AvatyePointHome",
-            targets: ["AvatyePointHomeWrapper"]
-        ),
-    ],
-    dependencies: [
-        .package(
-            url: "https://github.com/IGAWorksDev/ap-ssp-sdk-ios-spm-objc",
-            .upToNextMinor(from: "2.10.2")
-        ),
-        .package(
-            url: "https://github.com/avatye-developer/sdk_adcash_ios",
-            .upToNextMinor(from: "3.2.1")
-        )
-    ],
-    targets: [
-        .binaryTarget(
-            name: "AvatyePointHomeTarget",
-            path: "./AvatyePointHome.xcframework"
-        ),
-        .target(
-            name: "AvatyePointHomeWrapper",
-            dependencies: [
-                "AvatyePointHomeTarget",
-                .product(name: "AvatyeAdCash", package: "sdk_adcash_ios"),
-            ],
-            path: "./Sources/AvatyePointHomeWrapper" // SPM 요구사항을 만족시키기 위한 빈 디렉토리
-        )
-    ]
-=======
   name: "AvatyePointHome",
   platforms: [
     .iOS(.v13)
@@ -74,6 +38,5 @@ let package = Package(
       path: "./Sources/AvatyePointHomeWrapper" // SPM 요구사항을 만족시키기 위한 빈 디렉토리
     )
   ]
->>>>>>> bf73f2eefe84c18821a104993e0c445c405f90f1
 )
 

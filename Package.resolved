@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "originHash" : "e4687e5b90c0dc0ee42ee796bbcef3f7b4e7e19321f57b82004453943fb4adb1",
-=======
   "originHash" : "48244343b6ff3afac9a1f580b6f07c1a9a091a65e28047f8c77a3b63ae57e4f0",
->>>>>>> bf73f2eefe84c18821a104993e0c445c405f90f1
   "pins" : [
     {
       "identity" : "ap-ssp-sdk-ios-spm-objc",

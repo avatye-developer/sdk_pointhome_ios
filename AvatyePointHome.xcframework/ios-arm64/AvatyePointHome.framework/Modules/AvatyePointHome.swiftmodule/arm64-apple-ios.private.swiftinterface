@@ -269,10 +269,10 @@ public enum LogLevel : Swift.Int, Swift.CustomStringConvertible {
   @objc deinit
 }
 extension Foundation.Data {
-  public func sha256() -> Swift.String
+  public func avatyeSha256() -> Swift.String
 }
 extension Swift.String {
-  public func sha256() -> Swift.String
+  public func avatyeSha256() -> Swift.String
 }
 public protocol PHWebViewDelegate : AnyObject {
   func webEventListener(event: Swift.String)

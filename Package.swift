@@ -16,7 +16,10 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            name: "AvatyeAdCash",
+            url: "https://github.com/IGAWorksDev/ap-ssp-sdk-ios-spm-objc",
+            .upToNextMinor(from: "2.10.2")
+        ),
+        .package(
             url: "https://github.com/avatye-developer/sdk_adcash_ios",
             .upToNextMinor(from: "3.2.1")
         )
@@ -30,7 +33,7 @@ let package = Package(
             name: "AvatyePointHomeWrapper",
             dependencies: [
                 "AvatyePointHomeTarget",
-                .product(name: "AvatyeAdCash", package: "AvatyeAdCash"),
+                .product(name: "AvatyeAdCash", package: "sdk_adcash_ios"),
             ],
             path: "./Sources/AvatyePointHomeWrapper" // SPM 요구사항을 만족시키기 위한 빈 디렉토리
         )

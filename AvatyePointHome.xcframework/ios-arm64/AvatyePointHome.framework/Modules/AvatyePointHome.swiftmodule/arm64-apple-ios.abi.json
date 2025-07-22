@@ -9052,8 +9052,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "sha256",
-            "printedName": "sha256()",
+            "name": "avatyeSha256",
+            "printedName": "avatyeSha256()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9063,8 +9063,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Foundation4DataV15AvatyePointHomeE6sha256SSyF",
-            "mangledName": "$s10Foundation4DataV15AvatyePointHomeE6sha256SSyF",
+            "usr": "s:10Foundation4DataV15AvatyePointHomeE12avatyeSha256SSyF",
+            "mangledName": "$s10Foundation4DataV15AvatyePointHomeE12avatyeSha256SSyF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
               "AccessControl"
@@ -9611,8 +9611,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "sha256",
-            "printedName": "sha256()",
+            "name": "avatyeSha256",
+            "printedName": "avatyeSha256()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9622,8 +9622,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:SS15AvatyePointHomeE6sha256SSyF",
-            "mangledName": "$sSS15AvatyePointHomeE6sha256SSyF",
+            "usr": "s:SS15AvatyePointHomeE12avatyeSha256SSyF",
+            "mangledName": "$sSS15AvatyePointHomeE12avatyeSha256SSyF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
               "RawDocComment"
@@ -10586,7 +10586,7 @@
       "kind": "StringLiteral",
       "offset": 413,
       "length": 7,
-      "value": "\"1.8.7\""
+      "value": "\"1.8.9\""
     },
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/AvatyePH.swift",
@@ -10808,7 +10808,7 @@
     {
       "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18031,
+      "offset": 18107,
       "length": 19,
       "value": "\"PointHomeDidClose\""
     },

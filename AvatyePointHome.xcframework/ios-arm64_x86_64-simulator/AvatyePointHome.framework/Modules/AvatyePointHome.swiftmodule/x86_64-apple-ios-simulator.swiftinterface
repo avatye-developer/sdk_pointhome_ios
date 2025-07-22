@@ -268,12 +268,6 @@ public enum LogLevel : Swift.Int, Swift.CustomStringConvertible {
   public static func error(_ message: Swift.String, file: Swift.String = #file, line: Swift.Int = #line, function: Swift.String = #function)
   @objc deinit
 }
-extension Foundation.Data {
-  public func avatyeSha256() -> Swift.String
-}
-extension Swift.String {
-  public func avatyeSha256() -> Swift.String
-}
 public protocol PHWebViewDelegate : AnyObject {
   func webEventListener(event: Swift.String)
   func webSystemEventListener(event: Swift.String)

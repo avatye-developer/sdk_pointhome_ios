@@ -220,7 +220,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		N/f5rSQDwKvSwnOeFKbPigbGwgE=
+		Z3AOSyUo/DGmgXQYKQ4IsEt2WbM=
 		</data>
 		<key>Loading.html</key>
 		<data>
@@ -228,19 +228,11 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-<<<<<<< HEAD
-		qDR815+7yOgCiAosuzb1NbbRphQ=
+		EG7NKNrWhOD8mZpx6toY/zIbirQ=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		lHYKLA/F4mXapGZMEEvPSI7BR84=
-=======
-		UR3zlBsqmu5GnIu3rrJc5bLwBlY=
-		</data>
-		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
-		<data>
-		sqVMm1SJ6ieaU7EcMv7xwz4fzmg=
->>>>>>> bf73f2eefe84c18821a104993e0c445c405f90f1
+		jR8WQokXVhCPD3jVj6vRxL3LuFs=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -248,19 +240,11 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-<<<<<<< HEAD
-		lHYKLA/F4mXapGZMEEvPSI7BR84=
+		jR8WQokXVhCPD3jVj6vRxL3LuFs=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4NOpMGaAu4ZO830emXHAdI7KaBY=
-=======
-		sqVMm1SJ6ieaU7EcMv7xwz4fzmg=
-		</data>
-		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		k+9MLPfOfQaxYKgF8urrFJnNIsM=
->>>>>>> bf73f2eefe84c18821a104993e0c445c405f90f1
+		Jskb49MlaNu9pfGl17oE4cAn0Bk=
 		</data>
 		<key>NetworkError.html</key>
 		<data>
@@ -645,22 +629,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			W+2Y95vtUsEqml7fdnFO9wCYoxtZbCCK3biVFKJUdGs=
-=======
-			lbzkVFHRhKMjkD5wocyYyLOKEyZB10SoG15KEWnD1zM=
->>>>>>> bf73f2eefe84c18821a104993e0c445c405f90f1
+			sN2YXdDOPdW9lsLQtckDHPiO3oUfcFoKMw0SjY/VkGg=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			eupF1rSd9gMqlC8XpoMtXjg2JOELBmIdbwvALzTYgM0=
-=======
-			TUYN8YwyXp+zYluQS5v/b42sebl7GxW3bWfUrNxiB80=
->>>>>>> bf73f2eefe84c18821a104993e0c445c405f90f1
+			720GqlpZzI206s+fus+WInU9KPcrNq4tYFLlRH+Y8CM=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -674,22 +650,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			eupF1rSd9gMqlC8XpoMtXjg2JOELBmIdbwvALzTYgM0=
-=======
-			TUYN8YwyXp+zYluQS5v/b42sebl7GxW3bWfUrNxiB80=
->>>>>>> bf73f2eefe84c18821a104993e0c445c405f90f1
+			720GqlpZzI206s+fus+WInU9KPcrNq4tYFLlRH+Y8CM=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-<<<<<<< HEAD
-			WjSkc6AkRO13cmXQLDBC+xZYW1uz/XEOSK3KO7cyhKo=
-=======
-			19aU8OLn9m1EPHzuAGzM0Ggr4ldo00u+hb5Ma6YUlqc=
->>>>>>> bf73f2eefe84c18821a104993e0c445c405f90f1
+			IWZYGtNwXtMOLBSi71GnpgzYlE/yeZ0wix7gdx5r9xI=
 			</data>
 		</dict>
 		<key>NetworkError.html</key>

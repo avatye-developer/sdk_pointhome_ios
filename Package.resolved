@@ -1,5 +1,5 @@
 {
-  "originHash" : "48244343b6ff3afac9a1f580b6f07c1a9a091a65e28047f8c77a3b63ae57e4f0",
+  "originHash" : "5d8aa1db4e8e3d5fff576862b52fabee4c15dd69986573f5c32be2cc6600517e",
   "pins" : [
     {
       "identity" : "ap-ssp-sdk-ios-spm-objc",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/avatye-developer/sdk_adcash_ios",
       "state" : {
-        "revision" : "d05e61366febb3bccab3e6d35b18c6b8fe19340d",
-        "version" : "3.2.1"
+        "revision" : "c6f2ddb74db359d0de0164bdb0444c7284370287",
+        "version" : "3.3.2"
       }
     }
   ],

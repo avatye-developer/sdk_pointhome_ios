@@ -41,10 +41,6 @@
 	<key>XCFrameworkFormatVersion</key>
 	<string>1.0</string>
 	<key>xcPointHomeVersion</key>
-<<<<<<< HEAD
-	<string>1.8.9-kb</string>
-=======
-	<string>1.9.2</string>
->>>>>>> bf73f2eefe84c18821a104993e0c445c405f90f1
+	<string>1.9.3</string>
 </dict>
 </plist>

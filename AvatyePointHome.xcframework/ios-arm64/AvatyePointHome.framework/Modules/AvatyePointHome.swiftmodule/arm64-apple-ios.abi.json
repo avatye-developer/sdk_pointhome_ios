@@ -8955,6 +8955,13 @@
       },
       {
         "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
         "name": "AppTrackingTransparency",
         "printedName": "AppTrackingTransparency",
         "declKind": "Import",
@@ -9249,8 +9256,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "avatyeSha256",
-            "printedName": "avatyeSha256()",
+            "name": "sha256",
+            "printedName": "sha256()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9260,8 +9267,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Foundation4DataV15AvatyePointHomeE12avatyeSha256SSyF",
-            "mangledName": "$s10Foundation4DataV15AvatyePointHomeE12avatyeSha256SSyF",
+            "usr": "s:10Foundation4DataV15AvatyePointHomeE6sha256SSyF",
+            "mangledName": "$s10Foundation4DataV15AvatyePointHomeE6sha256SSyF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
               "AccessControl"
@@ -9808,8 +9815,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "avatyeSha256",
-            "printedName": "avatyeSha256()",
+            "name": "sha256",
+            "printedName": "sha256()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9819,8 +9826,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:SS15AvatyePointHomeE12avatyeSha256SSyF",
-            "mangledName": "$sSS15AvatyePointHomeE12avatyeSha256SSyF",
+            "usr": "s:SS15AvatyePointHomeE6sha256SSyF",
+            "mangledName": "$sSS15AvatyePointHomeE6sha256SSyF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
               "RawDocComment"
@@ -10818,11 +10825,7 @@
       "kind": "StringLiteral",
       "offset": 440,
       "length": 7,
-<<<<<<< HEAD
-      "value": "\"1.8.9\""
-=======
-      "value": "\"1.9.2\""
->>>>>>> bf73f2eefe84c18821a104993e0c445c405f90f1
+      "value": "\"1.9.3\""
     },
     {
       "filePath": "\/Users\/jun\/Swift\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePH.swift",
@@ -11028,32 +11031,7 @@
       "value": "\"\/\""
     },
     {
-<<<<<<< HEAD
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3374,
-      "length": 11,
-      "value": "\"pointhome\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3436,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/PHWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 18107,
-      "length": 19,
-      "value": "\"PointHomeDidClose\""
-    },
-    {
-      "filePath": "\/Users\/imjaehyeog\/IOS\/AvatyeFrameworks\/sdk-point-home-ios-src\/AvatyePointHome\/Util\/PointHomeLogger.swift",
-=======
       "filePath": "\/Users\/jun\/Swift\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Util\/PointHomeLogger.swift",
->>>>>>> bf73f2eefe84c18821a104993e0c445c405f90f1
       "kind": "IntegerLiteral",
       "offset": 197,
       "length": 1,
@@ -11076,7 +11054,7 @@
     {
       "filePath": "\/Users\/jun\/Swift\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1238,
+      "offset": 1283,
       "length": 5,
       "value": "false"
     },

@@ -1,13 +1,13 @@
 {
-  "originHash" : "5d8aa1db4e8e3d5fff576862b52fabee4c15dd69986573f5c32be2cc6600517e",
+  "originHash" : "96c8f66f713f9eae14a0e184c3d615c6c6a7a446f75a6c3e6d3a511ad6065b5f",
   "pins" : [
     {
       "identity" : "ap-ssp-sdk-ios-spm-objc",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/IGAWorksDev/ap-ssp-sdk-ios-spm-objc",
       "state" : {
-        "revision" : "6f55c1926d5d677f347777a5f3e6c7028f9bfaa9",
-        "version" : "2.10.4"
+        "revision" : "eb6705e5edaaaca771e8fc7707b60bde007d3697",
+        "version" : "2.10.6"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/avatye-developer/sdk_adcash_ios",
       "state" : {
-        "revision" : "c6f2ddb74db359d0de0164bdb0444c7284370287",
-        "version" : "3.3.2"
+        "revision" : "63064b7732cef2d13f4e0bf7db63314c48ae0ca8",
+        "version" : "3.3.3"
       }
     }
   ],

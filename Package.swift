@@ -1,4 +1,4 @@
-// swift-tools-version: 6.1
+// swift-tools-version: 5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -16,11 +16,11 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/IGAWorksDev/ap-ssp-sdk-ios-spm-objc",
-      .upToNextMinor(from: "2.10.2")
+      .upToNextMinor(from: "2.10.5")
     ),
     .package(
       url: "https://github.com/avatye-developer/sdk_adcash_ios",
-      .upToNextMinor(from: "3.3.1")
+      .upToNextMinor(from: "3.3.3")
     )
   ],
   targets: [

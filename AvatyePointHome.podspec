@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "AvatyePointHome"
-  spec.version      = "1.8.12-251117"
+  spec.version      = "1.8.12-kb"
   spec.summary      = "Avatye pointhome xcframework"
 
   spec.description = <<-DESC

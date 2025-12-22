@@ -10825,7 +10825,7 @@
       "kind": "StringLiteral",
       "offset": 440,
       "length": 7,
-      "value": "\"1.9.5\""
+      "value": "\"1.9.6\""
     },
     {
       "filePath": "\/Users\/jun\/Swift\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePH.swift",
@@ -10872,14 +10872,14 @@
     {
       "filePath": "\/Users\/jun\/Swift\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePH.swift",
       "kind": "BooleanLiteral",
-      "offset": 1828,
+      "offset": 1851,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/Swift\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 10877,
+      "offset": 10900,
       "length": 9,
       "value": "\"default\""
     },
@@ -11057,6 +11057,13 @@
       "offset": 1283,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/Swift\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1428,
+      "length": 11,
+      "value": "\"PointHome\""
     },
     {
       "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-blhuvhbevqdyojfymqyzuhlzsgux\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",

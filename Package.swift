@@ -16,11 +16,11 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/IGAWorksDev/ap-ssp-sdk-ios-spm-objc",
-      .upToNextMinor(from: "2.10.5")
+      .upToNextMinor(from: "2.11.1")
     ),
     .package(
       url: "https://github.com/avatye-developer/sdk_adcash_ios",
-      .upToNextMinor(from: "3.3.3")
+      .upToNextMinor(from: "3.4.0")
     )
   ],
   targets: [

@@ -216,15 +216,15 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Assets.car</key>
 		<data>
-		9woU31wJBeVe7dGdtinfkJcEz+E=
+		CKcawEHS1jUuLCYyIo0notNfT1I=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/AvatyePointHome</key>
 		<data>
-		qd9/JE7TiwxIRYZVcctmKElsBSc=
+		Ibro6jaJYyrsMF7ioNJ1PlBMsfo=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Info.plist</key>
 		<data>
-		1apNpB29m+OyfBCmgc1PABYYcP0=
+		nm/wbh+L7VfOld4VzkJZUSR+KCg=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Loading.html</key>
 		<data>
@@ -232,19 +232,19 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		TKL35IROen2s0Ti7pjrKwuZwAus=
+		8o90clgVbGAGvpFyIu16TH2Vurs=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		jR8WQokXVhCPD3jVj6vRxL3LuFs=
+		Xlu8vSmVvw9ZBMSJH/LhRRIJJ6s=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		UySaHS/A9yZF9jh5nD2hYLmjgRQ=
+		08DJu3WJHcFH+QkjdxRcUtkJ0Jg=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		jR8WQokXVhCPD3jVj6vRxL3LuFs=
+		Xlu8vSmVvw9ZBMSJH/LhRRIJJ6s=
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/NetworkError.html</key>
 		<data>
@@ -256,7 +256,7 @@
 		</data>
 		<key>ios-arm64/AvatyePointHome.framework/_CodeSignature/CodeResources</key>
 		<data>
-		IBCCc9IrrrTEZdH4O7Z0CiI0Jvs=
+		UyNqTRUd3fwdhJRnUa27fd9VU7s=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/en.lproj/Localizable.strings</key>
 		<dict>
@@ -470,15 +470,15 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Assets.car</key>
 		<data>
-		9woU31wJBeVe7dGdtinfkJcEz+E=
+		CKcawEHS1jUuLCYyIo0notNfT1I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AvatyePointHome</key>
 		<data>
-		SzjPJQG6+//p3GXRRW5njyfu2OI=
+		F/hVuA0kJfMKKbhOXxqsBcTy/Oc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Info.plist</key>
 		<data>
-		cL+XYi/gDODkO5e6yWzq20fztv8=
+		bbEv33l5jAo272lmx+0Gw5mYLIc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Loading.html</key>
 		<data>
@@ -486,35 +486,35 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		oeqZBWrZiTmeeTMyTeb+KTxYu5s=
+		ANVe1sX6FrIrUiPuMAQyVSkxRgY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BAYNXYkR2s7KKmQoKrwyIWhZvLw=
+		xG92H4smki9DuEtAdxMja8MP/nw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		s/YRg/9riynUW90Vr+8IsldoRyI=
+		N6P00nithxmKvJjeHOxb86kDPkU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BAYNXYkR2s7KKmQoKrwyIWhZvLw=
+		xG92H4smki9DuEtAdxMja8MP/nw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oeqZBWrZiTmeeTMyTeb+KTxYu5s=
+		ANVe1sX6FrIrUiPuMAQyVSkxRgY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0eWMfNd9AIPE1EYJ81Xlx7ctNE0=
+		vUEj42yKCPCXcKJAyUHZuIKNkPg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		h1xFmgjdKB+Ivet+Wi05EZgZzJ8=
+		XKxcWXxOe3mfWbu9l+rxWcgKXlA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0eWMfNd9AIPE1EYJ81Xlx7ctNE0=
+		vUEj42yKCPCXcKJAyUHZuIKNkPg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/NetworkError.html</key>
 		<data>
@@ -526,17 +526,13 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/_CodeSignature/CodeResources</key>
 		<data>
-		POKDhFKw9cIuw8NGQdPNSNI/Zdc=
+		d4CafJ0zXjlAq169ejOHsxifsxs=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
-			</data>
 			<key>hash2</key>
 			<data>
 			ztaAi0sUxGCrT6tiwkQpGRgXg1EmfLrIjCi7XbIIT6k=
@@ -546,10 +542,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QiCSFG1Of7dBVpLhmqDVvAhutdo=
-			</data>
 			<key>hash2</key>
 			<data>
 			+3UZdIH9dvX8rEDxqRrzqU7paKZqyuMuWFL0lkjKJlc=
@@ -557,10 +549,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_close@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qez7wBxV73oW1hdljziDvUxB8q8=
-			</data>
 			<key>hash2</key>
 			<data>
 			FZRcHLFf9452+xSL0ONrhuGgMC3lpW1Ns7K3O0TRL48=
@@ -568,10 +556,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_logo_off.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			s0M0H7n/79EeoDBX67+tjjcG/6c=
-			</data>
 			<key>hash2</key>
 			<data>
 			C/+qkp3O3GKuxKiJpyBRYHSYjXgvvpX9GiSuQgJ8dXg=
@@ -579,10 +563,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_logo_off@x2.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5HE1zSPU68yn4DCvjZ12DPXMb2Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			w10sCDRID64QxtHD6pLieEJu+Jb6OGE1HSYzqvxYyeg=
@@ -590,10 +570,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_logo_off@x3.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+7Lm2798yg/amQUkrmqBVYj3Owg=
-			</data>
 			<key>hash2</key>
 			<data>
 			K/bJPr2nBB9F3FjA9g3H1JQMloJGitqXmt+gr1xU1yo=
@@ -601,10 +577,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_logo_on.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			z9jxQGgmGyFilfQEX/PJAb71AnM=
-			</data>
 			<key>hash2</key>
 			<data>
 			UoQTxeR5j+1gFe2V7eumwHTOJ+veEzIdrJpR3auo7vE=
@@ -612,10 +584,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_logo_on@x2.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4aVS8XmGxThdYo42IWBmiGgCOSU=
-			</data>
 			<key>hash2</key>
 			<data>
 			GQPtEMcAaXrGkZerYL2piG/DFEdpQ62+Fr8nMz3+HJw=
@@ -623,10 +591,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_logo_on@x3.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TAd49hfyEOPTIzxAQB3sk/dwkFc=
-			</data>
 			<key>hash2</key>
 			<data>
 			T79WjtMW2Q+aFoZJSJwMje7F6BNmRTghCTZlzWGLDr0=
@@ -634,10 +598,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qZsaPGjuDoke5KcXH2Il1pF/Rx8=
-			</data>
 			<key>hash2</key>
 			<data>
 			8JW627OEXWUL4zjCCBOHozhASEXGNvoaBulTZqE5Z1g=
@@ -645,10 +605,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_x@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cHWyT6Zbh+rxCB2IWzrFDrxEhpU=
-			</data>
 			<key>hash2</key>
 			<data>
 			5M7dfk1uc+OdBOz0opWhmc4ykZsgxx93WVigWCTmrqs=
@@ -656,10 +612,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_x@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			f4LEetGQ/tbvoFJxhgKw6fmh1MI=
-			</data>
 			<key>hash2</key>
 			<data>
 			hKZN50Fb7fXB0J/U0SoQYsT9XxPzKMb90xsTlLL6Pi0=
@@ -667,10 +619,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/defalt_img.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			axTwWOIWFjQr6g+rNFDHfmPn82c=
-			</data>
 			<key>hash2</key>
 			<data>
 			bLt13nQ2/GG6jUrOHZeA6medRrhqFkWFIY3S3Xt0iw4=
@@ -678,10 +626,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/defalt_img@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2/2I6CBGTzE2OuAgpUjkLOJsLoo=
-			</data>
 			<key>hash2</key>
 			<data>
 			IaC52fGfzoyFRoLg+uDQgw1ISRIcEJ3G3aD3Fd6Lxrw=
@@ -689,10 +633,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/defalt_img@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			S2mHOBTXmfLj4EZS6WOrBZTo4Yg=
-			</data>
 			<key>hash2</key>
 			<data>
 			Un81I+2pvHq0s4UoIef02Q6HMQKuE4wwe35pU2Y1Sxs=
@@ -700,10 +640,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_down.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GYwyVTMh0Kj//64UTxb2cWWVx+Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			S78mWN1kgLftZU0H/BLhxCRVU7jiQMlnwr7mzJOaQQs=
@@ -711,10 +647,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_down@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			m0OPQV3QJbLzBaSNF32/BdAvSPM=
-			</data>
 			<key>hash2</key>
 			<data>
 			+4UmebQjSIUjR+1yKPDU2mFwLlkGqOk9gkQiAxKDp9I=
@@ -722,10 +654,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_download.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wPs88TMKyCLRepYkI3BBNsNG/Ws=
-			</data>
 			<key>hash2</key>
 			<data>
 			UwJ0FIV+xUrQEIknBvGQxQXwQmfvn9NvrNeEEFh4AW4=
@@ -733,10 +661,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_download@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uZ0WT4VTXCWIwwpBuHGlyfb5HRs=
-			</data>
 			<key>hash2</key>
 			<data>
 			HBqC7XKTLfOvaOtm/B1/7ngflaFyhSdrDohnq81NgrM=
@@ -744,10 +668,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_download@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IXImjlEZAKCfE978Yf3C7YqCab4=
-			</data>
 			<key>hash2</key>
 			<data>
 			enwu7kZhAfyVYXnBpEauOaPrOuF6+WJ/hmqjScAAqkE=
@@ -755,10 +675,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_more.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BfqZXIHhKLVaUrRWrf19sIw+qks=
-			</data>
 			<key>hash2</key>
 			<data>
 			RVbQl+i0fws1wq/FlbYLXhR/AALsEqYqxWhesRoYkyo=
@@ -766,10 +682,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_more@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QZySddO9zihBLz7S5HZ50O0A6PI=
-			</data>
 			<key>hash2</key>
 			<data>
 			u7vzpcqU7eP24ifsXiYpOU5uIaQ2SkNM67bcCuUMdmw=
@@ -777,10 +689,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_more@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n3fxhryduQaVvJDh9HyKTXs96dk=
-			</data>
 			<key>hash2</key>
 			<data>
 			F8c6aM/tVa52QyBsqgWF3ekl6jBCixS4s4v4rblTniY=
@@ -788,10 +696,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_replay.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			o/G9b37/LVU9ErJHJyNvdK+8uTU=
-			</data>
 			<key>hash2</key>
 			<data>
 			gQl5YuVWIGuvby4G+gzNQfcxivAaAAIpVNfWtclOOuM=
@@ -799,10 +703,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_replay@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dhHiTQMt25xUkDWeRWiTSJ92zcs=
-			</data>
 			<key>hash2</key>
 			<data>
 			33WvX70/CvMCiBTxII9OgtT/xSX05/ilRfrXBxSFcVI=
@@ -810,10 +710,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_replay@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AyAZp+IcRE6poXjfVTJEwwo3Eb0=
-			</data>
 			<key>hash2</key>
 			<data>
 			crXPr8zLEJM4GWgRJKrScAU+nlBZ3PB2v1768heYd8c=
@@ -821,10 +717,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_second.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9kIfUbcUOsr4TMqWn0Pih2EXr9o=
-			</data>
 			<key>hash2</key>
 			<data>
 			AJnp5yAFaVH0JPtxBYIDDnRwpkq7uF8Wa4+0Ob/U3XM=
@@ -832,10 +724,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_second@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PyTvEWrVdN84e2Z4SF9EUTXhSV8=
-			</data>
 			<key>hash2</key>
 			<data>
 			PgI4QiAeMKorjOJi4zxy5deQc524589iTHzylBP0CYU=
@@ -843,10 +731,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_second@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hOYEnodH/ovcap3COjLcArAivwc=
-			</data>
 			<key>hash2</key>
 			<data>
 			KWRIZ64K2uWlcqiK2bD8R54wQb8+OhUkvx40JIxzq80=
@@ -854,10 +738,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_video_back.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ijYv9oUoMt12D34zH/TvDIT9ckA=
-			</data>
 			<key>hash2</key>
 			<data>
 			UgfMgPdBqpyOy/zC+ROXRUbCprjOSOMxw7SUCny/Us8=
@@ -865,10 +745,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_video_back@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hgOuA77k2omy3vh9xTCqGCeE2SM=
-			</data>
 			<key>hash2</key>
 			<data>
 			VM6f1pmZjjWAWRtZqNz43f5/Q7Kku6lUGJTYtKpv2Kk=
@@ -876,10 +752,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_video_back@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XrjJSiFquLtdk8S6y3TTgxl7ufQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			9avxeciSTus9D2RNqlT5gJODQJ3hTL4RSxVAF2yyKlQ=
@@ -887,10 +759,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_video_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cZCztUwNkLWuZso7dQqVWyU0grk=
-			</data>
 			<key>hash2</key>
 			<data>
 			p7jMqvN6f/upeRKd2MGZGNjRqUX96TLlO2Lh4DUqxLQ=
@@ -898,10 +766,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_video_close@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3xA3dfDGfnxw8BQ/etjcKUASOvc=
-			</data>
 			<key>hash2</key>
 			<data>
 			iVBKRieFrrRuOITGdfePBYV84vDfqkNSpmweHKMvXmQ=
@@ -909,10 +773,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_video_close@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			u49ogLcuq7MKiDRVxCVIoV1td3o=
-			</data>
 			<key>hash2</key>
 			<data>
 			euRa9duecHt0B8gYLJO72O3anIUvCDedz3BdCCcBiSk=
@@ -920,10 +780,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/icn_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9CJZXJLzjTkmJMXrBFHT1+QZ90g=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZjHSr6IDFElsh4Xctyaoxps7utzmN+U3uBETGAFTZ9s=
@@ -931,10 +787,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/icn_close@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zfYfDbKij2bRR5d3Wg8HlLQHXkI=
-			</data>
 			<key>hash2</key>
 			<data>
 			eDCMW3NUlQtwTmL5PKXz01VuBK29/9NQ9yofbeAn+DQ=
@@ -942,10 +794,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/icn_close@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/wJkGVmzRzSc/hOx0b5vGAqP0Fw=
-			</data>
 			<key>hash2</key>
 			<data>
 			8iFqUUun3Byg9Y/hfAJj+jbSzo5Xx+PoVS2xEDJizNE=
@@ -953,10 +801,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_logo.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uz7bgYqh69FFUVwoSAF2B24Spks=
-			</data>
 			<key>hash2</key>
 			<data>
 			0rw/O+R8Ri327HKMWv4o0V8waTik8F42gpg2WgiQtS4=
@@ -964,10 +808,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_logo@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+OwmGXPkM5bhIZuB0dUqwcq3rS0=
-			</data>
 			<key>hash2</key>
 			<data>
 			XBbTEWrJZEUV+KJjuQrK10lGmntIjZIeSPc70jDISMU=
@@ -975,10 +815,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_logo@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zM6yNdmv3KzGYUNNQhEM11mJPeY=
-			</data>
 			<key>hash2</key>
 			<data>
 			Q3WOU/zz146xnB4Hd9y3demDHFKdx57AkjlEBrtKmq4=
@@ -986,10 +822,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_star_full.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VYbW9Is+EJxqRZ0ZNAVMg/Ye154=
-			</data>
 			<key>hash2</key>
 			<data>
 			x70nY+7cmK++n/bPliRfECJfISaXxEnH61j/WQUsRVE=
@@ -997,10 +829,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_star_full@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cA7BWtFRSqgPLiGC4ttEA4L9UOE=
-			</data>
 			<key>hash2</key>
 			<data>
 			Yq4J/MMsMuTq70z6lfX59K6cg4uYw0svW3098GjAm7w=
@@ -1008,10 +836,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_star_full@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lgAEeCY7o+ea6NVUB8NjZhEzz28=
-			</data>
 			<key>hash2</key>
 			<data>
 			/GMKmGOF+2URweKJSbsi9nru2C0xf+0oB5SBnNaW15I=
@@ -1019,10 +843,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_star_transparent.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			npSOZBmj4+Jc7PPMMhTbQ5jfS8k=
-			</data>
 			<key>hash2</key>
 			<data>
 			781NMg68NigeGgbTxu5Cdp2V+rrlxnOI5pa/4SOB60E=
@@ -1030,10 +850,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_star_transparent@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rbTKN0gibeuGlBZEzmlj8+mh2hw=
-			</data>
 			<key>hash2</key>
 			<data>
 			ut/se9TN3BG5pqYp4oxOQWjTYLwtaV/tOrvCAMh57q8=
@@ -1041,10 +857,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_star_transparent@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fE8PwmUeqVgSFO7o+0+rN4dlsmM=
-			</data>
 			<key>hash2</key>
 			<data>
 			+xtNHizTBuOd24lRRiiipiFRZa6VoqkrA2r/TOrId7w=
@@ -1052,10 +864,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/interstitial_arrow.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YiDil81ZVcGFB15E9SybqzpQwJo=
-			</data>
 			<key>hash2</key>
 			<data>
 			+ygm6qucLniil6JbkHJ1lisLfWZoGuKQ/6BQqvV9Pvc=
@@ -1063,10 +871,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/interstitial_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DhEl9Ia2gXqi4lf8YP6GzUKYfR0=
-			</data>
 			<key>hash2</key>
 			<data>
 			yAyDH1mmWQVYeulVcKs/WnaYgwyCbYAGCyG3osEYA1g=
@@ -1074,10 +878,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
-			</data>
 			<key>hash2</key>
 			<data>
 			ztaAi0sUxGCrT6tiwkQpGRgXg1EmfLrIjCi7XbIIT6k=
@@ -1087,43 +887,27 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Assets.car</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9woU31wJBeVe7dGdtinfkJcEz+E=
-			</data>
 			<key>hash2</key>
 			<data>
-			L280n41vs2xjFOqr3RdeInicRPOiSEDrmn3MEVNT3Fc=
+			QGE5us0ZnmJ8TypaFd8SDt8p3ptaDs+C2cWOja+MeyA=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/AvatyePointHome</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qd9/JE7TiwxIRYZVcctmKElsBSc=
-			</data>
 			<key>hash2</key>
 			<data>
-			yuxFzqL8eTuj6nk/mGImywsNNtzCAYHB+r94AouN8Q8=
+			cdOkY0tpwBGBPfl8NOLolYedxdTIjQOKMNTwrnIGvKY=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1apNpB29m+OyfBCmgc1PABYYcP0=
-			</data>
 			<key>hash2</key>
 			<data>
-			1LKXoJlChYFykEFBqPxfZpwuZPwxqjBygeN5rEYUdLs=
+			zEbvdfUb6LxtrPKMlyBvb8sTT2E3LKft2cTaDSkKGS8=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Loading.html</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XoPuYdgC+zaMcrE48h/L6DU7PYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			Az+mH6pry094nEe9iuyMaJWeH3LZdsSuoTe28Z9+8ec=
@@ -1131,54 +915,34 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TKL35IROen2s0Ti7pjrKwuZwAus=
-			</data>
 			<key>hash2</key>
 			<data>
-			COsTql4E4vszIB5JV1ZFXaZnxXm4shP8t8C56NkI9Ss=
+			IRgxEH4/iMjcaJaf9X2fpPyL4CJaa/sFrB6grQrFckM=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jR8WQokXVhCPD3jVj6vRxL3LuFs=
-			</data>
 			<key>hash2</key>
 			<data>
-			720GqlpZzI206s+fus+WInU9KPcrNq4tYFLlRH+Y8CM=
+			t0wKsjUARV+EImFHaIIrKVaBfi8VfJ2UOCglFUoTHE8=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UySaHS/A9yZF9jh5nD2hYLmjgRQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			z6YOKmrQXIBYtPf3NKdSJiIGzWbRABMPu/XhtZSxLF0=
+			jjUJ6R1qWPUZ47zVBg/I37iZp9PKOLPu7S/q5JuZJRA=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jR8WQokXVhCPD3jVj6vRxL3LuFs=
-			</data>
 			<key>hash2</key>
 			<data>
-			720GqlpZzI206s+fus+WInU9KPcrNq4tYFLlRH+Y8CM=
+			t0wKsjUARV+EImFHaIIrKVaBfi8VfJ2UOCglFUoTHE8=
 			</data>
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/NetworkError.html</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			67ddmmODzFLT5ErAiN4d7A4kizU=
-			</data>
 			<key>hash2</key>
 			<data>
 			YHoEymaBu1/y6fV6EKmxQTIw24OP9/5eBOcGLIAvE5M=
@@ -1186,10 +950,6 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TykZxLsIYPT3VmmqjxYA2lblibI=
-			</data>
 			<key>hash2</key>
 			<data>
 			rZQpBcNm5miRlAZ4KkfiMNO+bB0NvJeOxPvka7FU52s=
@@ -1197,21 +957,13 @@
 		</dict>
 		<key>ios-arm64/AvatyePointHome.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IBCCc9IrrrTEZdH4O7Z0CiI0Jvs=
-			</data>
 			<key>hash2</key>
 			<data>
-			izdeKeV68tnaAcGYe2lvV1d+sH4B0PCRrYPSnszzszQ=
+			EwQlZ2rkQm9F9DpJP9jF+pg2SXlG1ANzAWPKM6UFKUM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
-			</data>
 			<key>hash2</key>
 			<data>
 			ztaAi0sUxGCrT6tiwkQpGRgXg1EmfLrIjCi7XbIIT6k=
@@ -1221,10 +973,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QiCSFG1Of7dBVpLhmqDVvAhutdo=
-			</data>
 			<key>hash2</key>
 			<data>
 			+3UZdIH9dvX8rEDxqRrzqU7paKZqyuMuWFL0lkjKJlc=
@@ -1232,10 +980,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_close@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qez7wBxV73oW1hdljziDvUxB8q8=
-			</data>
 			<key>hash2</key>
 			<data>
 			FZRcHLFf9452+xSL0ONrhuGgMC3lpW1Ns7K3O0TRL48=
@@ -1243,10 +987,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_logo_off.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			s0M0H7n/79EeoDBX67+tjjcG/6c=
-			</data>
 			<key>hash2</key>
 			<data>
 			C/+qkp3O3GKuxKiJpyBRYHSYjXgvvpX9GiSuQgJ8dXg=
@@ -1254,10 +994,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_logo_off@x2.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5HE1zSPU68yn4DCvjZ12DPXMb2Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			w10sCDRID64QxtHD6pLieEJu+Jb6OGE1HSYzqvxYyeg=
@@ -1265,10 +1001,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_logo_off@x3.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+7Lm2798yg/amQUkrmqBVYj3Owg=
-			</data>
 			<key>hash2</key>
 			<data>
 			K/bJPr2nBB9F3FjA9g3H1JQMloJGitqXmt+gr1xU1yo=
@@ -1276,10 +1008,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_logo_on.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			z9jxQGgmGyFilfQEX/PJAb71AnM=
-			</data>
 			<key>hash2</key>
 			<data>
 			UoQTxeR5j+1gFe2V7eumwHTOJ+veEzIdrJpR3auo7vE=
@@ -1287,10 +1015,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_logo_on@x2.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4aVS8XmGxThdYo42IWBmiGgCOSU=
-			</data>
 			<key>hash2</key>
 			<data>
 			GQPtEMcAaXrGkZerYL2piG/DFEdpQ62+Fr8nMz3+HJw=
@@ -1298,10 +1022,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_logo_on@x3.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TAd49hfyEOPTIzxAQB3sk/dwkFc=
-			</data>
 			<key>hash2</key>
 			<data>
 			T79WjtMW2Q+aFoZJSJwMje7F6BNmRTghCTZlzWGLDr0=
@@ -1309,10 +1029,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qZsaPGjuDoke5KcXH2Il1pF/Rx8=
-			</data>
 			<key>hash2</key>
 			<data>
 			8JW627OEXWUL4zjCCBOHozhASEXGNvoaBulTZqE5Z1g=
@@ -1320,10 +1036,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_x@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cHWyT6Zbh+rxCB2IWzrFDrxEhpU=
-			</data>
 			<key>hash2</key>
 			<data>
 			5M7dfk1uc+OdBOz0opWhmc4ykZsgxx93WVigWCTmrqs=
@@ -1331,10 +1043,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/btn_x@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			f4LEetGQ/tbvoFJxhgKw6fmh1MI=
-			</data>
 			<key>hash2</key>
 			<data>
 			hKZN50Fb7fXB0J/U0SoQYsT9XxPzKMb90xsTlLL6Pi0=
@@ -1342,10 +1050,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/defalt_img.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			axTwWOIWFjQr6g+rNFDHfmPn82c=
-			</data>
 			<key>hash2</key>
 			<data>
 			bLt13nQ2/GG6jUrOHZeA6medRrhqFkWFIY3S3Xt0iw4=
@@ -1353,10 +1057,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/defalt_img@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2/2I6CBGTzE2OuAgpUjkLOJsLoo=
-			</data>
 			<key>hash2</key>
 			<data>
 			IaC52fGfzoyFRoLg+uDQgw1ISRIcEJ3G3aD3Fd6Lxrw=
@@ -1364,10 +1064,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/defalt_img@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			S2mHOBTXmfLj4EZS6WOrBZTo4Yg=
-			</data>
 			<key>hash2</key>
 			<data>
 			Un81I+2pvHq0s4UoIef02Q6HMQKuE4wwe35pU2Y1Sxs=
@@ -1375,10 +1071,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_down.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GYwyVTMh0Kj//64UTxb2cWWVx+Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			S78mWN1kgLftZU0H/BLhxCRVU7jiQMlnwr7mzJOaQQs=
@@ -1386,10 +1078,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_down@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			m0OPQV3QJbLzBaSNF32/BdAvSPM=
-			</data>
 			<key>hash2</key>
 			<data>
 			+4UmebQjSIUjR+1yKPDU2mFwLlkGqOk9gkQiAxKDp9I=
@@ -1397,10 +1085,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_download.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wPs88TMKyCLRepYkI3BBNsNG/Ws=
-			</data>
 			<key>hash2</key>
 			<data>
 			UwJ0FIV+xUrQEIknBvGQxQXwQmfvn9NvrNeEEFh4AW4=
@@ -1408,10 +1092,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_download@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uZ0WT4VTXCWIwwpBuHGlyfb5HRs=
-			</data>
 			<key>hash2</key>
 			<data>
 			HBqC7XKTLfOvaOtm/B1/7ngflaFyhSdrDohnq81NgrM=
@@ -1419,10 +1099,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_download@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IXImjlEZAKCfE978Yf3C7YqCab4=
-			</data>
 			<key>hash2</key>
 			<data>
 			enwu7kZhAfyVYXnBpEauOaPrOuF6+WJ/hmqjScAAqkE=
@@ -1430,10 +1106,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_more.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BfqZXIHhKLVaUrRWrf19sIw+qks=
-			</data>
 			<key>hash2</key>
 			<data>
 			RVbQl+i0fws1wq/FlbYLXhR/AALsEqYqxWhesRoYkyo=
@@ -1441,10 +1113,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_more@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QZySddO9zihBLz7S5HZ50O0A6PI=
-			</data>
 			<key>hash2</key>
 			<data>
 			u7vzpcqU7eP24ifsXiYpOU5uIaQ2SkNM67bcCuUMdmw=
@@ -1452,10 +1120,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_more@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			n3fxhryduQaVvJDh9HyKTXs96dk=
-			</data>
 			<key>hash2</key>
 			<data>
 			F8c6aM/tVa52QyBsqgWF3ekl6jBCixS4s4v4rblTniY=
@@ -1463,10 +1127,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_replay.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			o/G9b37/LVU9ErJHJyNvdK+8uTU=
-			</data>
 			<key>hash2</key>
 			<data>
 			gQl5YuVWIGuvby4G+gzNQfcxivAaAAIpVNfWtclOOuM=
@@ -1474,10 +1134,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_replay@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dhHiTQMt25xUkDWeRWiTSJ92zcs=
-			</data>
 			<key>hash2</key>
 			<data>
 			33WvX70/CvMCiBTxII9OgtT/xSX05/ilRfrXBxSFcVI=
@@ -1485,10 +1141,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_replay@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AyAZp+IcRE6poXjfVTJEwwo3Eb0=
-			</data>
 			<key>hash2</key>
 			<data>
 			crXPr8zLEJM4GWgRJKrScAU+nlBZ3PB2v1768heYd8c=
@@ -1496,10 +1148,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_second.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9kIfUbcUOsr4TMqWn0Pih2EXr9o=
-			</data>
 			<key>hash2</key>
 			<data>
 			AJnp5yAFaVH0JPtxBYIDDnRwpkq7uF8Wa4+0Ob/U3XM=
@@ -1507,10 +1155,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_second@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PyTvEWrVdN84e2Z4SF9EUTXhSV8=
-			</data>
 			<key>hash2</key>
 			<data>
 			PgI4QiAeMKorjOJi4zxy5deQc524589iTHzylBP0CYU=
@@ -1518,10 +1162,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_second@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hOYEnodH/ovcap3COjLcArAivwc=
-			</data>
 			<key>hash2</key>
 			<data>
 			KWRIZ64K2uWlcqiK2bD8R54wQb8+OhUkvx40JIxzq80=
@@ -1529,10 +1169,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_video_back.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ijYv9oUoMt12D34zH/TvDIT9ckA=
-			</data>
 			<key>hash2</key>
 			<data>
 			UgfMgPdBqpyOy/zC+ROXRUbCprjOSOMxw7SUCny/Us8=
@@ -1540,10 +1176,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_video_back@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hgOuA77k2omy3vh9xTCqGCeE2SM=
-			</data>
 			<key>hash2</key>
 			<data>
 			VM6f1pmZjjWAWRtZqNz43f5/Q7Kku6lUGJTYtKpv2Kk=
@@ -1551,10 +1183,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_video_back@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XrjJSiFquLtdk8S6y3TTgxl7ufQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			9avxeciSTus9D2RNqlT5gJODQJ3hTL4RSxVAF2yyKlQ=
@@ -1562,10 +1190,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_video_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cZCztUwNkLWuZso7dQqVWyU0grk=
-			</data>
 			<key>hash2</key>
 			<data>
 			p7jMqvN6f/upeRKd2MGZGNjRqUX96TLlO2Lh4DUqxLQ=
@@ -1573,10 +1197,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_video_close@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3xA3dfDGfnxw8BQ/etjcKUASOvc=
-			</data>
 			<key>hash2</key>
 			<data>
 			iVBKRieFrrRuOITGdfePBYV84vDfqkNSpmweHKMvXmQ=
@@ -1584,10 +1204,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/ic_video_close@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			u49ogLcuq7MKiDRVxCVIoV1td3o=
-			</data>
 			<key>hash2</key>
 			<data>
 			euRa9duecHt0B8gYLJO72O3anIUvCDedz3BdCCcBiSk=
@@ -1595,10 +1211,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/icn_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9CJZXJLzjTkmJMXrBFHT1+QZ90g=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZjHSr6IDFElsh4Xctyaoxps7utzmN+U3uBETGAFTZ9s=
@@ -1606,10 +1218,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/icn_close@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zfYfDbKij2bRR5d3Wg8HlLQHXkI=
-			</data>
 			<key>hash2</key>
 			<data>
 			eDCMW3NUlQtwTmL5PKXz01VuBK29/9NQ9yofbeAn+DQ=
@@ -1617,10 +1225,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/icn_close@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/wJkGVmzRzSc/hOx0b5vGAqP0Fw=
-			</data>
 			<key>hash2</key>
 			<data>
 			8iFqUUun3Byg9Y/hfAJj+jbSzo5Xx+PoVS2xEDJizNE=
@@ -1628,10 +1232,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_logo.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uz7bgYqh69FFUVwoSAF2B24Spks=
-			</data>
 			<key>hash2</key>
 			<data>
 			0rw/O+R8Ri327HKMWv4o0V8waTik8F42gpg2WgiQtS4=
@@ -1639,10 +1239,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_logo@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+OwmGXPkM5bhIZuB0dUqwcq3rS0=
-			</data>
 			<key>hash2</key>
 			<data>
 			XBbTEWrJZEUV+KJjuQrK10lGmntIjZIeSPc70jDISMU=
@@ -1650,10 +1246,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_logo@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zM6yNdmv3KzGYUNNQhEM11mJPeY=
-			</data>
 			<key>hash2</key>
 			<data>
 			Q3WOU/zz146xnB4Hd9y3demDHFKdx57AkjlEBrtKmq4=
@@ -1661,10 +1253,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_star_full.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VYbW9Is+EJxqRZ0ZNAVMg/Ye154=
-			</data>
 			<key>hash2</key>
 			<data>
 			x70nY+7cmK++n/bPliRfECJfISaXxEnH61j/WQUsRVE=
@@ -1672,10 +1260,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_star_full@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cA7BWtFRSqgPLiGC4ttEA4L9UOE=
-			</data>
 			<key>hash2</key>
 			<data>
 			Yq4J/MMsMuTq70z6lfX59K6cg4uYw0svW3098GjAm7w=
@@ -1683,10 +1267,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_star_full@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lgAEeCY7o+ea6NVUB8NjZhEzz28=
-			</data>
 			<key>hash2</key>
 			<data>
 			/GMKmGOF+2URweKJSbsi9nru2C0xf+0oB5SBnNaW15I=
@@ -1694,10 +1274,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_star_transparent.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			npSOZBmj4+Jc7PPMMhTbQ5jfS8k=
-			</data>
 			<key>hash2</key>
 			<data>
 			781NMg68NigeGgbTxu5Cdp2V+rrlxnOI5pa/4SOB60E=
@@ -1705,10 +1281,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_star_transparent@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rbTKN0gibeuGlBZEzmlj8+mh2hw=
-			</data>
 			<key>hash2</key>
 			<data>
 			ut/se9TN3BG5pqYp4oxOQWjTYLwtaV/tOrvCAMh57q8=
@@ -1716,10 +1288,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/img_star_transparent@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fE8PwmUeqVgSFO7o+0+rN4dlsmM=
-			</data>
 			<key>hash2</key>
 			<data>
 			+xtNHizTBuOd24lRRiiipiFRZa6VoqkrA2r/TOrId7w=
@@ -1727,10 +1295,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/interstitial_arrow.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YiDil81ZVcGFB15E9SybqzpQwJo=
-			</data>
 			<key>hash2</key>
 			<data>
 			+ygm6qucLniil6JbkHJ1lisLfWZoGuKQ/6BQqvV9Pvc=
@@ -1738,10 +1302,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/images/interstitial_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DhEl9Ia2gXqi4lf8YP6GzUKYfR0=
-			</data>
 			<key>hash2</key>
 			<data>
 			yAyDH1mmWQVYeulVcKs/WnaYgwyCbYAGCyG3osEYA1g=
@@ -1749,10 +1309,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AdPopcornSSP.bundle/Contents/Resources/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Odh5Oi1CLSxyuKZUKVMm1rdjoR4=
-			</data>
 			<key>hash2</key>
 			<data>
 			ztaAi0sUxGCrT6tiwkQpGRgXg1EmfLrIjCi7XbIIT6k=
@@ -1762,43 +1318,27 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Assets.car</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9woU31wJBeVe7dGdtinfkJcEz+E=
-			</data>
 			<key>hash2</key>
 			<data>
-			L280n41vs2xjFOqr3RdeInicRPOiSEDrmn3MEVNT3Fc=
+			QGE5us0ZnmJ8TypaFd8SDt8p3ptaDs+C2cWOja+MeyA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/AvatyePointHome</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SzjPJQG6+//p3GXRRW5njyfu2OI=
-			</data>
 			<key>hash2</key>
 			<data>
-			wh/d4zpRuGcGi0hIPGj5KwENLprZ3I7ze8M9w1vB4N8=
+			rFYXDc6RtO7DVBd+nVNjOab1MAz2W4UoDLvhFPjFYxY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cL+XYi/gDODkO5e6yWzq20fztv8=
-			</data>
 			<key>hash2</key>
 			<data>
-			zLcjnbVTwR6lNg62CmhOob4ncPDWK7LcEuHVcv8Vwi4=
+			+pW0o7ScPFrHVuufzMzNRmFIFcdalALfiy8pgy2tKxc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Loading.html</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XoPuYdgC+zaMcrE48h/L6DU7PYU=
-			</data>
 			<key>hash2</key>
 			<data>
 			Az+mH6pry094nEe9iuyMaJWeH3LZdsSuoTe28Z9+8ec=
@@ -1806,98 +1346,62 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oeqZBWrZiTmeeTMyTeb+KTxYu5s=
-			</data>
 			<key>hash2</key>
 			<data>
-			/xOiCKmzX0K1Pm9p6oYPaDN0xLCIRZuyvPk0GRaipRc=
+			8iMybJxGwYhHAtgH8A1KueDibPArJJbJzAIysubFoBY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BAYNXYkR2s7KKmQoKrwyIWhZvLw=
-			</data>
 			<key>hash2</key>
 			<data>
-			rGR7FoUYxNxr4G3Hyph/KuOg56D1VtL6cVpnY0QSh9s=
+			90sQA6S9t42MVpCqmlYL9fzHXbZLeg119oXRKtHPN4M=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			s/YRg/9riynUW90Vr+8IsldoRyI=
-			</data>
 			<key>hash2</key>
 			<data>
-			tZTPSHchTyl2/NJoBj3EtTDijk8AWEKeOErwn/bGtJQ=
+			4TLbW0MCWa7pm7gv5PF7iHH4xbjiidQyh3kHeJVYeF4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BAYNXYkR2s7KKmQoKrwyIWhZvLw=
-			</data>
 			<key>hash2</key>
 			<data>
-			rGR7FoUYxNxr4G3Hyph/KuOg56D1VtL6cVpnY0QSh9s=
+			90sQA6S9t42MVpCqmlYL9fzHXbZLeg119oXRKtHPN4M=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oeqZBWrZiTmeeTMyTeb+KTxYu5s=
-			</data>
 			<key>hash2</key>
 			<data>
-			/xOiCKmzX0K1Pm9p6oYPaDN0xLCIRZuyvPk0GRaipRc=
+			8iMybJxGwYhHAtgH8A1KueDibPArJJbJzAIysubFoBY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0eWMfNd9AIPE1EYJ81Xlx7ctNE0=
-			</data>
 			<key>hash2</key>
 			<data>
-			jqX5fgHGSMs62sGEP/ecnTZDxI1H5yFtT8IPsfPdZAM=
+			K/vIKK+LVl8GNSX7msQefcRU6TcIBzpUQamxUscf+ds=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h1xFmgjdKB+Ivet+Wi05EZgZzJ8=
-			</data>
 			<key>hash2</key>
 			<data>
-			DCpH5Ds+jouC+R6/KbjkUZ70A9Rwet4aYPHeWg7bpHs=
+			yjLzhes98PYuohQWMHRdctZgTa2eiPf8yL/hhffwKkU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0eWMfNd9AIPE1EYJ81Xlx7ctNE0=
-			</data>
 			<key>hash2</key>
 			<data>
-			jqX5fgHGSMs62sGEP/ecnTZDxI1H5yFtT8IPsfPdZAM=
+			K/vIKK+LVl8GNSX7msQefcRU6TcIBzpUQamxUscf+ds=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/NetworkError.html</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			67ddmmODzFLT5ErAiN4d7A4kizU=
-			</data>
 			<key>hash2</key>
 			<data>
 			YHoEymaBu1/y6fV6EKmxQTIw24OP9/5eBOcGLIAvE5M=
@@ -1905,10 +1409,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TykZxLsIYPT3VmmqjxYA2lblibI=
-			</data>
 			<key>hash2</key>
 			<data>
 			rZQpBcNm5miRlAZ4KkfiMNO+bB0NvJeOxPvka7FU52s=
@@ -1916,13 +1416,9 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AvatyePointHome.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			POKDhFKw9cIuw8NGQdPNSNI/Zdc=
-			</data>
 			<key>hash2</key>
 			<data>
-			7ZJYkXbaOs01+rzz4VJCzhOK+V2+MfGVATo/ORn3FyE=
+			7JQiIAMyTKuijhRmRmx53821t+QSlSj8QZRifagwFdU=
 			</data>
 		</dict>
 	</dict>

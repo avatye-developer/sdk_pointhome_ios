@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "AvatyePointHome"
-  spec.version      = "1.9.6"
+  spec.version      = "1.9.7"
   spec.summary      = "Avatye pointhome xcframework"
 
   spec.description = <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.swift_versions = ["5.0"]
 
   spec.vendored_frameworks = "AvatyePointHome.xcframework"
-
-  spec.dependency "AvatyeAdCash", '~> 3.4.0'
+  spec.preserve_paths = 'AvatyePointHome.xcframework/**/*'
+  spec.dependency "AvatyeAdCash", '~> 3.4.2'
 
 end

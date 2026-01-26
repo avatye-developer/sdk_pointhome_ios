@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AvatyePointHome
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AdCashFramework
 import AdSupport
 import AppTrackingTransparency
@@ -32,7 +32,9 @@ public protocol AdPopupViewDelegate : AnyObject {
   @objc deinit
   @_Concurrency.MainActor @preconcurrency public func setAdPopupView(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1, backdrop: Swift.Bool = true, closeButton: Swift.Bool = true)
   @_Concurrency.MainActor @preconcurrency public func popupAdLoad()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func showAdPopupView(delay: CoreFoundation.CGFloat = 0, size: CoreFoundation.CGFloat = 18, margin: CoreFoundation.CGFloat = 1, completion: (() -> Swift.Void)? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func removeAdPopup()
 }
 extension AvatyePointHome.AdPopupView : AdCashFramework.BannerAdLoaderDelegate {
@@ -52,8 +54,12 @@ extension AvatyePointHome.AdPopupView : AdCashFramework.BannerAdLoaderDelegate {
 }
 extension AvatyePointHome.CBPointHomeWebView : WebKit.WKNavigationDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  #endif
 }
 extension AvatyePointHome.CBPointHomeWebView : AvatyePointHome.PHWebViewDelegate {
   @_Concurrency.MainActor @preconcurrency public func webEventListener(event: Swift.String)
@@ -111,7 +117,9 @@ public struct userBox : Swift.Codable {
 public struct acceptedUserModel : Swift.Codable {
   public let usable: Swift.Bool
   public let message: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(usable: Swift.Bool, message: Swift.String? = nil)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -123,13 +131,17 @@ public protocol AvatyePHDelegate : ObjectiveC.NSObjectProtocol {
 }
 public class AvatyePHService {
   public var delegate: (any AvatyePointHome.AvatyePHDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(rootViewController: UIKit.UIViewController, appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil, openKey: Swift.String = "pointhome", fullScreen: Swift.Bool = false)
+  #endif
   public func setCashButton(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1)
   public func getUserAgent() -> Swift.String
   public func removePHService()
   public func openPointHome(completion: @escaping (AvatyePointHome.PointHomeOpen<Swift.String, AvatyePointHome.PointHomeErrorModel>) -> Swift.Void)
   public func closePointHome(completion: @escaping () -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendMessage(message: Swift.String, completion: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
   public func convertFunc(convert: @escaping (Swift.String) async throws -> Swift.String)
   public func acceptUserFunc(closure: @escaping (Swift.String) async throws -> AvatyePointHome.acceptedUserModel)
   public func GFPAdManagerRegisterFunc(_ closure: @escaping (WebKit.WKWebView) -> Swift.Void)
@@ -148,7 +160,9 @@ extension AvatyePointHome.AvatyePHService : AvatyePointHome.PHWebViewDelegate {
   @objc deinit
   @_Concurrency.MainActor @preconcurrency public func popupAdLoad()
   @_Concurrency.MainActor @preconcurrency public func removeAdBanner()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func showAdBannerView(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1, bgColor: Swift.String? = nil, completion: (Swift.Bool) -> Swift.Void)
+  #endif
 }
 extension AvatyePointHome.AdBannerView : AdCashFramework.BannerAdLoaderDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func onBannerLoaded(_ apid: Swift.String, adView: UIKit.UIView, size: CoreFoundation.CGSize)
@@ -161,16 +175,24 @@ extension AvatyePointHome.AdBannerView : AdCashFramework.BannerAdLoaderDelegate 
   public static func initializeAppLovin(_ appLovinKey: Swift.String)
   public static func initializePangle(_ pangleKey: Swift.String)
   public static func initializeVungle(_ vungleKey: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func devModeChange(value: Swift.String? = nil)
+  #endif
   public static func testModeChange(value: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getUserProfile(appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String? = nil, resource: Swift.String? = nil, completion: @escaping (AvatyePointHome.PointHomeResultType<AvatyePointHome.userProfileResponse>) -> Swift.Void)
+  #endif
   public static func withDrawUser(appId: Swift.String, userKey: Swift.String, reason: Swift.String = "default", completion: @escaping (AvatyePointHome.PointHomeWithDrawType) -> Swift.Void)
   @objc deinit
 }
 public class TokenUtil {
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getToken(appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String, isChanneling: Swift.Bool) async throws -> Swift.Result<Swift.String, AvatyePointHome.TokenError>
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getOTP(appId: Swift.String, appSecretKey: Swift.String, userKey: Swift.String, isChanneling: Swift.Bool) async throws -> Swift.Result<Swift.String, AvatyePointHome.TokenError>
+  #endif
   public func deleteToken(appId: Swift.String, userKey: Swift.String)
   @objc deinit
 }
@@ -266,7 +288,9 @@ public enum LogLevel : Swift.Int, Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get

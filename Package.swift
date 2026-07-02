@@ -16,11 +16,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/IGAWorksDev/ap-ssp-sdk-ios-spm-objc",
-      .upToNextMinor(from: "2.11.1")
-    ),
-    .package(
-      url: "https://github.com/avatye-developer/sdk_adcash_ios",
-      .upToNextMinor(from: "3.4.2")
+      .upToNextMinor(from: "2.11.9")
     )
   ],
   targets: [
@@ -32,7 +28,6 @@ let package = Package(
       name: "AvatyePointHomeWrapper",
       dependencies: [
         "AvatyePointHomeTarget",
-        .product(name: "AvatyeAdCash", package: "sdk_adcash_ios"),
         .product(name: "AdPopcornSSPSDK", package: "ap-ssp-sdk-ios-spm-objc")
       ],
       path: "./Sources/AvatyePointHomeWrapper" // SPM 요구사항을 만족시키기 위한 빈 디렉토리

@@ -5295,6 +5295,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5615,14 +5622,14 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3831,
+      "offset": 4029,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3855,
+      "offset": 4053,
       "length": 2,
       "value": "-1"
     },
@@ -5722,7 +5729,7 @@
       "kind": "StringLiteral",
       "offset": 196,
       "length": 7,
-      "value": "\"3.0.1\""
+      "value": "\"3.0.2\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PointHomeFramework.swift",

@@ -1783,8 +1783,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "pointHomeSliderOpened",
-            "printedName": "pointHomeSliderOpened(caller:)",
+            "name": "pointHomeServiceDidOpen",
+            "printedName": "pointHomeServiceDidOpen(caller:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1799,8 +1799,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15AvatyePointHome0A10PHDelegateP05pointC12SliderOpened6callerySS_tF",
-            "mangledName": "$s15AvatyePointHome0A10PHDelegateP05pointC12SliderOpened6callerySS_tF",
+            "usr": "s:15AvatyePointHome0A10PHDelegateP05pointC14ServiceDidOpen6callerySS_tF",
+            "mangledName": "$s15AvatyePointHome0A10PHDelegateP05pointC14ServiceDidOpen6callerySS_tF",
             "moduleName": "AvatyePointHome",
             "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.AvatyePHDelegate>",
             "sugared_genericSig": "<Self where Self : AvatyePointHome.AvatyePHDelegate>",
@@ -1810,8 +1810,8 @@
           },
           {
             "kind": "Function",
-            "name": "pointHomeSliderClosed",
-            "printedName": "pointHomeSliderClosed(caller:)",
+            "name": "pointHomeServiceDidClose",
+            "printedName": "pointHomeServiceDidClose(caller:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1826,8 +1826,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15AvatyePointHome0A10PHDelegateP05pointC12SliderClosed6callerySS_tF",
-            "mangledName": "$s15AvatyePointHome0A10PHDelegateP05pointC12SliderClosed6callerySS_tF",
+            "usr": "s:15AvatyePointHome0A10PHDelegateP05pointC15ServiceDidClose6callerySS_tF",
+            "mangledName": "$s15AvatyePointHome0A10PHDelegateP05pointC15ServiceDidClose6callerySS_tF",
             "moduleName": "AvatyePointHome",
             "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.AvatyePHDelegate>",
             "sugared_genericSig": "<Self where Self : AvatyePointHome.AvatyePHDelegate>",
@@ -5608,21 +5608,21 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "BooleanLiteral",
-      "offset": 817,
+      "offset": 822,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3826,
+      "offset": 3831,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3850,
+      "offset": 3855,
       "length": 2,
       "value": "-1"
     },
@@ -5722,7 +5722,7 @@
       "kind": "StringLiteral",
       "offset": 196,
       "length": 7,
-      "value": "\"3.0.0\""
+      "value": "\"3.0.1\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PointHomeFramework.swift",

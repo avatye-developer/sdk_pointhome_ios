@@ -65,8 +65,8 @@ public struct acceptedUserModel : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol AvatyePHDelegate : ObjectiveC.NSObjectProtocol {
-  func pointHomeSliderOpened(caller: Swift.String)
-  func pointHomeSliderClosed(caller: Swift.String)
+  func pointHomeServiceDidOpen(caller: Swift.String)
+  func pointHomeServiceDidClose(caller: Swift.String)
   func pointHomeEventListener(event: [Swift.String : Any])
   func pointHomeSystemEventListener(event: [Swift.String : Any])
 }

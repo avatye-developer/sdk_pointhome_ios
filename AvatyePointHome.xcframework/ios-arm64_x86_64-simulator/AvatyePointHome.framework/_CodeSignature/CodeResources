@@ -220,7 +220,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CRVW5VNwE6R+DBSHaFT1UpMQEOg=
+		aUTk044t2yfFYu9Z+GYuJpvi7jI=
 		</data>
 		<key>Loading.html</key>
 		<data>
@@ -228,7 +228,7 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hQDOkh7bsYCNiPdzYBIc0A/tp7A=
+		2TgpeC2zIvWRyr/Xb2BK2FwHO+k=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -244,11 +244,11 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NUeD2DQtyLj0mUmJpB6U4ifm1qc=
+		1QM9ri7Fa82zT6jPxoFh5c1hDZc=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hQDOkh7bsYCNiPdzYBIc0A/tp7A=
+		2TgpeC2zIvWRyr/Xb2BK2FwHO+k=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -264,7 +264,7 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6oHUftzjRvV49yGgyzcniViM0lg=
+		y0V9htx1b9722sRrtzxhdsHtBW4=
 		</data>
 		<key>NetworkError.html</key>
 		<data>
@@ -649,7 +649,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			moYuv7/F9XNwtN6Ybo1x6qAaBffsGU19j5y6Yh6TnF8=
+			W3JvqipqxL7Gyx1MUAK0MPA69q5+sJ/6qfcX+HnwIvo=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -677,14 +677,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U6sI0EqL1ThD6gtdFQ+X1qMFL2sXgyIU6Rts9osnF/Y=
+			ZNvI9mP5JuQP/ot5fWigqDLHeUiE8IA6xGVOKwJc6yY=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			moYuv7/F9XNwtN6Ybo1x6qAaBffsGU19j5y6Yh6TnF8=
+			W3JvqipqxL7Gyx1MUAK0MPA69q5+sJ/6qfcX+HnwIvo=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -712,7 +712,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8eIc3kbumsVg17MzwYt9OFgxghmoSnwl93cIRrZ2moA=
+			e9p98EKJfD1b2KQdUVLVgZuMBJWlKZNXEINydaFk4D4=
 			</data>
 		</dict>
 		<key>NetworkError.html</key>

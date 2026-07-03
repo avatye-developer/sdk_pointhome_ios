@@ -5643,7 +5643,7 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 3496,
+      "offset": 3690,
       "length": 9,
       "value": "\"default\""
     },
@@ -5729,7 +5729,7 @@
       "kind": "StringLiteral",
       "offset": 196,
       "length": 7,
-      "value": "\"3.0.2\""
+      "value": "\"3.0.3\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PointHomeFramework.swift",

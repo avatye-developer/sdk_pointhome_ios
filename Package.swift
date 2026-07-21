@@ -13,12 +13,6 @@ let package = Package(
       targets: ["AvatyePointHomeWrapper"]
     ),
   ],
-  dependencies: [
-    .package(
-      url: "https://github.com/IGAWorksDev/ap-ssp-sdk-ios-spm-objc",
-      .upToNextMinor(from: "2.11.9")
-    )
-  ],
   targets: [
     .binaryTarget(
       name: "AvatyePointHomeTarget",
@@ -27,11 +21,9 @@ let package = Package(
     .target(
       name: "AvatyePointHomeWrapper",
       dependencies: [
-        "AvatyePointHomeTarget",
-        .product(name: "AdPopcornSSPSDK", package: "ap-ssp-sdk-ios-spm-objc")
+        "AvatyePointHomeTarget"
       ],
       path: "./Sources/AvatyePointHomeWrapper" // SPM 요구사항을 만족시키기 위한 빈 디렉토리
     )
   ]
 )
-

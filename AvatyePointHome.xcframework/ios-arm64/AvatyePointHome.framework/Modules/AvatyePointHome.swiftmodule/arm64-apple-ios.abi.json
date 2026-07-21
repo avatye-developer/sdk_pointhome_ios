@@ -3273,10 +3273,13 @@
       },
       {
         "kind": "Import",
-        "name": "AdPopcornSSP",
-        "printedName": "AdPopcornSSP",
+        "name": "APSSPSDK",
+        "printedName": "APSSPSDK",
         "declKind": "Import",
-        "moduleName": "AvatyePointHome"
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5267,10 +5270,13 @@
       },
       {
         "kind": "Import",
-        "name": "AdPopcornSSP",
-        "printedName": "AdPopcornSSP",
+        "name": "APSSPSDK",
+        "printedName": "APSSPSDK",
         "declKind": "Import",
-        "moduleName": "AvatyePointHome"
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5309,13 +5315,6 @@
       },
       {
         "kind": "Import",
-        "name": "AdPopcornSSP",
-        "printedName": "AdPopcornSSP",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5330,8 +5329,150 @@
       },
       {
         "kind": "Import",
-        "name": "AdPopcornSSP",
-        "printedName": "AdPopcornSSP",
+        "name": "APSSPSDK",
+        "printedName": "APSSPSDK",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "APSSPSDK",
+        "printedName": "APSSPSDK",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "APSSPSDK",
+        "printedName": "APSSPSDK",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "AvatyePointHome"
       },
@@ -5351,143 +5492,13 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "APSSPSDK",
+        "printedName": "APSSPSDK",
         "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "AdPopcornSSP",
-        "printedName": "AdPopcornSSP",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "AdPopcornSSP",
-        "printedName": "AdPopcornSSP",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "AdPopcornSSP",
-        "printedName": "AdPopcornSSP",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -5729,7 +5740,7 @@
       "kind": "StringLiteral",
       "offset": 196,
       "length": 7,
-      "value": "\"3.0.3\""
+      "value": "\"3.1.0\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PointHomeFramework.swift",
@@ -5797,14 +5808,7 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornSSPInitializer.swift",
       "kind": "StringLiteral",
-      "offset": 195,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornSSPInitializer.swift",
-      "kind": "StringLiteral",
-      "offset": 310,
+      "offset": 212,
       "length": 2,
       "value": "\"\""
     },
@@ -6028,21 +6032,21 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornBannerLoader.swift",
       "kind": "StringLiteral",
-      "offset": 663,
+      "offset": 667,
       "length": 25,
       "value": "\"[AdPopcornBannerLoader]\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornBannerLoader.swift",
       "kind": "Array",
-      "offset": 746,
+      "offset": 750,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornBannerLoader.swift",
       "kind": "Array",
-      "offset": 809,
+      "offset": 813,
       "length": 2,
       "value": "[]"
     },
@@ -6077,35 +6081,35 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "StringLiteral",
-      "offset": 138,
+      "offset": 155,
       "length": 11,
       "value": "\"advertise\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "StringLiteral",
-      "offset": 172,
+      "offset": 189,
       "length": 20,
       "value": "\"[AdvertiseHandler]\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "Dictionary",
-      "offset": 302,
+      "offset": 319,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "Dictionary",
-      "offset": 380,
+      "offset": 397,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "Array",
-      "offset": 433,
+      "offset": 450,
       "length": 2,
       "value": "[]"
     },

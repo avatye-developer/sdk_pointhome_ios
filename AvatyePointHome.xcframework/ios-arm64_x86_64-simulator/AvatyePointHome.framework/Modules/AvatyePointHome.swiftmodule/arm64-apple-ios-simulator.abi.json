@@ -3245,20 +3245,6 @@
       },
       {
         "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5593,6 +5579,27 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5731,7 +5738,7 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "Array",
-      "offset": 1104,
+      "offset": 1111,
       "length": 2,
       "value": "[]"
     },
@@ -5740,7 +5747,7 @@
       "kind": "StringLiteral",
       "offset": 196,
       "length": 7,
-      "value": "\"3.1.0\""
+      "value": "\"3.1.1\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PointHomeFramework.swift",
@@ -5836,7 +5843,7 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 784,
+      "offset": 786,
       "length": 5,
       "value": "false"
     },
@@ -6296,6 +6303,321 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 480,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 522,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 559,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 597,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "Array",
+      "offset": 637,
+      "length": 11,
+      "value": "[3, 12, 21]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "Array",
+      "offset": 686,
+      "length": 15,
+      "value": "[0.2, 0.4, 0.6]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "FloatLiteral",
+      "offset": 742,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "FloatLiteral",
+      "offset": 786,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "FloatLiteral",
+      "offset": 830,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "FloatLiteral",
+      "offset": 877,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 940,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 947,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 959,
+      "length": 4,
+      "value": "0x91"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 966,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 977,
+      "length": 4,
+      "value": "0xEA"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 984,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 996,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1051,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1055,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1116,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 667,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingView.swift",
+      "kind": "FloatLiteral",
+      "offset": 724,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 767,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 812,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 879,
+      "length": 4,
+      "value": "0x80"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 886,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 898,
+      "length": 4,
+      "value": "0x86"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 905,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 916,
+      "length": 4,
+      "value": "0x8B"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 923,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 935,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 707,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 752,
+      "length": 3,
+      "value": "155"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 799,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 878,
+      "length": 4,
+      "value": "0xF0"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 885,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 897,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 946,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 953,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 965,
+      "length": 4,
+      "value": "0x44"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 972,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 983,
+      "length": 4,
+      "value": "0xD2"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 990,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHNetworkErrorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1002,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 745,
@@ -6347,7 +6669,14 @@
     {
       "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1760,
+      "offset": 1768,
+      "length": 19,
+      "value": "\"serviceNotConnect\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphonesimulator\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1923,
       "length": 15,
       "value": "\"warningButton\""
     }

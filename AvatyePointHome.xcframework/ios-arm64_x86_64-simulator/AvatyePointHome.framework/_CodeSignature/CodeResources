@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G96H+l+CLUUsmzGCvL8VT6oAR8Q=
+		HiO7hxgyHaiGYx7fsDozd6GzhJI=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		XkbxZFeA7eTylSBlaXvAzw2+coI=
+		pwNdegobw0gzx4Tx4wLK5Gddn/c=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YvW64iXjvrzSy+RaJldB4NCZ7w0=
+		jlbcbwDYGUU42GJ/Qw8S7tWSd10=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		XkbxZFeA7eTylSBlaXvAzw2+coI=
+		pwNdegobw0gzx4Tx4wLK5Gddn/c=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		K2sBNs66Yh2pvbrvNUsB+39VJF8=
+		i1jTHyt7sXi4StNJmLeO5QhygRg=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G+5AxAY7j+S74FGJyGY2h1F0ZfREzcHh17RkqkZeAiI=
+			pgxxylfgqG62o2ETec53yOQ3pNgaoxhbZAkOkP/jwfI=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z4NGv9uYyxLpg4aKx6uz1CmiM96E9WDJtSDMvVQoiw8=
+			eATOCaf/toyF+c7b2zNxXpjkGr+o/UFxsxYApYAFDtk=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G+5AxAY7j+S74FGJyGY2h1F0ZfREzcHh17RkqkZeAiI=
+			pgxxylfgqG62o2ETec53yOQ3pNgaoxhbZAkOkP/jwfI=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i2lLm0x57y6ERNMrPJwOApyc+mu/5SPxiYd0no/M6LA=
+			xdi42kUbMbNygyB7CDAGxKvOSplkPl97fQKSark6WkI=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

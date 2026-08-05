@@ -5747,7 +5747,7 @@
       "kind": "StringLiteral",
       "offset": 196,
       "length": 7,
-      "value": "\"3.1.1\""
+      "value": "\"3.1.2\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PointHomeFramework.swift",
@@ -5837,6 +5837,13 @@
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Network\/PointHomeHttpClient.swift",
       "kind": "BooleanLiteral",
       "offset": 545,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornRewardVideoLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 213,
       "length": 5,
       "value": "false"
     },
@@ -6119,6 +6126,34 @@
       "offset": 450,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 12931,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12942,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 15354,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15365,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/NavigationHandler.swift",

@@ -15,7 +15,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
-public struct userProfileResponse : Swift.Codable {
+public struct userProfileResponse : Swift.Codable, Swift.Sendable {
   public let cash: AvatyePointHome.userCash?
   public let button: AvatyePointHome.userButton?
   public let ticket: AvatyePointHome.userTicket?
@@ -23,12 +23,12 @@ public struct userProfileResponse : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct userCash : Swift.Codable {
+public struct userCash : Swift.Codable, Swift.Sendable {
   public let balance: Swift.Int
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct userButton : Swift.Codable {
+public struct userButton : Swift.Codable, Swift.Sendable {
   public let gettableCash: Swift.Int
   public let iconUrl: Swift.String?
   public let color: Swift.String?
@@ -36,36 +36,47 @@ public struct userButton : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct userTicket : Swift.Codable {
+public struct userTicket : Swift.Codable, Swift.Sendable {
   public let ticketBalance: Swift.Int?
   public let touchTicket: AvatyePointHome.userTicketModel?
   public let videoTicket: AvatyePointHome.userTicketModel?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct userTicketModel : Swift.Codable {
+public struct userTicketModel : Swift.Codable, Swift.Sendable {
   public let receivedCount: Swift.Int
   public let limitCount: Swift.Int
   public let period: Swift.Int
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct userBox : Swift.Codable {
+public struct userBox : Swift.Codable, Swift.Sendable {
   public let isCashBoxGettable: Swift.Bool?
   public let isAttendanceBoxGettable: Swift.Bool?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct acceptedUserModel : Swift.Codable {
+public struct acceptedUserModel : Swift.Codable, Swift.Sendable {
   public let usable: Swift.Bool
   public let message: Swift.String?
   public init(usable: Swift.Bool, message: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public enum PHCallResource : Swift.Sendable {
+  case button
+  case native
+  case web
+  public static func == (a: AvatyePointHome.PHCallResource, b: AvatyePointHome.PHCallResource) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public protocol AvatyePHDelegate : ObjectiveC.NSObjectProtocol {
-  func pointHomeServiceDidOpen(caller: Swift.String)
-  func pointHomeServiceDidClose(caller: Swift.String)
+  func pointHomeServiceDidOpen(caller: AvatyePointHome.PHCallResource)
+  func pointHomeServiceDidClose(caller: AvatyePointHome.PHCallResource)
+  func pointHomeServiceDidFail(reason: AvatyePointHome.PointHomeErrorModel)
   func pointHomeEventListener(event: [Swift.String : Any])
   func pointHomeSystemEventListener(event: [Swift.String : Any])
 }
@@ -76,13 +87,16 @@ extension AvatyePointHome.AvatyePHDelegate {
 public class AvatyePHService {
   weak public var delegate: (any AvatyePointHome.AvatyePHDelegate)?
   public init(rootViewController: UIKit.UIViewController, serviceData: AvatyePointHome.PointHomeServiceData, listener: (any AvatyePointHome.AvatyePHDelegate)? = nil)
+  @objc deinit
   public func acceptUserFunc(_ handler: @escaping (Swift.String) async throws -> AvatyePointHome.acceptedUserModel)
   public func convertFunc(_ handler: @escaping (Swift.String) async throws -> Swift.String)
+  public func setFloatingButton(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1, animationType: AvatyePointHome.PHFloatingAnimationType = .seaotter, useAnimation: Swift.Bool = true, message: Swift.String? = nil)
+  @available(*, deprecated, message: "setFloatingButton(bottom:trailing:animationType:useAnimation:message:) 를 사용하세요. 이 메서드는 기본 캐릭터(seaotter, 애니메이션 사용, 말풍선 없음)로 위임합니다.")
   public func setCashButton(bottom: CoreFoundation.CGFloat = -1, trailing: CoreFoundation.CGFloat = -1)
+  public func setFloatingButtonVisible(_ visible: Swift.Bool)
   public func removePHService()
-  public func openPointHome(completion: @escaping (AvatyePointHome.PointHomeOpen<Swift.String, AvatyePointHome.PointHomeErrorModel>) -> Swift.Void)
-  public func closePointHome(completion: @escaping () -> Swift.Void)
-  @objc deinit
+  public func openPointHome()
+  public func closePointHome()
 }
 public struct PointHomeServiceData : Swift.Equatable, Swift.Codable {
   public let serviceID: Swift.String
@@ -99,25 +113,42 @@ public struct PointHomeServiceData : Swift.Equatable, Swift.Codable {
 @_hasMissingDesignatedInitializers public class AvatyePH {
   public static func initialize(logLevel: AvatyePointHome.LogLevel = .info)
   public static func testModeChange(value: Swift.Bool)
-  public static func getUserProfile(sessionId: Swift.String, secret: Swift.String, uniqueId: Swift.String? = nil, resource: Swift.String? = nil, completion: @escaping (AvatyePointHome.PointHomeResultType<AvatyePointHome.userProfileResponse>) -> Swift.Void)
-  public static func withDrawUser(sessionId: Swift.String, secret: Swift.String, uniqueId: Swift.String, reason: Swift.String = "default", completion: @escaping (AvatyePointHome.PointHomeWithDrawType) -> Swift.Void)
+  public static func getUserProfile(serviceID: Swift.String, secret: Swift.String, uniqueId: Swift.String? = nil, resource: Swift.String? = nil, completion: @escaping (Swift.Result<AvatyePointHome.userProfileResponse, AvatyePointHome.PointHomeErrorModel>) -> Swift.Void)
+  public static func withDrawUser(serviceID: Swift.String, secret: Swift.String, uniqueId: Swift.String, reason: Swift.String = "default", completion: @escaping (AvatyePointHome.PointHomeWithDrawType) -> Swift.Void)
   @objc deinit
 }
-public enum PointHomeOpen<T, E> {
-  case success(T)
-  case failure(E)
-}
-public struct PointHomeErrorModel : Swift.Error {
+@available(*, deprecated, renamed: "Result")
+public typealias PointHomeOpen<T, E> = Swift.Result<T, E> where E : Swift.Error
+public struct PointHomeErrorModel : Swift.Error, Swift.Sendable {
   public let code: Swift.Int
   public let type: Swift.String
   public let message: Swift.String
 }
+extension AvatyePointHome.PointHomeErrorModel {
+  public func matches(_ unit: AvatyePointHome.PointHomeError) -> Swift.Bool
+}
+public enum PointHomeError {
+  case EXCEPTION
+  case INVALID_UNIQUE_ID
+  case ALREADY_OPENED
+  case PRESENT_FAILED
+  case INVALID_PARAM
+  case RATE_LIMIT_EXCEEDED
+  case SERVER_ERROR
+  case NETWORK_ERROR
+  public static func == (a: AvatyePointHome.PointHomeError, b: AvatyePointHome.PointHomeError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@available(*, deprecated, message: "getUserProfile 이 Result 를 반환하도록 변경되어 더 이상 사용되지 않습니다. Result<userProfileResponse, PointHomeErrorModel> 을 사용하세요.")
 public enum PointHomeResultType<T> {
   case success(T)
   case networkFail
   case unRecognizedError
 }
-public enum PointHomeWithDrawType {
+public enum PointHomeWithDrawType : Swift.Sendable {
   case success
   case unRecognizedError
   public static func == (a: AvatyePointHome.PointHomeWithDrawType, b: AvatyePointHome.PointHomeWithDrawType) -> Swift.Bool
@@ -164,6 +195,21 @@ public enum LogLevel : Swift.Int, Swift.CustomStringConvertible {
   public static func error(_ message: Swift.String, file: Swift.String = #file, line: Swift.Int = #line, function: Swift.String = #function)
   @objc deinit
 }
+public enum PHFloatingAnimationType : Swift.Int {
+  case seaotter
+  case gift
+  case point
+  public static func of(_ value: Swift.Int) -> AvatyePointHome.PHFloatingAnimationType
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension AvatyePointHome.PHCallResource : Swift.Equatable {}
+extension AvatyePointHome.PHCallResource : Swift.Hashable {}
+extension AvatyePointHome.PointHomeError : Swift.Equatable {}
+extension AvatyePointHome.PointHomeError : Swift.Hashable {}
 extension AvatyePointHome.PointHomeWithDrawType : Swift.Equatable {}
 extension AvatyePointHome.PointHomeWithDrawType : Swift.Hashable {}
 extension AvatyePointHome.PointHomeEnvironment : Swift.Equatable {}
@@ -172,3 +218,6 @@ extension AvatyePointHome.PointHomeEnvironment : Swift.RawRepresentable {}
 extension AvatyePointHome.LogLevel : Swift.Equatable {}
 extension AvatyePointHome.LogLevel : Swift.Hashable {}
 extension AvatyePointHome.LogLevel : Swift.RawRepresentable {}
+extension AvatyePointHome.PHFloatingAnimationType : Swift.Equatable {}
+extension AvatyePointHome.PHFloatingAnimationType : Swift.Hashable {}
+extension AvatyePointHome.PHFloatingAnimationType : Swift.RawRepresentable {}

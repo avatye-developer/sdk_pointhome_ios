@@ -343,6 +343,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -482,6 +496,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -801,6 +829,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1076,6 +1118,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1303,6 +1359,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1518,6 +1588,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1729,7 +1813,8 @@
         "mangledName": "$s15AvatyePointHome17acceptedUserModelV",
         "moduleName": "AvatyePointHome",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -1759,6 +1844,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1778,6 +1877,281 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "PHCallResource",
+        "printedName": "PHCallResource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "button",
+            "printedName": "button",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PHCallResource.Type) -> AvatyePointHome.PHCallResource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHCallResource",
+                    "printedName": "AvatyePointHome.PHCallResource",
+                    "usr": "s:15AvatyePointHome14PHCallResourceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PHCallResource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PHCallResource",
+                        "printedName": "AvatyePointHome.PHCallResource",
+                        "usr": "s:15AvatyePointHome14PHCallResourceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome14PHCallResourceO6buttonyA2CmF",
+            "mangledName": "$s15AvatyePointHome14PHCallResourceO6buttonyA2CmF",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "native",
+            "printedName": "native",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PHCallResource.Type) -> AvatyePointHome.PHCallResource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHCallResource",
+                    "printedName": "AvatyePointHome.PHCallResource",
+                    "usr": "s:15AvatyePointHome14PHCallResourceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PHCallResource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PHCallResource",
+                        "printedName": "AvatyePointHome.PHCallResource",
+                        "usr": "s:15AvatyePointHome14PHCallResourceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome14PHCallResourceO6nativeyA2CmF",
+            "mangledName": "$s15AvatyePointHome14PHCallResourceO6nativeyA2CmF",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "web",
+            "printedName": "web",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PHCallResource.Type) -> AvatyePointHome.PHCallResource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHCallResource",
+                    "printedName": "AvatyePointHome.PHCallResource",
+                    "usr": "s:15AvatyePointHome14PHCallResourceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PHCallResource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PHCallResource",
+                        "printedName": "AvatyePointHome.PHCallResource",
+                        "usr": "s:15AvatyePointHome14PHCallResourceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome14PHCallResourceO3webyA2CmF",
+            "mangledName": "$s15AvatyePointHome14PHCallResourceO3webyA2CmF",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PHCallResource",
+                "printedName": "AvatyePointHome.PHCallResource",
+                "usr": "s:15AvatyePointHome14PHCallResourceO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PHCallResource",
+                "printedName": "AvatyePointHome.PHCallResource",
+                "usr": "s:15AvatyePointHome14PHCallResourceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome14PHCallResourceO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15AvatyePointHome14PHCallResourceO2eeoiySbAC_ACtFZ",
+            "moduleName": "AvatyePointHome",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AvatyePointHome14PHCallResourceO9hashValueSivp",
+            "mangledName": "$s15AvatyePointHome14PHCallResourceO9hashValueSivp",
+            "moduleName": "AvatyePointHome",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AvatyePointHome14PHCallResourceO9hashValueSivg",
+                "mangledName": "$s15AvatyePointHome14PHCallResourceO9hashValueSivg",
+                "moduleName": "AvatyePointHome",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome14PHCallResourceO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15AvatyePointHome14PHCallResourceO4hash4intoys6HasherVz_tF",
+            "moduleName": "AvatyePointHome",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15AvatyePointHome14PHCallResourceO",
+        "mangledName": "$s15AvatyePointHome14PHCallResourceO",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "AvatyePHDelegate",
         "printedName": "AvatyePHDelegate",
         "children": [
@@ -1793,14 +2167,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "PHCallResource",
+                "printedName": "AvatyePointHome.PHCallResource",
+                "usr": "s:15AvatyePointHome14PHCallResourceO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15AvatyePointHome0A10PHDelegateP05pointC14ServiceDidOpen6callerySS_tF",
-            "mangledName": "$s15AvatyePointHome0A10PHDelegateP05pointC14ServiceDidOpen6callerySS_tF",
+            "usr": "s:15AvatyePointHome0A10PHDelegateP05pointC14ServiceDidOpen6calleryAA14PHCallResourceO_tF",
+            "mangledName": "$s15AvatyePointHome0A10PHDelegateP05pointC14ServiceDidOpen6calleryAA14PHCallResourceO_tF",
             "moduleName": "AvatyePointHome",
             "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.AvatyePHDelegate>",
             "sugared_genericSig": "<Self where Self : AvatyePointHome.AvatyePHDelegate>",
@@ -1820,18 +2194,48 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "PHCallResource",
+                "printedName": "AvatyePointHome.PHCallResource",
+                "usr": "s:15AvatyePointHome14PHCallResourceO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:15AvatyePointHome0A10PHDelegateP05pointC15ServiceDidClose6callerySS_tF",
-            "mangledName": "$s15AvatyePointHome0A10PHDelegateP05pointC15ServiceDidClose6callerySS_tF",
+            "usr": "s:15AvatyePointHome0A10PHDelegateP05pointC15ServiceDidClose6calleryAA14PHCallResourceO_tF",
+            "mangledName": "$s15AvatyePointHome0A10PHDelegateP05pointC15ServiceDidClose6calleryAA14PHCallResourceO_tF",
             "moduleName": "AvatyePointHome",
             "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.AvatyePHDelegate>",
             "sugared_genericSig": "<Self where Self : AvatyePointHome.AvatyePHDelegate>",
             "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pointHomeServiceDidFail",
+            "printedName": "pointHomeServiceDidFail(reason:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PointHomeErrorModel",
+                "printedName": "AvatyePointHome.PointHomeErrorModel",
+                "usr": "s:15AvatyePointHome0bC10ErrorModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0A10PHDelegateP05pointC14ServiceDidFail6reasonyAA0bC10ErrorModelV_tF",
+            "mangledName": "$s15AvatyePointHome0A10PHDelegateP05pointC14ServiceDidFail6reasonyAA0bC10ErrorModelV_tF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.AvatyePHDelegate>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.AvatyePHDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2256,6 +2660,70 @@
           },
           {
             "kind": "Function",
+            "name": "setFloatingButton",
+            "printedName": "setFloatingButton(bottom:trailing:animationType:useAnimation:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PHFloatingAnimationType",
+                "printedName": "AvatyePointHome.PHFloatingAnimationType",
+                "hasDefaultArg": true,
+                "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0A9PHServiceC17setFloatingButton6bottom8trailing13animationType12useAnimation7messagey14CoreFoundation7CGFloatV_AlA010PHFloatingmK0OSbSSSgtF",
+            "mangledName": "$s15AvatyePointHome0A9PHServiceC17setFloatingButton6bottom8trailing13animationType12useAnimation7messagey12CoreGraphics7CGFloatV_AlA010PHFloatingmK0OSbSSSgtF",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setCashButton",
             "printedName": "setCashButton(bottom:trailing:)",
             "children": [
@@ -2283,8 +2751,37 @@
             "usr": "s:15AvatyePointHome0A9PHServiceC13setCashButton6bottom8trailingy14CoreFoundation7CGFloatV_AItF",
             "mangledName": "$s15AvatyePointHome0A9PHServiceC13setCashButton6bottom8trailingy12CoreGraphics7CGFloatV_AItF",
             "moduleName": "AvatyePointHome",
+            "deprecated": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFloatingButtonVisible",
+            "printedName": "setFloatingButtonVisible(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0A9PHServiceC24setFloatingButtonVisibleyySbF",
+            "mangledName": "$s15AvatyePointHome0A9PHServiceC24setFloatingButtonVisibleyySbF",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2304,96 +2801,50 @@
             "mangledName": "$s15AvatyePointHome0A9PHServiceC06removeD0yyF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
             "name": "openPointHome",
-            "printedName": "openPointHome(completion:)",
+            "printedName": "openPointHome()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AvatyePointHome.PointHomeOpen<Swift.String, AvatyePointHome.PointHomeErrorModel>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PointHomeOpen",
-                    "printedName": "AvatyePointHome.PointHomeOpen<Swift.String, AvatyePointHome.PointHomeErrorModel>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PointHomeErrorModel",
-                        "printedName": "AvatyePointHome.PointHomeErrorModel",
-                        "usr": "s:15AvatyePointHome0bC10ErrorModelV"
-                      }
-                    ],
-                    "usr": "s:15AvatyePointHome0bC4OpenO"
-                  }
-                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:15AvatyePointHome0A9PHServiceC04openbC010completionyyAA0bC4OpenOySSAA0bC10ErrorModelVGc_tF",
-            "mangledName": "$s15AvatyePointHome0A9PHServiceC04openbC010completionyyAA0bC4OpenOySSAA0bC10ErrorModelVGc_tF",
+            "usr": "s:15AvatyePointHome0A9PHServiceC04openbC0yyF",
+            "mangledName": "$s15AvatyePointHome0A9PHServiceC04openbC0yyF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
             "name": "closePointHome",
-            "printedName": "closePointHome(completion:)",
+            "printedName": "closePointHome()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:15AvatyePointHome0A9PHServiceC05closebC010completionyyyc_tF",
-            "mangledName": "$s15AvatyePointHome0A9PHServiceC05closebC010completionyyyc_tF",
+            "usr": "s:15AvatyePointHome0A9PHServiceC05closebC0yyF",
+            "mangledName": "$s15AvatyePointHome0A9PHServiceC05closebC0yyF",
             "moduleName": "AvatyePointHome",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -3058,7 +3509,7 @@
           {
             "kind": "Function",
             "name": "getUserProfile",
-            "printedName": "getUserProfile(sessionId:secret:uniqueId:resource:completion:)",
+            "printedName": "getUserProfile(serviceID:secret:uniqueId:resource:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3110,7 +3561,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(AvatyePointHome.PointHomeResultType<AvatyePointHome.userProfileResponse>) -> ()",
+                "printedName": "(Swift.Result<AvatyePointHome.userProfileResponse, AvatyePointHome.PointHomeErrorModel>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3119,36 +3570,43 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "PointHomeResultType",
-                    "printedName": "AvatyePointHome.PointHomeResultType<AvatyePointHome.userProfileResponse>",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AvatyePointHome.userProfileResponse, AvatyePointHome.PointHomeErrorModel>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "userProfileResponse",
                         "printedName": "AvatyePointHome.userProfileResponse",
                         "usr": "s:15AvatyePointHome19userProfileResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeErrorModel",
+                        "printedName": "AvatyePointHome.PointHomeErrorModel",
+                        "usr": "s:15AvatyePointHome0bC10ErrorModelV"
                       }
                     ],
-                    "usr": "s:15AvatyePointHome0bC10ResultTypeO"
+                    "usr": "s:s6ResultO"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:15AvatyePointHome0A2PHC14getUserProfile9sessionId6secret06uniqueI08resource10completionySS_S2SSgAJyAA0bC10ResultTypeOyAA04userG8ResponseVGctFZ",
-            "mangledName": "$s15AvatyePointHome0A2PHC14getUserProfile9sessionId6secret06uniqueI08resource10completionySS_S2SSgAJyAA0bC10ResultTypeOyAA04userG8ResponseVGctFZ",
+            "usr": "s:15AvatyePointHome0A2PHC14getUserProfile9serviceID6secret8uniqueId8resource10completionySS_S2SSgAJys6ResultOyAA04userG8ResponseVAA0bC10ErrorModelVGctFZ",
+            "mangledName": "$s15AvatyePointHome0A2PHC14getUserProfile9serviceID6secret8uniqueId8resource10completionySS_S2SSgAJys6ResultOyAA04userG8ResponseVAA0bC10ErrorModelVGctFZ",
             "moduleName": "AvatyePointHome",
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
             "name": "withDrawUser",
-            "printedName": "withDrawUser(sessionId:secret:uniqueId:reason:completion:)",
+            "printedName": "withDrawUser(serviceID:secret:uniqueId:reason:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3200,8 +3658,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15AvatyePointHome0A2PHC12withDrawUser9sessionId6secret06uniqueI06reason10completionySS_S3SyAA0bc4WithF4TypeOctFZ",
-            "mangledName": "$s15AvatyePointHome0A2PHC12withDrawUser9sessionId6secret06uniqueI06reason10completionySS_S3SyAA0bc4WithF4TypeOctFZ",
+            "usr": "s:15AvatyePointHome0A2PHC12withDrawUser9serviceID6secret8uniqueId6reason10completionySS_S3SyAA0bc4WithF4TypeOctFZ",
+            "mangledName": "$s15AvatyePointHome0A2PHC12withDrawUser9serviceID6secret8uniqueId6reason10completionySS_S3SyAA0bc4WithF4TypeOctFZ",
             "moduleName": "AvatyePointHome",
             "static": true,
             "declAttributes": [
@@ -3235,6 +3693,13 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
       },
       {
         "kind": "Import",
@@ -3280,184 +3745,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "AvatyePointHome"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PointHomeOpen",
-        "printedName": "PointHomeOpen",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "success",
-            "printedName": "success",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "GenericFunction",
-                "printedName": "<τ_0_0, τ_0_1> (AvatyePointHome.PointHomeOpen<τ_0_0, τ_0_1>.Type) -> (τ_0_0) -> AvatyePointHome.PointHomeOpen<τ_0_0, τ_0_1>",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(τ_0_0) -> AvatyePointHome.PointHomeOpen<τ_0_0, τ_0_1>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PointHomeOpen",
-                        "printedName": "AvatyePointHome.PointHomeOpen<τ_0_0, τ_0_1>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_1"
-                          }
-                        ],
-                        "usr": "s:15AvatyePointHome0bC4OpenO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AvatyePointHome.PointHomeOpen<τ_0_0, τ_0_1>.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PointHomeOpen",
-                        "printedName": "AvatyePointHome.PointHomeOpen<τ_0_0, τ_0_1>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_1"
-                          }
-                        ],
-                        "usr": "s:15AvatyePointHome0bC4OpenO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:15AvatyePointHome0bC4OpenO7successyACyxq_GxcAEmr0_lF",
-            "mangledName": "$s15AvatyePointHome0bC4OpenO7successyACyxq_GxcAEmr0_lF",
-            "moduleName": "AvatyePointHome"
-          },
-          {
-            "kind": "Var",
-            "name": "failure",
-            "printedName": "failure",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "GenericFunction",
-                "printedName": "<τ_0_0, τ_0_1> (AvatyePointHome.PointHomeOpen<τ_0_0, τ_0_1>.Type) -> (τ_0_1) -> AvatyePointHome.PointHomeOpen<τ_0_0, τ_0_1>",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(τ_0_1) -> AvatyePointHome.PointHomeOpen<τ_0_0, τ_0_1>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PointHomeOpen",
-                        "printedName": "AvatyePointHome.PointHomeOpen<τ_0_0, τ_0_1>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_1"
-                          }
-                        ],
-                        "usr": "s:15AvatyePointHome0bC4OpenO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_1"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AvatyePointHome.PointHomeOpen<τ_0_0, τ_0_1>.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PointHomeOpen",
-                        "printedName": "AvatyePointHome.PointHomeOpen<τ_0_0, τ_0_1>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_1"
-                          }
-                        ],
-                        "usr": "s:15AvatyePointHome0bC4OpenO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:15AvatyePointHome0bC4OpenO7failureyACyxq_Gq_cAEmr0_lF",
-            "mangledName": "$s15AvatyePointHome0bC4OpenO7failureyACyxq_Gq_cAEmr0_lF",
-            "moduleName": "AvatyePointHome"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:15AvatyePointHome0bC4OpenO",
-        "mangledName": "$s15AvatyePointHome0bC4OpenO",
-        "moduleName": "AvatyePointHome",
-        "genericSig": "<τ_0_0, τ_0_1>",
-        "sugared_genericSig": "<T, E>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
       },
       {
         "kind": "TypeDecl",
@@ -3595,6 +3882,35 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "matches",
+            "printedName": "matches(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PointHomeError",
+                "printedName": "AvatyePointHome.PointHomeError",
+                "usr": "s:15AvatyePointHome0bC5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0bC10ErrorModelV7matchesySbAA0bcD0OF",
+            "mangledName": "$s15AvatyePointHome0bC10ErrorModelV7matchesySbAA0bcD0OF",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -3639,6 +3955,443 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PointHomeError",
+        "printedName": "PointHomeError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "EXCEPTION",
+            "printedName": "EXCEPTION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PointHomeError.Type) -> AvatyePointHome.PointHomeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeError",
+                    "printedName": "AvatyePointHome.PointHomeError",
+                    "usr": "s:15AvatyePointHome0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PointHomeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeError",
+                        "printedName": "AvatyePointHome.PointHomeError",
+                        "usr": "s:15AvatyePointHome0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome0bC5ErrorO9EXCEPTIONyA2CmF",
+            "mangledName": "$s15AvatyePointHome0bC5ErrorO9EXCEPTIONyA2CmF",
+            "moduleName": "AvatyePointHome"
+          },
+          {
+            "kind": "Var",
+            "name": "INVALID_UNIQUE_ID",
+            "printedName": "INVALID_UNIQUE_ID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PointHomeError.Type) -> AvatyePointHome.PointHomeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeError",
+                    "printedName": "AvatyePointHome.PointHomeError",
+                    "usr": "s:15AvatyePointHome0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PointHomeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeError",
+                        "printedName": "AvatyePointHome.PointHomeError",
+                        "usr": "s:15AvatyePointHome0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome0bC5ErrorO17INVALID_UNIQUE_IDyA2CmF",
+            "mangledName": "$s15AvatyePointHome0bC5ErrorO17INVALID_UNIQUE_IDyA2CmF",
+            "moduleName": "AvatyePointHome"
+          },
+          {
+            "kind": "Var",
+            "name": "ALREADY_OPENED",
+            "printedName": "ALREADY_OPENED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PointHomeError.Type) -> AvatyePointHome.PointHomeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeError",
+                    "printedName": "AvatyePointHome.PointHomeError",
+                    "usr": "s:15AvatyePointHome0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PointHomeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeError",
+                        "printedName": "AvatyePointHome.PointHomeError",
+                        "usr": "s:15AvatyePointHome0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome0bC5ErrorO14ALREADY_OPENEDyA2CmF",
+            "mangledName": "$s15AvatyePointHome0bC5ErrorO14ALREADY_OPENEDyA2CmF",
+            "moduleName": "AvatyePointHome"
+          },
+          {
+            "kind": "Var",
+            "name": "PRESENT_FAILED",
+            "printedName": "PRESENT_FAILED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PointHomeError.Type) -> AvatyePointHome.PointHomeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeError",
+                    "printedName": "AvatyePointHome.PointHomeError",
+                    "usr": "s:15AvatyePointHome0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PointHomeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeError",
+                        "printedName": "AvatyePointHome.PointHomeError",
+                        "usr": "s:15AvatyePointHome0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome0bC5ErrorO14PRESENT_FAILEDyA2CmF",
+            "mangledName": "$s15AvatyePointHome0bC5ErrorO14PRESENT_FAILEDyA2CmF",
+            "moduleName": "AvatyePointHome"
+          },
+          {
+            "kind": "Var",
+            "name": "INVALID_PARAM",
+            "printedName": "INVALID_PARAM",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PointHomeError.Type) -> AvatyePointHome.PointHomeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeError",
+                    "printedName": "AvatyePointHome.PointHomeError",
+                    "usr": "s:15AvatyePointHome0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PointHomeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeError",
+                        "printedName": "AvatyePointHome.PointHomeError",
+                        "usr": "s:15AvatyePointHome0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome0bC5ErrorO13INVALID_PARAMyA2CmF",
+            "mangledName": "$s15AvatyePointHome0bC5ErrorO13INVALID_PARAMyA2CmF",
+            "moduleName": "AvatyePointHome"
+          },
+          {
+            "kind": "Var",
+            "name": "RATE_LIMIT_EXCEEDED",
+            "printedName": "RATE_LIMIT_EXCEEDED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PointHomeError.Type) -> AvatyePointHome.PointHomeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeError",
+                    "printedName": "AvatyePointHome.PointHomeError",
+                    "usr": "s:15AvatyePointHome0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PointHomeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeError",
+                        "printedName": "AvatyePointHome.PointHomeError",
+                        "usr": "s:15AvatyePointHome0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome0bC5ErrorO19RATE_LIMIT_EXCEEDEDyA2CmF",
+            "mangledName": "$s15AvatyePointHome0bC5ErrorO19RATE_LIMIT_EXCEEDEDyA2CmF",
+            "moduleName": "AvatyePointHome"
+          },
+          {
+            "kind": "Var",
+            "name": "SERVER_ERROR",
+            "printedName": "SERVER_ERROR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PointHomeError.Type) -> AvatyePointHome.PointHomeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeError",
+                    "printedName": "AvatyePointHome.PointHomeError",
+                    "usr": "s:15AvatyePointHome0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PointHomeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeError",
+                        "printedName": "AvatyePointHome.PointHomeError",
+                        "usr": "s:15AvatyePointHome0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome0bC5ErrorO12SERVER_ERRORyA2CmF",
+            "mangledName": "$s15AvatyePointHome0bC5ErrorO12SERVER_ERRORyA2CmF",
+            "moduleName": "AvatyePointHome"
+          },
+          {
+            "kind": "Var",
+            "name": "NETWORK_ERROR",
+            "printedName": "NETWORK_ERROR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PointHomeError.Type) -> AvatyePointHome.PointHomeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PointHomeError",
+                    "printedName": "AvatyePointHome.PointHomeError",
+                    "usr": "s:15AvatyePointHome0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PointHomeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PointHomeError",
+                        "printedName": "AvatyePointHome.PointHomeError",
+                        "usr": "s:15AvatyePointHome0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome0bC5ErrorO13NETWORK_ERRORyA2CmF",
+            "mangledName": "$s15AvatyePointHome0bC5ErrorO13NETWORK_ERRORyA2CmF",
+            "moduleName": "AvatyePointHome"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PointHomeError",
+                "printedName": "AvatyePointHome.PointHomeError",
+                "usr": "s:15AvatyePointHome0bC5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PointHomeError",
+                "printedName": "AvatyePointHome.PointHomeError",
+                "usr": "s:15AvatyePointHome0bC5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0bC5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15AvatyePointHome0bC5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "AvatyePointHome",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AvatyePointHome0bC5ErrorO9hashValueSivp",
+            "mangledName": "$s15AvatyePointHome0bC5ErrorO9hashValueSivp",
+            "moduleName": "AvatyePointHome",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AvatyePointHome0bC5ErrorO9hashValueSivg",
+                "mangledName": "$s15AvatyePointHome0bC5ErrorO9hashValueSivg",
+                "moduleName": "AvatyePointHome",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0bC5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15AvatyePointHome0bC5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "AvatyePointHome",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15AvatyePointHome0bC5ErrorO",
+        "mangledName": "$s15AvatyePointHome0bC5ErrorO",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -3819,8 +4572,11 @@
         "moduleName": "AvatyePointHome",
         "genericSig": "<τ_0_0>",
         "sugared_genericSig": "<T>",
+        "deprecated": true,
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "Available",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -4020,7 +4776,8 @@
         "mangledName": "$s15AvatyePointHome0bC12WithDrawTypeO",
         "moduleName": "AvatyePointHome",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -4050,15 +4807,22 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AvatyePointHome"
       },
       {
         "kind": "Import",
@@ -5346,6 +6110,34 @@
       },
       {
         "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5422,8 +6214,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "AvatyePointHome"
       },
@@ -5431,6 +6223,40 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "APSSPSDK",
+        "printedName": "APSSPSDK",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "APSSPSDK",
+        "printedName": "APSSPSDK",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "AvatyePointHome"
       },
@@ -5606,6 +6432,323 @@
         "moduleName": "AvatyePointHome"
       },
       {
+        "kind": "TypeDecl",
+        "name": "PHFloatingAnimationType",
+        "printedName": "PHFloatingAnimationType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "seaotter",
+            "printedName": "seaotter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PHFloatingAnimationType.Type) -> AvatyePointHome.PHFloatingAnimationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHFloatingAnimationType",
+                    "printedName": "AvatyePointHome.PHFloatingAnimationType",
+                    "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PHFloatingAnimationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PHFloatingAnimationType",
+                        "printedName": "AvatyePointHome.PHFloatingAnimationType",
+                        "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO8seaotteryA2CmF",
+            "mangledName": "$s15AvatyePointHome23PHFloatingAnimationTypeO8seaotteryA2CmF",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gift",
+            "printedName": "gift",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PHFloatingAnimationType.Type) -> AvatyePointHome.PHFloatingAnimationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHFloatingAnimationType",
+                    "printedName": "AvatyePointHome.PHFloatingAnimationType",
+                    "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PHFloatingAnimationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PHFloatingAnimationType",
+                        "printedName": "AvatyePointHome.PHFloatingAnimationType",
+                        "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO4giftyA2CmF",
+            "mangledName": "$s15AvatyePointHome23PHFloatingAnimationTypeO4giftyA2CmF",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "point",
+            "printedName": "point",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.PHFloatingAnimationType.Type) -> AvatyePointHome.PHFloatingAnimationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHFloatingAnimationType",
+                    "printedName": "AvatyePointHome.PHFloatingAnimationType",
+                    "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.PHFloatingAnimationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PHFloatingAnimationType",
+                        "printedName": "AvatyePointHome.PHFloatingAnimationType",
+                        "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO5pointyA2CmF",
+            "mangledName": "$s15AvatyePointHome23PHFloatingAnimationTypeO5pointyA2CmF",
+            "moduleName": "AvatyePointHome",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "of",
+            "printedName": "of(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHFloatingAnimationType",
+                "printedName": "AvatyePointHome.PHFloatingAnimationType",
+                "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO2ofyACSiFZ",
+            "mangledName": "$s15AvatyePointHome23PHFloatingAnimationTypeO2ofyACSiFZ",
+            "moduleName": "AvatyePointHome",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AvatyePointHome.PHFloatingAnimationType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHFloatingAnimationType",
+                    "printedName": "AvatyePointHome.PHFloatingAnimationType",
+                    "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s15AvatyePointHome23PHFloatingAnimationTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "AvatyePointHome",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO8rawValueSivp",
+            "mangledName": "$s15AvatyePointHome23PHFloatingAnimationTypeO8rawValueSivp",
+            "moduleName": "AvatyePointHome",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO8rawValueSivg",
+                "mangledName": "$s15AvatyePointHome23PHFloatingAnimationTypeO8rawValueSivg",
+                "moduleName": "AvatyePointHome",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15AvatyePointHome23PHFloatingAnimationTypeO",
+        "mangledName": "$s15AvatyePointHome23PHFloatingAnimationTypeO",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -5633,21 +6776,42 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "BooleanLiteral",
-      "offset": 822,
+      "offset": 2505,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4029,
+      "offset": 8726,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4053,
+      "offset": 8784,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8929,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11707,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11731,
       "length": 2,
       "value": "-1"
     },
@@ -5661,7 +6825,7 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePH.swift",
       "kind": "StringLiteral",
-      "offset": 3690,
+      "offset": 6601,
       "length": 9,
       "value": "\"default\""
     },
@@ -5708,53 +6872,46 @@
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/AvatyeCashButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 288,
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHWebViewController.swift",
+      "kind": "Array",
+      "offset": 2038,
       "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/AvatyeCashButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 329,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/AvatyeCashButton.swift",
-      "kind": "StringLiteral",
-      "offset": 404,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/AvatyeCashButton.swift",
-      "kind": "StringLiteral",
-      "offset": 6056,
-      "length": 9,
-      "value": "\"#0091EA\""
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHWebViewController.swift",
       "kind": "Array",
-      "offset": 1111,
+      "offset": 2555,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHWebViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2689,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25194,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PointHomeFramework.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 7,
-      "value": "\"3.1.2\""
+      "value": "\"3.2.0\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PointHomeFramework.swift",
       "kind": "StringLiteral",
       "offset": 250,
       "length": 7,
-      "value": "\"1.0.0\""
+      "value": "\"1.1.0\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PointHomeFramework.swift",
@@ -5815,9 +6972,23 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornSSPInitializer.swift",
       "kind": "StringLiteral",
-      "offset": 212,
+      "offset": 2110,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornSSPInitializer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2269,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornSSPInitializer.swift",
+      "kind": "Array",
+      "offset": 2427,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Network\/PointHomeHttpClient.swift",
@@ -5850,9 +7021,23 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 786,
+      "offset": 1668,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHInternalWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2583,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHPopupPresenter.swift",
+      "kind": "Array",
+      "offset": 1006,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
@@ -5887,133 +7072,161 @@
       "kind": "StringLiteral",
       "offset": 281,
       "length": 21,
+      "value": "\"navigation.internal\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 21,
       "value": "\"navigation.external\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 335,
+      "offset": 387,
       "length": 15,
       "value": "\"cash.exchange\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 389,
+      "offset": 441,
       "length": 20,
       "value": "\"policy.checkAccess\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 441,
+      "offset": 493,
       "length": 14,
       "value": "\"event.system\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 486,
+      "offset": 538,
       "length": 14,
       "value": "\"event.custom\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 527,
+      "offset": 579,
       "length": 16,
       "value": "\"advertise.adid\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 577,
+      "offset": 629,
       "length": 24,
       "value": "\"advertise.setting.open\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 628,
+      "offset": 680,
       "length": 16,
       "value": "\"advertise.call\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 680,
+      "offset": 732,
       "length": 11,
       "value": "\"adpopcorn\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 782,
       "length": 6,
       "value": "\"init\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 776,
+      "offset": 828,
       "length": 8,
       "value": "\"banner\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 830,
+      "offset": 882,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 896,
+      "offset": 948,
       "length": 19,
       "value": "\"interstitialVideo\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 961,
+      "offset": 1013,
       "length": 13,
       "value": "\"rewardVideo\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 1015,
+      "offset": 1069,
+      "length": 11,
+      "value": "\"inspector\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
+      "kind": "StringLiteral",
+      "offset": 1368,
+      "length": 9,
+      "value": "\"native.\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
+      "kind": "StringLiteral",
+      "offset": 1418,
       "length": 6,
       "value": "\"load\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 1061,
+      "offset": 1464,
       "length": 6,
       "value": "\"show\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 1107,
+      "offset": 1510,
       "length": 6,
       "value": "\"hide\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 1154,
+      "offset": 1557,
       "length": 7,
       "value": "\"close\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
       "kind": "StringLiteral",
-      "offset": 1201,
+      "offset": 1604,
       "length": 6,
       "value": "\"move\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeAction.swift",
+      "kind": "StringLiteral",
+      "offset": 1650,
+      "length": 6,
+      "value": "\"open\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/BridgeModels.swift",
@@ -6065,6 +7278,181 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeLoader.swift",
+      "kind": "Array",
+      "offset": 1824,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeLoader.swift",
+      "kind": "Array",
+      "offset": 1887,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 1292,
+      "length": 11,
+      "value": "\"자세히\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1371,
+      "length": 4,
+      "value": "0x21"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1390,
+      "length": 4,
+      "value": "0x21"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1397,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1408,
+      "length": 4,
+      "value": "0x21"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1415,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1427,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1668,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1675,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1687,
+      "length": 4,
+      "value": "0x44"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1694,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1705,
+      "length": 4,
+      "value": "0xD2"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1712,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1724,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1858,
+      "length": 4,
+      "value": "0x55"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1865,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1877,
+      "length": 4,
+      "value": "0x55"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1884,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1895,
+      "length": 4,
+      "value": "0x55"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1902,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1914,
+      "length": 4,
+      "value": "0xAA"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1921,
+      "length": 3,
+      "value": "255"
+    },
+    {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/SessionHandler.swift",
       "kind": "StringLiteral",
       "offset": 89,
@@ -6109,51 +7497,37 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "Dictionary",
-      "offset": 319,
+      "offset": 318,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "Dictionary",
-      "offset": 397,
+      "offset": 396,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "Array",
-      "offset": 450,
+      "offset": 449,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 12931,
-      "length": 9,
-      "value": "\"success\""
+      "kind": "BooleanLiteral",
+      "offset": 600,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 12942,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 15354,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15365,
-      "length": 4,
-      "value": "true"
+      "offset": 978,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/NavigationHandler.swift",
@@ -6653,67 +8027,634 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFloatingAnimationType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 702,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFloatingAnimationType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 741,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFloatingAnimationType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 778,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFrameAnimation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1550,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFrameAnimation.swift",
+      "kind": "FloatLiteral",
+      "offset": 1663,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFrameAnimation.swift",
+      "kind": "FloatLiteral",
+      "offset": 1769,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFrameAnimation.swift",
+      "kind": "StringLiteral",
+      "offset": 2119,
+      "length": 19,
+      "value": "\"phCharacterFrames\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1029,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1114,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1158,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1860,
+      "length": 3,
+      "value": "160"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "StringLiteral",
+      "offset": 1977,
+      "length": 5,
+      "value": "\"…\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2121,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2233,
+      "length": 4,
+      "value": "0x11"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2240,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2252,
+      "length": 4,
+      "value": "0x18"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2259,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2270,
+      "length": 4,
+      "value": "0x27"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2277,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2289,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2416,
+      "length": 4,
+      "value": "0.07"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2474,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2532,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2629,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "Array",
+      "offset": 2964,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3008,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3047,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3130,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHCharacterMessageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3237,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFloatingButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1038,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFloatingButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1592,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFloatingButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 1715,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFloatingButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1826,
+      "length": 3,
+      "value": "280"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFloatingButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1876,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFloatingButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9044,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 745,
-      "length": 18,
-      "value": "\"adPopCloseButton\""
+      "length": 20,
+      "value": "\"ph_fb_char_gift_01\""
     },
     {
       "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 893,
-      "length": 12,
-      "value": "\"cashButton\""
+      "offset": 907,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_02\""
     },
     {
       "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1035,
-      "length": 12,
-      "value": "\"goldTicket\""
+      "offset": 1069,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_03\""
     },
     {
       "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1181,
-      "length": 14,
-      "value": "\"networkError\""
+      "offset": 1231,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_04\""
     },
     {
       "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1321,
-      "length": 10,
-      "value": "\"noButton\""
+      "offset": 1393,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_05\""
     },
     {
       "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1465,
-      "length": 14,
-      "value": "\"noGoldTicket\""
+      "offset": 1555,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_06\""
     },
     {
       "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1611,
-      "length": 13,
-      "value": "\"serverCheck\""
+      "offset": 1717,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_07\""
     },
     {
       "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1768,
+      "offset": 1879,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_08\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2041,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_09\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2203,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_10\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2365,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_11\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2527,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_12\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2689,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_13\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2851,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_14\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3013,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_15\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3175,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_16\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3337,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_17\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3499,
+      "length": 20,
+      "value": "\"ph_fb_char_gift_18\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3663,
+      "length": 21,
+      "value": "\"ph_fb_char_point_01\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3828,
+      "length": 21,
+      "value": "\"ph_fb_char_point_02\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3993,
+      "length": 21,
+      "value": "\"ph_fb_char_point_03\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4158,
+      "length": 21,
+      "value": "\"ph_fb_char_point_04\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4323,
+      "length": 21,
+      "value": "\"ph_fb_char_point_05\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4488,
+      "length": 21,
+      "value": "\"ph_fb_char_point_06\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4653,
+      "length": 21,
+      "value": "\"ph_fb_char_point_07\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4818,
+      "length": 21,
+      "value": "\"ph_fb_char_point_08\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4983,
+      "length": 21,
+      "value": "\"ph_fb_char_point_09\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5148,
+      "length": 21,
+      "value": "\"ph_fb_char_point_10\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5313,
+      "length": 21,
+      "value": "\"ph_fb_char_point_11\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5478,
+      "length": 21,
+      "value": "\"ph_fb_char_point_12\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5643,
+      "length": 21,
+      "value": "\"ph_fb_char_point_13\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5808,
+      "length": 21,
+      "value": "\"ph_fb_char_point_14\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5973,
+      "length": 21,
+      "value": "\"ph_fb_char_point_15\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6138,
+      "length": 21,
+      "value": "\"ph_fb_char_point_16\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6303,
+      "length": 21,
+      "value": "\"ph_fb_char_point_17\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6468,
+      "length": 21,
+      "value": "\"ph_fb_char_point_18\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6639,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_01\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6813,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_02\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6987,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_03\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7161,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_04\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7335,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_05\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7509,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_06\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7683,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_07\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7857,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_08\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8031,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_09\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8205,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_10\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8379,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_11\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8553,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_12\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8727,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_13\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8901,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_14\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9075,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_15\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9249,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_16\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9423,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_17\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9597,
+      "length": 24,
+      "value": "\"ph_fb_char_seaotter_18\""
+    },
+    {
+      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9765,
       "length": 19,
       "value": "\"serviceNotConnect\""
-    },
-    {
-      "filePath": "\/Users\/jun\/Library\/Developer\/Xcode\/DerivedData\/AvatyePointHome-ecjvgkwyxfqblscfkalckooiqkgp\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AvatyePointHome\/IntermediateBuildFilesPath\/AvatyePointHome.build\/Release-iphoneos\/AvatyePointHome.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1923,
-      "length": 15,
-      "value": "\"warningButton\""
     }
   ]
 }

@@ -8,33 +8,45 @@
 		<data>
 		Ft3u6OSiY0toUEoJqnVYX9b3gmQ=
 		</data>
+		<key>Headers/AvatyePointHome-Swift.h</key>
+		<data>
+		dSPCrA34vZyXF6+frWXFSZhKNGI=
+		</data>
+		<key>Headers/AvatyePointHome.h</key>
+		<data>
+		VCcVryxgFCqdLX6XhziGSlennqU=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		ELF8xylK7h2CjR4gViHo7MAP54w=
+		rIrb/uDNsQ6Qe3UsJHMVZDMTInA=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		4HrCNAk9c9HiDO41rAsT5GB1Aqk=
+		5DVl0f3jiykyClDm3ZWShGy4yyc=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		N1GJICspH+lh0SXJ99/OYobaeNE=
+		VbyBB+gN8oKmeO75OILNyUilbGw=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Fp0QY0CfWluS0cXywm5aY4o0mes=
+		FVYQdmJZO47vdTsa2bppmRCKDxA=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		N1GJICspH+lh0SXJ99/OYobaeNE=
+		vr/dFvc1n/e5vol5LtvBUGbAd60=
 		</data>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		sFkMsN2mLofOzN2ldxm+EuvyUfE=
+		CHmJTBx8j5gvgLLlVU+an8ly1jg=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		8YjH//C/ublh8+MgfS5h/o2Sxcs=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		TykZxLsIYPT3VmmqjxYA2lblibI=
+		l9UwBmXHmI9OpLvV1+M969WMuI8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -46,46 +58,67 @@
 			nuC4eWSMxVoDY+pwQrLD62egl1oy98azHKEUpY61PAk=
 			</data>
 		</dict>
+		<key>Headers/AvatyePointHome-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PzQ2KALYB/Hff40TODrIa91tyoa6edL10VVgihd4jxE=
+			</data>
+		</dict>
+		<key>Headers/AvatyePointHome.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lRHeYzKvNPVwSEHz9V/kAmQzH2Rhh74Ggif8CtpBfxU=
+			</data>
+		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x/83gSMh8/prdm9ghXH8x2w+rqNgUlqganaNm8C+N4s=
+			gCy5qkb+mP21WpuKGSyHKcAvo4JqSgt+OWu6IDVpHJw=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DCL+vd+yUOa+5sZ/2GosL1W7aRzKzz8TbKdppA/Vc5I=
+			vmXYgKOobjigTkcuDTuOISqCeegtVaP8k1pgCh+UA9U=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8knYEsrdgYArSbsWRzEk+4Ik700CwYfMRS5yc61fDJc=
+			FyDtf89N7ppFsP1/SsE95bCBcF8QfWoRSlg3whrE5WY=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DCL+vd+yUOa+5sZ/2GosL1W7aRzKzz8TbKdppA/Vc5I=
+			jTLvhazGHwyuqJ4ZvQ7Z0AN1rN+MdasURwV8b5AGQec=
 			</data>
 		</dict>
 		<key>Modules/AvatyePointHome.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8CSXgakMUxdSVW85U1VLcA9/Yl9Q1et+uG9Lmr6D7JI=
+			t+mHSmlWTvOEM9jUXgTQJ547pOYWkM8HbazcvRbxJj4=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sbKY7ccs4ONZU8iVlgjjIx3nXXHGyArZzECpKPdp07k=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rZQpBcNm5miRlAZ4KkfiMNO+bB0NvJeOxPvka7FU52s=
+			SvkjVzxptyf4ZUCx2yuOieaT5OhsXZma1/gC7+D19y0=
 			</data>
 		</dict>
 	</dict>

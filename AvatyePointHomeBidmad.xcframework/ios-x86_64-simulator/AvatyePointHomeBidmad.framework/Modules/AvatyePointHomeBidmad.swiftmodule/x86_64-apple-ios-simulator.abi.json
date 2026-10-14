@@ -1,0 +1,234 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AvatyePointHomeBidmad",
+    "printedName": "AvatyePointHomeBidmad",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad"
+      },
+      {
+        "kind": "Import",
+        "name": "AvatyePointHome",
+        "printedName": "AvatyePointHome",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenBiddingHelper",
+        "printedName": "OpenBiddingHelper",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad"
+      },
+      {
+        "kind": "Import",
+        "name": "AvatyePointHome",
+        "printedName": "AvatyePointHome",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad"
+      },
+      {
+        "kind": "Import",
+        "name": "AvatyePointHome",
+        "printedName": "AvatyePointHome",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenBiddingHelper",
+        "printedName": "OpenBiddingHelper",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad"
+      },
+      {
+        "kind": "Import",
+        "name": "AvatyePointHome",
+        "printedName": "AvatyePointHome",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BidmadSDK",
+        "printedName": "BidmadSDK",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenBiddingHelper",
+        "printedName": "OpenBiddingHelper",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHomeBidmad",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHomeBidmad\/BidmadBannerUnit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1398,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHomeBidmad\/BidmadBannerUnit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1432,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHomeBidmad\/BidmadBannerUnit.swift",
+      "kind": "StringLiteral",
+      "offset": 1460,
+      "length": 20,
+      "value": "\"[BidmadBannerUnit]\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHomeBidmad\/BidmadFullscreenUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 1599,
+      "length": 26,
+      "value": "\"[BidmadInterstitialUnit]\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHomeBidmad\/BidmadFullscreenUnits.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4297,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHomeBidmad\/BidmadFullscreenUnits.swift",
+      "kind": "StringLiteral",
+      "offset": 4325,
+      "length": 20,
+      "value": "\"[BidmadRewardUnit]\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHomeBidmad\/PHBidmadAdVendor.swift",
+      "kind": "StringLiteral",
+      "offset": 1299,
+      "length": 8,
+      "value": "\"6.13.6\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHomeBidmad\/PHBidmadAdVendor.swift",
+      "kind": "StringLiteral",
+      "offset": 1374,
+      "length": 8,
+      "value": "\"banner\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHomeBidmad\/PHBidmadAdVendor.swift",
+      "kind": "StringLiteral",
+      "offset": 1401,
+      "length": 14,
+      "value": "\"interstitial\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHomeBidmad\/PHBidmadAdVendor.swift",
+      "kind": "StringLiteral",
+      "offset": 1440,
+      "length": 8,
+      "value": "\"reward\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHomeBidmad\/PHBidmadAdVendor.swift",
+      "kind": "StringLiteral",
+      "offset": 1481,
+      "length": 8,
+      "value": "\"bidmad\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHomeBidmad\/PHBidmadAdVendor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1690,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

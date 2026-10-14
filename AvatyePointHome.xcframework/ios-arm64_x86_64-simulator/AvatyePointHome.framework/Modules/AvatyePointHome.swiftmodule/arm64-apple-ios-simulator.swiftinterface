@@ -1,9 +1,10 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AvatyePointHome
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import AdSupport
 import AppTrackingTransparency
+@_exported import AvatyePointHome
 import DeveloperToolsSupport
 import Foundation
 import Network
@@ -206,6 +207,205 @@ public enum PHFloatingAnimationType : Swift.Int {
     get
   }
 }
+@available(swift, obsoleted: 1.0)
+@objc(APHCallResource) public enum APHCallResource : Swift.Int {
+  case button = 0
+  case native = 1
+  case web = 2
+  public init?(rawValue: Swift.Int)
+  @available(swift, obsoleted: 1.0)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@available(swift, obsoleted: 1.0)
+@objc(APHFloatingAnimationType) public enum APHFloatingAnimationType : Swift.Int {
+  case seaotter = 1
+  case gift = 2
+  case point = 3
+  public init?(rawValue: Swift.Int)
+  @available(swift, obsoleted: 1.0)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@available(swift, obsoleted: 1.0)
+@objc(APHLogLevel) public enum APHLogLevel : Swift.Int {
+  case debug = 1
+  case info = 2
+  case warning = 3
+  case error = 4
+  public init?(rawValue: Swift.Int)
+  @available(swift, obsoleted: 1.0)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@available(swift, obsoleted: 1.0)
+@objc(APHEnvironment) public enum APHEnvironment : Swift.Int {
+  case dev = 0
+  case qa = 1
+  case stage = 2
+  case live = 3
+  public init?(rawValue: Swift.Int)
+  @available(swift, obsoleted: 1.0)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@available(swift, obsoleted: 1.0)
+@objc(APHWithdrawResult) public enum APHWithdrawResult : Swift.Int {
+  case success = 0
+  case unRecognizedError = 1
+  public init?(rawValue: Swift.Int)
+  @available(swift, obsoleted: 1.0)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@available(swift, obsoleted: 1.0)
+@objc(APHErrorCode) public enum APHErrorCode : Swift.Int {
+  case exception = 1000
+  case invalidUniqueID = 2000
+  case alreadyOpened = 2001
+  case presentFailed = 2002
+  case invalidParam = 4100
+  case rateLimitExceeded = 4290
+  case serverError = 5000
+  case networkError = 9002
+  public init?(rawValue: Swift.Int)
+  @available(swift, obsoleted: 1.0)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(swift, obsoleted: 1.0)
+@objc(APHError) final public class APHError : ObjectiveC.NSObject {
+  @objc public static let domain: Swift.String
+  @objc public static let typeKey: Swift.String
+  @objc deinit
+}
+@available(swift, obsoleted: 1.0)
+@objc(APHServiceData) final public class APHServiceData : ObjectiveC.NSObject {
+  @objc final public let serviceID: Swift.String
+  @objc final public let secret: Swift.String
+  @objc final public let uniqueID: Swift.String?
+  @objc final public let baseUrl: Swift.String?
+  @objc final public let passKey: Swift.String?
+  @objc final public let payloadJson: Swift.String?
+  @objc public init(serviceID: Swift.String, secret: Swift.String, uniqueID: Swift.String?, baseUrl: Swift.String?, passKey: Swift.String?, payloadJson: Swift.String?)
+  @objc convenience public init(serviceID: Swift.String, secret: Swift.String)
+  @objc convenience public init(serviceID: Swift.String, secret: Swift.String, uniqueID: Swift.String?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @available(swift, obsoleted: 1.0)
+@objc(APHFloatingButtonConfig) final public class APHFloatingButtonConfig : ObjectiveC.NSObject {
+  @objc final public var bottom: CoreFoundation.CGFloat
+  @objc final public var trailing: CoreFoundation.CGFloat
+  @objc final public var animationType: AvatyePointHome.APHFloatingAnimationType
+  @objc final public var useAnimation: Swift.Bool
+  @objc final public var message: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(swift, obsoleted: 1.0)
+@objc(APHDelegate) public protocol APHDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func pointHomeServiceDidOpen(_ caller: AvatyePointHome.APHCallResource)
+  @objc func pointHomeServiceDidClose(_ caller: AvatyePointHome.APHCallResource)
+  @objc func pointHomeServiceDidFail(_ error: Foundation.NSError)
+  @objc optional func pointHomeEventListener(_ event: [Swift.String : Any])
+  @objc optional func pointHomeSystemEventListener(_ event: [Swift.String : Any])
+}
+@available(swift, obsoleted: 1.0)
+@objc(APHService) final public class APHService : ObjectiveC.NSObject {
+  @objc weak final public var delegate: (any AvatyePointHome.APHDelegate)? {
+    @objc get
+    @objc set
+  }
+  @objc public init(rootViewController: UIKit.UIViewController, serviceData: AvatyePointHome.APHServiceData)
+  @objc convenience public init(rootViewController: UIKit.UIViewController, serviceData: AvatyePointHome.APHServiceData, delegate: (any AvatyePointHome.APHDelegate)?)
+  @objc final public func openPointHome()
+  @objc final public func closePointHome()
+  @objc final public func removePHService()
+  @objc final public func setFloatingButton()
+  @objc final public func setFloatingButton(_ config: AvatyePointHome.APHFloatingButtonConfig)
+  @objc final public func setFloatingButtonVisible(_ visible: Swift.Bool)
+  @objc final public func setAcceptUserHandler(_ handler: @escaping (Swift.String, @escaping (Swift.Bool, Swift.String?, Foundation.NSError?) -> Swift.Void) -> Swift.Void)
+  @objc final public func setConvertHandler(_ handler: @escaping (Swift.String, @escaping (Swift.String?, Foundation.NSError?) -> Swift.Void) -> Swift.Void)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(swift, obsoleted: 1.0)
+@objc(APHFramework) final public class APHFramework : ObjectiveC.NSObject {
+  @objc(initializeWithLogLevel:) public static func initialize(logLevel: AvatyePointHome.APHLogLevel)
+  @objc(initializeWithDefaults) public static func initializeWithDefaults()
+  @objc(setTestMode:) public static func setTestMode(_ value: Swift.Bool)
+  @objc public static var developMode: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var environment: AvatyePointHome.APHEnvironment {
+    @objc get
+    @objc set
+  }
+  @objc(getUserProfileWithServiceID:secret:uniqueID:resource:completion:) public static func getUserProfile(serviceID: Swift.String, secret: Swift.String, uniqueID: Swift.String?, resource: Swift.String?, completion: @escaping (AvatyePointHome.APHUserProfile?, Foundation.NSError?) -> Swift.Void)
+  @objc(getUserProfileWithServiceID:secret:completion:) public static func getUserProfile(serviceID: Swift.String, secret: Swift.String, completion: @escaping (AvatyePointHome.APHUserProfile?, Foundation.NSError?) -> Swift.Void)
+  @objc(withdrawUserWithServiceID:secret:uniqueID:reason:completion:) public static func withdrawUser(serviceID: Swift.String, secret: Swift.String, uniqueID: Swift.String, reason: Swift.String, completion: @escaping (AvatyePointHome.APHWithdrawResult) -> Swift.Void)
+  @objc(withdrawUserWithServiceID:secret:uniqueID:completion:) public static func withdrawUser(serviceID: Swift.String, secret: Swift.String, uniqueID: Swift.String, completion: @escaping (AvatyePointHome.APHWithdrawResult) -> Swift.Void)
+  @objc public static var appVersion: Swift.String {
+    @objc get
+  }
+  @objc public static var bridgeVersion: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(swift, obsoleted: 1.0)
+@objc(APHUserProfile) final public class APHUserProfile : ObjectiveC.NSObject {
+  @objc final public let cash: AvatyePointHome.APHUserCash?
+  @objc final public let button: AvatyePointHome.APHUserButton?
+  @objc final public let ticket: AvatyePointHome.APHUserTicket?
+  @objc final public let box: AvatyePointHome.APHUserBox?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(swift, obsoleted: 1.0)
+@objc(APHUserCash) final public class APHUserCash : ObjectiveC.NSObject {
+  @objc final public let balance: Swift.Int
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(swift, obsoleted: 1.0)
+@objc(APHUserButton) final public class APHUserButton : ObjectiveC.NSObject {
+  @objc final public let gettableCash: Swift.Int
+  @objc final public let iconUrl: Swift.String?
+  @objc final public let color: Swift.String?
+  @objc final public let needAgeVerification: Foundation.NSNumber?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(swift, obsoleted: 1.0)
+@objc(APHUserTicket) final public class APHUserTicket : ObjectiveC.NSObject {
+  @objc final public let ticketBalance: Foundation.NSNumber?
+  @objc final public let touchTicket: AvatyePointHome.APHUserTicketModel?
+  @objc final public let videoTicket: AvatyePointHome.APHUserTicketModel?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(swift, obsoleted: 1.0)
+@objc(APHUserTicketModel) final public class APHUserTicketModel : ObjectiveC.NSObject {
+  @objc final public let receivedCount: Swift.Int
+  @objc final public let limitCount: Swift.Int
+  @objc final public let period: Swift.Int
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(swift, obsoleted: 1.0)
+@objc(APHUserBox) final public class APHUserBox : ObjectiveC.NSObject {
+  @objc final public let isCashBoxGettable: Foundation.NSNumber?
+  @objc final public let isAttendanceBoxGettable: Foundation.NSNumber?
+  @objc deinit
+}
 extension AvatyePointHome.PHCallResource : Swift.Equatable {}
 extension AvatyePointHome.PHCallResource : Swift.Hashable {}
 extension AvatyePointHome.PointHomeError : Swift.Equatable {}
@@ -221,3 +421,39 @@ extension AvatyePointHome.LogLevel : Swift.RawRepresentable {}
 extension AvatyePointHome.PHFloatingAnimationType : Swift.Equatable {}
 extension AvatyePointHome.PHFloatingAnimationType : Swift.Hashable {}
 extension AvatyePointHome.PHFloatingAnimationType : Swift.RawRepresentable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHCallResource : Swift.Equatable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHCallResource : Swift.Hashable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHCallResource : Swift.RawRepresentable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHFloatingAnimationType : Swift.Equatable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHFloatingAnimationType : Swift.Hashable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHFloatingAnimationType : Swift.RawRepresentable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHLogLevel : Swift.Equatable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHLogLevel : Swift.Hashable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHLogLevel : Swift.RawRepresentable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHEnvironment : Swift.Equatable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHEnvironment : Swift.Hashable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHEnvironment : Swift.RawRepresentable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHWithdrawResult : Swift.Equatable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHWithdrawResult : Swift.Hashable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHWithdrawResult : Swift.RawRepresentable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHErrorCode : Swift.Equatable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHErrorCode : Swift.Hashable {}
+@available(swift, obsoleted: 1.0)
+extension AvatyePointHome.APHErrorCode : Swift.RawRepresentable {}

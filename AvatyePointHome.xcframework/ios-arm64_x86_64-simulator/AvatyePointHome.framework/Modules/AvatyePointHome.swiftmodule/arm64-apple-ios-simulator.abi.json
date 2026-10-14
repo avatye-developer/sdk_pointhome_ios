@@ -6743,6 +6743,1659 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PointHomeAdVendor",
+        "printedName": "PointHomeAdVendor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AvatyePointHome0bC8AdVendorP4nameSSvp",
+            "mangledName": "$s15AvatyePointHome0bC8AdVendorP4nameSSvp",
+            "moduleName": "AvatyePointHome",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AvatyePointHome0bC8AdVendorP4nameSSvg",
+                "mangledName": "$s15AvatyePointHome0bC8AdVendorP4nameSSvg",
+                "moduleName": "AvatyePointHome",
+                "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.PointHomeAdVendor>",
+                "sugared_genericSig": "<Self where Self : AvatyePointHome.PointHomeAdVendor>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "PointHomeAdapter"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adTypes",
+            "printedName": "adTypes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : AvatyePointHome.VendorAdKind]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VendorAdKind",
+                    "printedName": "AvatyePointHome.VendorAdKind",
+                    "usr": "s:15AvatyePointHome12VendorAdKindO"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AvatyePointHome0bC8AdVendorP7adTypesSDySSAA0eD4KindOGvp",
+            "mangledName": "$s15AvatyePointHome0bC8AdVendorP7adTypesSDySSAA0eD4KindOGvp",
+            "moduleName": "AvatyePointHome",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AvatyePointHome.VendorAdKind]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VendorAdKind",
+                        "printedName": "AvatyePointHome.VendorAdKind",
+                        "usr": "s:15AvatyePointHome12VendorAdKindO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AvatyePointHome0bC8AdVendorP7adTypesSDySSAA0eD4KindOGvg",
+                "mangledName": "$s15AvatyePointHome0bC8AdVendorP7adTypesSDySSAA0eD4KindOGvg",
+                "moduleName": "AvatyePointHome",
+                "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.PointHomeAdVendor>",
+                "sugared_genericSig": "<Self where Self : AvatyePointHome.PointHomeAdVendor>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "PointHomeAdapter"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isReady",
+            "printedName": "isReady()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0bC8AdVendorP7isReadySbyF",
+            "mangledName": "$s15AvatyePointHome0bC8AdVendorP7isReadySbyF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.PointHomeAdVendor>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.PointHomeAdVendor>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createBanner",
+            "printedName": "createBanner(viewController:placementID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VendorDisplayAd",
+                "printedName": "any AvatyePointHome.VendorDisplayAd",
+                "usr": "s:15AvatyePointHome15VendorDisplayAdP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0bC8AdVendorP12createBanner14viewController11placementIDAA0e7DisplayD0_pSo06UIViewI0C_SStKF",
+            "mangledName": "$s15AvatyePointHome0bC8AdVendorP12createBanner14viewController11placementIDAA0e7DisplayD0_pSo06UIViewI0C_SStKF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.PointHomeAdVendor>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.PointHomeAdVendor>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createFullscreen",
+            "printedName": "createFullscreen(placementID:kind:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VendorFullscreenAd",
+                "printedName": "any AvatyePointHome.VendorFullscreenAd",
+                "usr": "s:15AvatyePointHome18VendorFullscreenAdP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VendorAdKind",
+                "printedName": "AvatyePointHome.VendorAdKind",
+                "usr": "s:15AvatyePointHome12VendorAdKindO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome0bC8AdVendorP16createFullscreen11placementID4kindAA0egD0_pSS_AA0eD4KindOtKF",
+            "mangledName": "$s15AvatyePointHome0bC8AdVendorP16createFullscreen11placementID4kindAA0egD0_pSS_AA0eD4KindOtKF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.PointHomeAdVendor>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.PointHomeAdVendor>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15AvatyePointHome0bC8AdVendorP",
+        "mangledName": "$s15AvatyePointHome0bC8AdVendorP",
+        "moduleName": "AvatyePointHome",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "PointHomeAdapter"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VendorAdKind",
+        "printedName": "VendorAdKind",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "banner",
+            "printedName": "banner",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.VendorAdKind.Type) -> AvatyePointHome.VendorAdKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VendorAdKind",
+                    "printedName": "AvatyePointHome.VendorAdKind",
+                    "usr": "s:15AvatyePointHome12VendorAdKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.VendorAdKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VendorAdKind",
+                        "printedName": "AvatyePointHome.VendorAdKind",
+                        "usr": "s:15AvatyePointHome12VendorAdKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome12VendorAdKindO6banneryA2CmF",
+            "mangledName": "$s15AvatyePointHome12VendorAdKindO6banneryA2CmF",
+            "moduleName": "AvatyePointHome",
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interstitial",
+            "printedName": "interstitial",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.VendorAdKind.Type) -> AvatyePointHome.VendorAdKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VendorAdKind",
+                    "printedName": "AvatyePointHome.VendorAdKind",
+                    "usr": "s:15AvatyePointHome12VendorAdKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.VendorAdKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VendorAdKind",
+                        "printedName": "AvatyePointHome.VendorAdKind",
+                        "usr": "s:15AvatyePointHome12VendorAdKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome12VendorAdKindO12interstitialyA2CmF",
+            "mangledName": "$s15AvatyePointHome12VendorAdKindO12interstitialyA2CmF",
+            "moduleName": "AvatyePointHome",
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reward",
+            "printedName": "reward",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.VendorAdKind.Type) -> AvatyePointHome.VendorAdKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VendorAdKind",
+                    "printedName": "AvatyePointHome.VendorAdKind",
+                    "usr": "s:15AvatyePointHome12VendorAdKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.VendorAdKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VendorAdKind",
+                        "printedName": "AvatyePointHome.VendorAdKind",
+                        "usr": "s:15AvatyePointHome12VendorAdKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome12VendorAdKindO6rewardyA2CmF",
+            "mangledName": "$s15AvatyePointHome12VendorAdKindO6rewardyA2CmF",
+            "moduleName": "AvatyePointHome",
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AvatyePointHome.VendorAdKind?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VendorAdKind",
+                    "printedName": "AvatyePointHome.VendorAdKind",
+                    "usr": "s:15AvatyePointHome12VendorAdKindO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AvatyePointHome12VendorAdKindO8rawValueACSgSS_tcfc",
+            "mangledName": "$s15AvatyePointHome12VendorAdKindO8rawValueACSgSS_tcfc",
+            "moduleName": "AvatyePointHome",
+            "implicit": true,
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AvatyePointHome12VendorAdKindO8rawValueSSvp",
+            "mangledName": "$s15AvatyePointHome12VendorAdKindO8rawValueSSvp",
+            "moduleName": "AvatyePointHome",
+            "implicit": true,
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AvatyePointHome12VendorAdKindO8rawValueSSvg",
+                "mangledName": "$s15AvatyePointHome12VendorAdKindO8rawValueSSvg",
+                "moduleName": "AvatyePointHome",
+                "implicit": true,
+                "spi_group_names": [
+                  "PointHomeAdapter"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15AvatyePointHome12VendorAdKindO",
+        "mangledName": "$s15AvatyePointHome12VendorAdKindO",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "PointHomeAdapter"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VendorDisplayAd",
+        "printedName": "VendorDisplayAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onClick",
+            "printedName": "onClick",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AvatyePointHome15VendorDisplayAdP7onClickyycSgvp",
+            "mangledName": "$s15AvatyePointHome15VendorDisplayAdP7onClickyycSgvp",
+            "moduleName": "AvatyePointHome",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AvatyePointHome15VendorDisplayAdP7onClickyycSgvg",
+                "mangledName": "$s15AvatyePointHome15VendorDisplayAdP7onClickyycSgvg",
+                "moduleName": "AvatyePointHome",
+                "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorDisplayAd>",
+                "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorDisplayAd>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "PointHomeAdapter"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AvatyePointHome15VendorDisplayAdP7onClickyycSgvs",
+                "mangledName": "$s15AvatyePointHome15VendorDisplayAdP7onClickyycSgvs",
+                "moduleName": "AvatyePointHome",
+                "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorDisplayAd>",
+                "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorDisplayAd>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "PointHomeAdapter"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AvatyePointHome15VendorDisplayAdP7onClickyycSgvM",
+                "mangledName": "$s15AvatyePointHome15VendorDisplayAdP7onClickyycSgvM",
+                "moduleName": "AvatyePointHome",
+                "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorDisplayAd>",
+                "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorDisplayAd>",
+                "protocolReq": true,
+                "implicit": true,
+                "declAttributes": [
+                  "SPIAccessControl"
+                ],
+                "spi_group_names": [
+                  "PointHomeAdapter"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VendorLoadListener",
+                "printedName": "any AvatyePointHome.VendorLoadListener",
+                "usr": "s:15AvatyePointHome18VendorLoadListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome15VendorDisplayAdP4load8listeneryAA0D12LoadListener_p_tF",
+            "mangledName": "$s15AvatyePointHome15VendorDisplayAdP4load8listeneryAA0D12LoadListener_p_tF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorDisplayAd>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorDisplayAd>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "view",
+            "printedName": "view()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome15VendorDisplayAdP4viewSo6UIViewCSgyF",
+            "mangledName": "$s15AvatyePointHome15VendorDisplayAdP4viewSo6UIViewCSgyF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorDisplayAd>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorDisplayAd>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "size",
+            "printedName": "size()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGSize?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome15VendorDisplayAdP4sizeSo6CGSizeVSgyF",
+            "mangledName": "$s15AvatyePointHome15VendorDisplayAdP4sizeSo6CGSizeVSgyF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorDisplayAd>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorDisplayAd>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome15VendorDisplayAdP7destroyyyF",
+            "mangledName": "$s15AvatyePointHome15VendorDisplayAdP7destroyyyF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorDisplayAd>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorDisplayAd>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "size",
+            "printedName": "size()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGSize?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome15VendorDisplayAdPAAE4sizeSo6CGSizeVSgyF",
+            "mangledName": "$s15AvatyePointHome15VendorDisplayAdPAAE4sizeSo6CGSizeVSgyF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorDisplayAd>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorDisplayAd>",
+            "isFromExtension": true,
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15AvatyePointHome15VendorDisplayAdP",
+        "mangledName": "$s15AvatyePointHome15VendorDisplayAdP",
+        "moduleName": "AvatyePointHome",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "PointHomeAdapter"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VendorFullscreenAd",
+        "printedName": "VendorFullscreenAd",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VendorLoadListener",
+                "printedName": "any AvatyePointHome.VendorLoadListener",
+                "usr": "s:15AvatyePointHome18VendorLoadListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome18VendorFullscreenAdP4load8listeneryAA0D12LoadListener_p_tF",
+            "mangledName": "$s15AvatyePointHome18VendorFullscreenAdP4load8listeneryAA0D12LoadListener_p_tF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorFullscreenAd>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorFullscreenAd>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isLoaded",
+            "printedName": "isLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome18VendorFullscreenAdP8isLoadedSbyF",
+            "mangledName": "$s15AvatyePointHome18VendorFullscreenAdP8isLoadedSbyF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorFullscreenAd>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorFullscreenAd>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(viewController:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VendorShowListener",
+                "printedName": "any AvatyePointHome.VendorShowListener",
+                "usr": "s:15AvatyePointHome18VendorShowListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome18VendorFullscreenAdP4show14viewController8listenerySo06UIViewI0C_AA0D12ShowListener_ptF",
+            "mangledName": "$s15AvatyePointHome18VendorFullscreenAdP4show14viewController8listenerySo06UIViewI0C_AA0D12ShowListener_ptF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorFullscreenAd>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorFullscreenAd>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome18VendorFullscreenAdP7destroyyyF",
+            "mangledName": "$s15AvatyePointHome18VendorFullscreenAdP7destroyyyF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorFullscreenAd>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorFullscreenAd>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15AvatyePointHome18VendorFullscreenAdP",
+        "mangledName": "$s15AvatyePointHome18VendorFullscreenAdP",
+        "moduleName": "AvatyePointHome",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "PointHomeAdapter"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VendorLoadListener",
+        "printedName": "VendorLoadListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onLoaded",
+            "printedName": "onLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome18VendorLoadListenerP8onLoadedyyF",
+            "mangledName": "$s15AvatyePointHome18VendorLoadListenerP8onLoadedyyF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorLoadListener>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorLoadListener>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFailed",
+            "printedName": "onFailed(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VendorLoadError",
+                "printedName": "AvatyePointHome.VendorLoadError",
+                "usr": "s:15AvatyePointHome15VendorLoadErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome18VendorLoadListenerP8onFailedyyAA0dE5ErrorOF",
+            "mangledName": "$s15AvatyePointHome18VendorLoadListenerP8onFailedyyAA0dE5ErrorOF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorLoadListener>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorLoadListener>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15AvatyePointHome18VendorLoadListenerP",
+        "mangledName": "$s15AvatyePointHome18VendorLoadListenerP",
+        "moduleName": "AvatyePointHome",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "PointHomeAdapter"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VendorShowListener",
+        "printedName": "VendorShowListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onClosed",
+            "printedName": "onClosed(rewarded:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome18VendorShowListenerP8onClosed8rewardedySb_tF",
+            "mangledName": "$s15AvatyePointHome18VendorShowListenerP8onClosed8rewardedySb_tF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorShowListener>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorShowListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onShowFailed",
+            "printedName": "onShowFailed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome18VendorShowListenerP02onE6FailedyyF",
+            "mangledName": "$s15AvatyePointHome18VendorShowListenerP02onE6FailedyyF",
+            "moduleName": "AvatyePointHome",
+            "genericSig": "<τ_0_0 where τ_0_0 : AvatyePointHome.VendorShowListener>",
+            "sugared_genericSig": "<Self where Self : AvatyePointHome.VendorShowListener>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15AvatyePointHome18VendorShowListenerP",
+        "mangledName": "$s15AvatyePointHome18VendorShowListenerP",
+        "moduleName": "AvatyePointHome",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "PointHomeAdapter"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VendorLoadError",
+        "printedName": "VendorLoadError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noFill",
+            "printedName": "noFill",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.VendorLoadError.Type) -> AvatyePointHome.VendorLoadError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VendorLoadError",
+                    "printedName": "AvatyePointHome.VendorLoadError",
+                    "usr": "s:15AvatyePointHome15VendorLoadErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.VendorLoadError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VendorLoadError",
+                        "printedName": "AvatyePointHome.VendorLoadError",
+                        "usr": "s:15AvatyePointHome15VendorLoadErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome15VendorLoadErrorO6noFillyA2CmF",
+            "mangledName": "$s15AvatyePointHome15VendorLoadErrorO6noFillyA2CmF",
+            "moduleName": "AvatyePointHome",
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notReady",
+            "printedName": "notReady",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.VendorLoadError.Type) -> AvatyePointHome.VendorLoadError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VendorLoadError",
+                    "printedName": "AvatyePointHome.VendorLoadError",
+                    "usr": "s:15AvatyePointHome15VendorLoadErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.VendorLoadError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VendorLoadError",
+                        "printedName": "AvatyePointHome.VendorLoadError",
+                        "usr": "s:15AvatyePointHome15VendorLoadErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome15VendorLoadErrorO8notReadyyA2CmF",
+            "mangledName": "$s15AvatyePointHome15VendorLoadErrorO8notReadyyA2CmF",
+            "moduleName": "AvatyePointHome",
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "internalError",
+            "printedName": "internalError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatyePointHome.VendorLoadError.Type) -> AvatyePointHome.VendorLoadError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VendorLoadError",
+                    "printedName": "AvatyePointHome.VendorLoadError",
+                    "usr": "s:15AvatyePointHome15VendorLoadErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatyePointHome.VendorLoadError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VendorLoadError",
+                        "printedName": "AvatyePointHome.VendorLoadError",
+                        "usr": "s:15AvatyePointHome15VendorLoadErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15AvatyePointHome15VendorLoadErrorO08internalF0yA2CmF",
+            "mangledName": "$s15AvatyePointHome15VendorLoadErrorO08internalF0yA2CmF",
+            "moduleName": "AvatyePointHome",
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VendorLoadError",
+                "printedName": "AvatyePointHome.VendorLoadError",
+                "usr": "s:15AvatyePointHome15VendorLoadErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VendorLoadError",
+                "printedName": "AvatyePointHome.VendorLoadError",
+                "usr": "s:15AvatyePointHome15VendorLoadErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome15VendorLoadErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15AvatyePointHome15VendorLoadErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "AvatyePointHome",
+            "static": true,
+            "implicit": true,
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AvatyePointHome15VendorLoadErrorO9hashValueSivp",
+            "mangledName": "$s15AvatyePointHome15VendorLoadErrorO9hashValueSivp",
+            "moduleName": "AvatyePointHome",
+            "implicit": true,
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AvatyePointHome15VendorLoadErrorO9hashValueSivg",
+                "mangledName": "$s15AvatyePointHome15VendorLoadErrorO9hashValueSivg",
+                "moduleName": "AvatyePointHome",
+                "implicit": true,
+                "spi_group_names": [
+                  "PointHomeAdapter"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15AvatyePointHome15VendorLoadErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15AvatyePointHome15VendorLoadErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "AvatyePointHome",
+            "implicit": true,
+            "spi_group_names": [
+              "PointHomeAdapter"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15AvatyePointHome15VendorLoadErrorO",
+        "mangledName": "$s15AvatyePointHome15VendorLoadErrorO",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "PointHomeAdapter"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AvatyePointHome",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6783,35 +8436,35 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "IntegerLiteral",
-      "offset": 8726,
+      "offset": 11349,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "IntegerLiteral",
-      "offset": 8784,
+      "offset": 11407,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8929,
+      "offset": 11552,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "IntegerLiteral",
-      "offset": 11707,
+      "offset": 14330,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/AvatyePHService.swift",
       "kind": "IntegerLiteral",
-      "offset": 11731,
+      "offset": 14354,
       "length": 2,
       "value": "-1"
     },
@@ -6904,14 +8557,14 @@
       "kind": "StringLiteral",
       "offset": 196,
       "length": 7,
-      "value": "\"3.2.0\""
+      "value": "\"3.4.0\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PointHomeFramework.swift",
       "kind": "StringLiteral",
       "offset": 250,
       "length": 7,
-      "value": "\"1.1.0\""
+      "value": "\"1.2.0\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PointHomeFramework.swift",
@@ -7259,196 +8912,217 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornBannerLoader.swift",
       "kind": "StringLiteral",
-      "offset": 667,
+      "offset": 848,
       "length": 25,
       "value": "\"[AdPopcornBannerLoader]\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornBannerLoader.swift",
       "kind": "Array",
-      "offset": 750,
+      "offset": 931,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornBannerLoader.swift",
       "kind": "Array",
-      "offset": 813,
+      "offset": 994,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornDisplayable.swift",
+      "kind": "StringLiteral",
+      "offset": 5078,
+      "length": 9,
+      "value": "\" \t\n\r\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornDisplayable.swift",
+      "kind": "StringLiteral",
+      "offset": 5291,
+      "length": 57,
+      "value": "\"^[+-]?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([eE][+-]?[0-9]+)?$\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeLoader.swift",
+      "kind": "Array",
+      "offset": 2364,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeLoader.swift",
       "kind": "Array",
-      "offset": 1824,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeLoader.swift",
-      "kind": "Array",
-      "offset": 1887,
+      "offset": 2427,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "StringLiteral",
-      "offset": 1292,
+      "offset": 1779,
       "length": 11,
       "value": "\"자세히\""
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1371,
+      "offset": 1962,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2032,
       "length": 4,
       "value": "0x21"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1378,
+      "offset": 2039,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1390,
+      "offset": 2051,
       "length": 4,
       "value": "0x21"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1397,
+      "offset": 2058,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1408,
+      "offset": 2069,
       "length": 4,
       "value": "0x21"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1415,
+      "offset": 2076,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1427,
+      "offset": 2088,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1668,
+      "offset": 2453,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1675,
+      "offset": 2460,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1687,
+      "offset": 2472,
       "length": 4,
       "value": "0x44"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1694,
+      "offset": 2479,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1705,
+      "offset": 2490,
       "length": 4,
       "value": "0xD2"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1712,
+      "offset": 2497,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1724,
+      "offset": 2509,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1858,
+      "offset": 2643,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1865,
+      "offset": 2650,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1877,
+      "offset": 2662,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1884,
+      "offset": 2669,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1895,
+      "offset": 2680,
       "length": 4,
       "value": "0x55"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1902,
+      "offset": 2687,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1914,
+      "offset": 2699,
       "length": 4,
       "value": "0xAA"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/AdPopcornNativeAdViewFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1921,
+      "offset": 2706,
       "length": 3,
       "value": "255"
     },
@@ -7504,30 +9178,44 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "Dictionary",
-      "offset": 396,
+      "offset": 514,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
+      "kind": "Dictionary",
+      "offset": 838,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "Array",
-      "offset": 449,
+      "offset": 891,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 600,
+      "offset": 1042,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 978,
+      "offset": 1420,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/AdvertiseHandler.swift",
+      "kind": "Dictionary",
+      "offset": 1602,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/NavigationHandler.swift",
@@ -7560,84 +9248,84 @@
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/PointHomeAdErrorUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 157,
+      "offset": 337,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/PointHomeAdErrorUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 180,
+      "offset": 360,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/PointHomeAdErrorUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 206,
+      "offset": 386,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/PointHomeAdErrorUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 237,
+      "offset": 417,
       "length": 3,
       "value": "301"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/PointHomeAdErrorUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 266,
+      "offset": 446,
       "length": 3,
       "value": "310"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/PointHomeAdErrorUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 297,
+      "offset": 477,
       "length": 3,
       "value": "311"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/PointHomeAdErrorUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 326,
+      "offset": 506,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/PointHomeAdErrorUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 357,
+      "offset": 537,
       "length": 3,
       "value": "321"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/PointHomeAdErrorUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 386,
+      "offset": 566,
       "length": 3,
       "value": "330"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/PointHomeAdErrorUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 416,
+      "offset": 596,
       "length": 3,
       "value": "340"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/PointHomeAdErrorUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 446,
+      "offset": 626,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/PointHomeAdErrorUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 476,
+      "offset": 656,
       "length": 3,
       "value": "900"
     },
@@ -7710,6 +9398,13 @@
       "offset": 666,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHExternalURLOpener.swift",
+      "kind": "Array",
+      "offset": 1189,
+      "length": 42,
+      "value": "[\"http\", \"https\", \"about\", \"data\", \"blob\"]"
     },
     {
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/PHLoadingDotsView.swift",
@@ -8268,6 +9963,279 @@
       "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Sub\/PHFloatingButton.swift",
       "kind": "BooleanLiteral",
       "offset": 9044,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/Vendor\/VendorRegistry.swift",
+      "kind": "Array",
+      "offset": 918,
+      "length": 35,
+      "value": "[\"PHBidmadAdVendor\"]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/Vendor\/VendorAdRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3477,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/Vendor\/VendorAdRouter.swift",
+      "kind": "Dictionary",
+      "offset": 4338,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/Vendor\/VendorAdRouter.swift",
+      "kind": "Dictionary",
+      "offset": 4420,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/Vendor\/VendorAdRouter.swift",
+      "kind": "Dictionary",
+      "offset": 4708,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/Vendor\/VendorAdRouter.swift",
+      "kind": "Array",
+      "offset": 4755,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/Vendor\/VendorAdRouter.swift",
+      "kind": "Dictionary",
+      "offset": 4900,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/Vendor\/VendorAdRouter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4932,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/Vendor\/VendorDisplayPresenter.swift",
+      "kind": "Array",
+      "offset": 1356,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/Bridge\/Handler\/Advertise\/Vendor\/VendorDisplayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1387,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1197,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1266,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1322,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2230,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2269,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2306,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2740,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2758,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2779,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2798,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3215,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3231,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3250,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3268,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4200,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4231,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 875,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 940,
+      "length": 4,
+      "value": "2000"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1015,
+      "length": 4,
+      "value": "2001"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1084,
+      "length": 4,
+      "value": "2002"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1172,
+      "length": 4,
+      "value": "4100"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1256,
+      "length": 4,
+      "value": "4290"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1357,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1430,
+      "length": 4,
+      "value": "9002"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHError.swift",
+      "kind": "StringLiteral",
+      "offset": 1824,
+      "length": 22,
+      "value": "\"com.avatye.pointhome\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHError.swift",
+      "kind": "StringLiteral",
+      "offset": 2105,
+      "length": 14,
+      "value": "\"APHErrorType\""
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHFloatingButtonConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1150,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHFloatingButtonConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1374,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/jun\/XcodeProject\/PointHomeSdk\/src_pointhome_ios\/AvatyePointHome\/ObjC\/APHFloatingButtonConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1624,
       "length": 4,
       "value": "true"
     },

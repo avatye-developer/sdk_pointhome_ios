@@ -1,0 +1,31 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OpenBiddingHelper
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+@_exported import OpenBiddingHelper
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public protocol BidmadFullscreenAdDelegate {
+  @objc optional func bidmadFullscreenLoad(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo)
+  @objc optional func bidmadFullscreenLoadFail(ad: OpenBiddingHelper.BidmadFullscreenAd, error: any Swift.Error)
+  @objc optional func bidmadFullscreenShow(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo)
+  @objc optional func bidmadFullscreenShowFail(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo?, error: any Swift.Error)
+  @objc optional func bidmadFullscreenClick(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo)
+  @objc optional func bidmadFullscreenComplete(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo)
+  @objc optional func bidmadFullscreenSkip(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo)
+  @objc optional func bidmadFullscreenClose(ad: OpenBiddingHelper.BidmadFullscreenAd, info: BidmadSDK.BidmadInfo)
+}
+@objc @objcMembers public class BidmadFullscreenAd : ObjectiveC.NSObject, BidmadSDK.BidmadLoggable {
+  @objc public static var className: Swift.String
+  @objc weak public var delegate: (any OpenBiddingHelper.BidmadFullscreenAdDelegate)?
+  @objc public var isAutoReload: Swift.Bool
+  @objc public init(zoneID: Swift.String)
+  @objc public func load()
+  @objc public func show(on viewController: UIKit.UIViewController)
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}

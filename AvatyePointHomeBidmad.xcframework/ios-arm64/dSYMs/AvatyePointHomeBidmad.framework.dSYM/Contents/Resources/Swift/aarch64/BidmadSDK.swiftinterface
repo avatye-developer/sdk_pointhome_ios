@@ -1,0 +1,1147 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BidmadSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+@_exported import BidmadSDK
+import Combine
+import Foundation
+import Swift
+import SwiftUI
+import SystemConfiguration
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum BIDMADAdPosition : Swift.Int {
+  case center = 0
+  case top = 1
+  case bottom = 2
+  case left = 3
+  case right = 4
+  case topLeft = 5
+  case topRight = 6
+  case bottomLeft = 7
+  case bottomRight = 8
+  case none = 9
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @objcMembers final public class BIDMADBanner : ObjectiveC.NSObject, BidmadSDK.BidmadBannerAdapterDelegate, BidmadSDK.BidmadLoggable {
+  @objc public static let className: Swift.String
+  @objc final public var adapter: BidmadSDK.BidmadBannerAdapter?
+  @objc final public var adBlockEstimation: Swift.Bool
+  @objc(initWithInstanceOBH:) public init(with instanceOBH: any BidmadSDK.OBHBannerExtraDelegate & BidmadSDK.OBHCommunicationDelegate)
+  @objc(selectAdUnit:) final public func select(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc final public func clicked(with ad: BidmadSDK.BidmadBannerAdapter)
+  @objc deinit
+}
+@objc public enum BIDMADBannerViewCase : Swift.Int {
+  case xYCoordinateGiven = 0
+  case containerViewGiven = 1
+  case onlyYCoordinateGiven = 2
+  case adPositionAnchorGiven = 3
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @objcMembers public class BIDMADInterstitial : ObjectiveC.NSObject, BidmadSDK.BidmadFullscreenAdapterDelegate, BidmadSDK.BidmadLoggable {
+  @objc public static let className: Swift.String
+  @objc public var adapter: BidmadSDK.BidmadFullscreenAdapter?
+  @objc public var adBlockEstimation: Swift.Bool
+  @objc(initWithInstanceOBH:) public init(with instanceOBH: any BidmadSDK.OBHCommunicationDelegate)
+  @objc(selectAdUnit:) public func select(adUnit: BidmadSDK.BidmadAdUnit)
+  @objc(showInterstitialViewOnViewController:) public func showInterstitialView(on viewController: UIKit.UIViewController)
+  @objc public func dismissed(with ad: BidmadSDK.BidmadFullscreenAdapter)
+  @objc public func presented(with ad: BidmadSDK.BidmadFullscreenAdapter)
+  @objc public func failedToPresent(with ad: BidmadSDK.BidmadFullscreenAdapter, error: any Swift.Error)
+  @objc public func clicked(with ad: BidmadSDK.BidmadFullscreenAdapter)
+  @objc public func rewarded(with ad: BidmadSDK.BidmadFullscreenAdapter)
+  @objc public func skipped(with ad: BidmadSDK.BidmadFullscreenAdapter)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class BidmadConstants : ObjectiveC.NSObject {
+  @objc public static let info_plist_appstore_id: Swift.String
+  @objc public static let info_plist_cauly_app_code: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @objcMembers public class BidmadFullscreenCore : ObjectiveC.NSObject, BidmadSDK.BidmadLoggable, BidmadSDK.BidmadFullscreenAdapterDelegate {
+  @objc public static let className: Swift.String
+  @objc final public let zoneId: Swift.String
+  @objc public var loadedAdapter: BidmadSDK.BidmadFullscreenAdapter? {
+    @objc get
+  }
+  @objc public var onClick: ((BidmadSDK.BidmadInfo) -> Swift.Void)?
+  @objc public var onClose: ((BidmadSDK.BidmadInfo) -> Swift.Void)?
+  @objc public var onComplete: ((BidmadSDK.BidmadInfo) -> Swift.Void)?
+  @objc public var onSkip: ((BidmadSDK.BidmadInfo) -> Swift.Void)?
+  @objc public var testHost: Swift.String?
+  @objc public var testPath: Swift.String?
+  @objc public init(zoneId: Swift.String)
+  @objc public func request(loadCompletionHandler: @escaping (BidmadSDK.BidmadInfo?, (any Swift.Error)?) -> Swift.Void, adUnit: BidmadSDK.BidmadAdUnit? = nil)
+  @objc public func show(viewController: UIKit.UIViewController, showCompletionHandler: @escaping (BidmadSDK.BidmadInfo?, (any Swift.Error)?) -> Swift.Void)
+  @objc public func dismissed(with ad: BidmadSDK.BidmadFullscreenAdapter)
+  @objc public func presented(with ad: BidmadSDK.BidmadFullscreenAdapter)
+  @objc public func failedToPresent(with ad: BidmadSDK.BidmadFullscreenAdapter, error: any Swift.Error)
+  @objc public func clicked(with ad: BidmadSDK.BidmadFullscreenAdapter)
+  @objc public func rewarded(with ad: BidmadSDK.BidmadFullscreenAdapter)
+  @objc public func skipped(with ad: BidmadSDK.BidmadFullscreenAdapter)
+  @objc deinit
+}
+@objc public protocol BidmadGDPRAdapter : ObjectiveC.NSObjectProtocol {
+  @objc init()
+  @objc var isConsentFormAvailable: Swift.Bool { get }
+  @objc func setDebug(testDeviceId: Swift.String, isTestEurope: Swift.Bool)
+  @objc func requestConsentInfoUpdate(completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc func loadForm(completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc func showForm(to viewController: UIKit.UIViewController?, completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc var consentStatus: BidmadSDK.BIDMAD_UMPConsentStatus { get }
+  @objc func reset()
+}
+public enum BidmadSDKReachabilityError : Swift.Error {
+  case failedToCreateWithAddress(Darwin.sockaddr, Swift.Int32)
+  case failedToCreateWithHostname(Swift.String, Swift.Int32)
+  case unableToSetCallback(Swift.Int32)
+  case unableToSetDispatchQueue(Swift.Int32)
+  case unableToGetFlags(Swift.Int32)
+}
+extension Foundation.NSNotification.Name {
+  public static let bidmadSDKReachabilityChanged: Foundation.Notification.Name
+}
+@objc @objcMembers public class BidmadSDKReachability : ObjectiveC.NSObject {
+  public typealias NetworkReachable = (BidmadSDK.BidmadSDKReachability) -> Swift.Void
+  public typealias NetworkUnreachable = (BidmadSDK.BidmadSDKReachability) -> Swift.Void
+  @available(*, unavailable, renamed: "Connection")
+  public enum NetworkStatus : Swift.CustomStringConvertible {
+    case notReachable, reachableViaWiFi, reachableViaWWAN
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: BidmadSDK.BidmadSDKReachability.NetworkStatus, b: BidmadSDK.BidmadSDKReachability.NetworkStatus) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Connection : Swift.CustomStringConvertible {
+    case unavailable, wifi, cellular
+    public var description: Swift.String {
+      get
+    }
+    @available(*, deprecated, renamed: "unavailable")
+    public static let none: BidmadSDK.BidmadSDKReachability.Connection
+    public static func == (a: BidmadSDK.BidmadSDKReachability.Connection, b: BidmadSDK.BidmadSDKReachability.Connection) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @objc public var whenReachable: BidmadSDK.BidmadSDKReachability.NetworkReachable?
+  @objc public var whenUnreachable: BidmadSDK.BidmadSDKReachability.NetworkUnreachable?
+  @objc @available(*, deprecated, renamed: "allowsCellularConnection")
+  final public let reachableOnWWAN: Swift.Bool
+  @objc public var allowsCellularConnection: Swift.Bool
+  @objc public var notificationCenter: Foundation.NotificationCenter
+  @objc @available(*, deprecated, renamed: "connection.description")
+  public var currentReachabilityString: Swift.String {
+    @objc get
+  }
+  @available(*, unavailable, renamed: "connection")
+  public var currentReachabilityStatus: BidmadSDK.BidmadSDKReachability.Connection {
+    get
+  }
+  public var connection: BidmadSDK.BidmadSDKReachability.Connection {
+    get
+  }
+  @objc public static func getInstance() -> BidmadSDK.BidmadSDKReachability?
+  required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main)
+  convenience public init(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  convenience public init(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  @objc deinit
+}
+extension BidmadSDK.BidmadSDKReachability {
+  @objc dynamic public func startNotifier() throws
+  @objc dynamic public func stopNotifier()
+  @objc dynamic public var isReachable: Swift.Bool {
+    @objc get
+  }
+  @objc @available(*, deprecated, message: "Please use `connection == .cellular`")
+  dynamic public var isReachableViaWWAN: Swift.Bool {
+    @objc get
+  }
+  @objc @available(*, deprecated, message: "Please use `connection == .wifi`")
+  dynamic public var isReachableViaWiFi: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers open class BidmadStateManager : ObjectiveC.NSObject {
+  @objc public static func checkCollapsibleRequestedPreviously(for zoneId: Swift.String) -> Swift.Bool
+  @objc public static func set(collapsibleRequested: Swift.Bool, to zoneId: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 13.0, *)
+public struct BidmadForcedVisibility : SwiftUICore.EnvironmentKey {
+  public static var defaultValue: Swift.Double?
+  @available(iOS 13.0, *)
+  public typealias Value = Swift.Double?
+}
+@available(iOS 13.0, *)
+extension SwiftUICore.EnvironmentValues {
+  public var bidmadForcedVisibility: Swift.Double? {
+    get
+    set
+  }
+}
+@available(iOS 13.0, *)
+@_Concurrency.MainActor @preconcurrency public struct BidmadTracker : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(adView: UIKit.UIView?, viewController: UIKit.UIViewController?, visibilityRate: Swift.Double, change: @escaping (_ isVisible: Swift.Bool, _ isCompletelyInvisible: Swift.Bool, _ isAppActive: Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  @available(iOS 13.0, *)
+  public typealias Body = @_opaqueReturnTypeOf("$s9BidmadSDK0A7TrackerV4bodyQrvp", 0) __
+}
+@objc public protocol OBHBannerExtraDelegate : ObjectiveC.NSObjectProtocol {
+  @objc var zoneID: Swift.String { get set }
+  @objc(addLoadedAdView:adWidth:adHeight:strategy:keyWindow:error:) func add(loadedAdView adView: UIKit.UIView, adWidth: CoreFoundation.CGFloat, adHeight: CoreFoundation.CGFloat, strategy: BidmadSDK.BidmadBannerSizeStrategy, keyWindow: UIKit.UIWindow?, error: Foundation.NSErrorPointer)
+}
+public enum BidmadLogLevel : Swift.String {
+  case dev, info, test
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol BidmadLoggable {
+  static var className: Swift.String { get }
+}
+extension BidmadSDK.BidmadLoggable {
+  public func dev(_ log: Swift.String)
+  public func info(_ log: Swift.String)
+  public func test(_ log: Swift.String)
+  public static func dev(_ log: Swift.String)
+  public static func info(_ log: Swift.String)
+  public static func test(_ log: Swift.String)
+}
+extension BidmadSDK.BidmadAdUnit {
+  @objc dynamic public func stripToInfo() -> BidmadSDK.BidmadInfo
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class BidmadAdUnit : ObjectiveC.NSObject {
+  @objc public static var supportedAdNetworks: [Swift.String : Swift.String] {
+    @objc get
+  }
+  @objc public var adNetworkName: Swift.String? {
+    @objc get
+  }
+  @objc final public let appId: Swift.String
+  @objc final public let placementId: Swift.String
+  @objc final public let width: Swift.Int
+  @objc final public let height: Swift.Int
+  @objc final public let floorPrice: Swift.Double
+  @objc final public let adNetworkId: Swift.String
+  @objc final public let areaIndex: Swift.String
+  @objc final public let key: Swift.String
+  @objc public var order: Swift.Int
+  @objc public var maxWidth: Swift.Double
+  @objc public var weight: Swift.Double
+  @objc public var sessionId: Swift.String
+  @objc public var adType: BidmadSDK.BidmadAdType
+  @objc public var realZoneId: Swift.String
+  @objc public var requestedZoneId: Swift.String
+  @objc public var next: BidmadSDK.BidmadAdUnit?
+  @objc public var requestedBannerAdSize: CoreFoundation.CGSize
+  @objc public var loadedBannerAdSize: CoreFoundation.CGSize
+  @objc public var detectedBannerAdSize: CoreFoundation.CGSize
+  @objc public func bannerSizeStrategy() -> BidmadSDK.BidmadBannerSizeStrategy
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class BidmadDataParsingUtility : ObjectiveC.NSObject, BidmadSDK.BidmadLoggable {
+  @objc public static let className: Swift.String
+  @objc(fetchAdUnitWithZoneId:completion:) public static func fetchAdUnit(with zoneId: Swift.String, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
+  @objc(fetchAdUnitWithZoneId:adType:completion:) public static func fetchAdUnit(with zoneId: Swift.String, adType: BidmadSDK.BidmadAdType, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
+  @objc public static func fetchAdUnitObjC(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType, testHost: Swift.String, testPath: Swift.String, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
+  public static func fetchAdUnit(zoneId: Swift.String, adType: BidmadSDK.BidmadAdType? = nil, testHost: Swift.String? = nil, testPath: Swift.String? = nil, completionHandler: @escaping (BidmadSDK.BidmadAdUnit?, (any Swift.Error)?) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers open class BidmadInfo : ObjectiveC.NSObject {
+  @objc final public let networkName: Swift.String
+  @objc final public let type: BidmadSDK.BidmadAdType
+  @objc final public let requestedBannerSize: CoreFoundation.CGSize
+  @objc final public let loadedBannerSize: CoreFoundation.CGSize
+  @objc final public let zoneId: Swift.String
+  final public let vpc: Swift.Double?
+  final public let vpi: Swift.Double?
+  @objc final public let realBannerAdSize: CoreFoundation.CGSize
+  @objc public var descriptiveType: Swift.String {
+    @objc get
+  }
+  @objc override dynamic open var description: Swift.String {
+    @objc get
+  }
+  @objc override dynamic open var debugDescription: Swift.String {
+    @objc get
+  }
+  @objc public var flutterArgs: Foundation.NSDictionary {
+    @objc get
+  }
+  @objc deinit
+}
+@available(iOS 13.0, *)
+extension SwiftUICore.Color {
+  public static func bidmadUtilityGenerateColorFrom(hex: Swift.String?, alpha: CoreFoundation.CGFloat? = nil) -> SwiftUICore.Color
+}
+@available(iOS 13.0, *)
+extension UIKit.UIColor {
+  public static func bidmadUtilityUiColor(from hex: Swift.String?, alpha: CoreFoundation.CGFloat? = nil) -> UIKit.UIColor
+  public var bidmadUtilityIsLightColor: Swift.Bool {
+    get
+  }
+}
+public struct VastClientOptions {
+  public let wrapperLimit: Swift.Int
+  public let singleWrapperTimeLimit: Foundation.TimeInterval
+  public let timeLimit: Foundation.TimeInterval
+  public let cachedVMAPModel: BidmadSDK.VMAPModel?
+  public init(wrapperLimit: Swift.Int = 5, singleWrapperTimeLimit: Foundation.TimeInterval = 5, timeLimit: Foundation.TimeInterval = 10, cachedVMAPModel: BidmadSDK.VMAPModel? = nil)
+}
+public class VastClient {
+  public static var trackingLogOutput: ((Swift.String, [Foundation.URL]) -> ())?
+  public init(options: BidmadSDK.VastClientOptions = VastClientOptions())
+  public func parseVast(withContentsOf url: Foundation.URL, completion: @escaping (BidmadSDK.VastModel?, (any Swift.Error)?) -> ())
+  public func parseVMAP(withContentsOf url: Foundation.URL) throws -> BidmadSDK.VMAPModel
+  @objc deinit
+}
+public protocol VastTrackerDelegate : AnyObject {
+  func adFirstQuartile(vastTracker: BidmadSDK.VastTracker, ad: BidmadSDK.VastAd)
+  func adMidpoint(vastTracker: BidmadSDK.VastTracker, ad: BidmadSDK.VastAd)
+  func adThirdQuartile(vastTracker: BidmadSDK.VastTracker, ad: BidmadSDK.VastAd)
+}
+public struct TrackerModel {
+}
+public class VastTracker {
+  weak public var delegate: (any BidmadSDK.VastTrackerDelegate)?
+  final public let vastModel: BidmadSDK.VastModel
+  final public let totalAds: Swift.Int
+  final public let startTime: Swift.Double
+  public var isInitialized: Swift.Bool {
+    get
+  }
+  public init(vastModel: BidmadSDK.VastModel, startTime: Swift.Double = 0.0, supportAdBuffets: Swift.Bool = false, delegate: (any BidmadSDK.VastTrackerDelegate)? = nil, trackProgressCumulatively: Swift.Bool = true)
+  @objc deinit
+}
+extension BidmadSDK.VastTracker {
+  public func updateProgress(time: Swift.Double) throws
+  public func trackAdBreakStart(for adBreak: BidmadSDK.VMAPAdBreak)
+  public func trackAdBreakEnd(for adBreak: BidmadSDK.VMAPAdBreak)
+  public func trackAdBreakEvents(for adBreak: BidmadSDK.VMAPAdBreak, withURLs urls: [Foundation.URL])
+  public func trackAdStart(withId id: Swift.String) throws
+  public func trackAdComplete() throws
+  public func trackSkippedAds(with ids: [Swift.String])
+  public func played() throws
+  public func paused() throws
+  public func fullscreen(_ val: Swift.Bool) throws
+  public func rewind() throws
+  public func muted(_ val: Swift.Bool) throws
+  public func acceptedLinearInvitation() throws
+  public func closed() throws
+  public func clicked() throws -> Foundation.URL?
+  public func clickedWithCustomAction() throws -> [Foundation.URL]
+  public func error(withReason code: BidmadSDK.VastErrorCodes?) throws
+  public func trackViewability(type: BidmadSDK.VastViewableImpressionType) throws
+  public func resetState()
+}
+public protocol VastTrackerNonLinearDelegate : AnyObject {
+  func adBreakStart(vastTracker: BidmadSDK.VastTrackerNonLinear)
+  func adBreakComplete(vastTracker: BidmadSDK.VastTrackerNonLinear)
+}
+public class VastTrackerNonLinear {
+  weak public var delegate: (any BidmadSDK.VastTrackerNonLinearDelegate)?
+  final public let id: Swift.String
+  final public let vastModel: BidmadSDK.VastModel
+  final public let totalAds: Swift.Int
+  final public let startTime: Swift.Double
+  @available(*, message: "do not use VastTracker for storing this model, it is not being used")
+  public var vmapModel: BidmadSDK.VMAPModel?
+  public init(id: Swift.String, vastModel: BidmadSDK.VastModel, startTime: Swift.Double = 0.0, supportAdBuffets: Swift.Bool = false, delegate: (any BidmadSDK.VastTrackerNonLinearDelegate)? = nil, trackProgressCumulatively: Swift.Bool = true)
+  @available(*, message: "Use init(id:,vastModel:) instead")
+  convenience public init(id: Swift.String, vmapModel: BidmadSDK.VMAPModel, breakId: Swift.String, startTime: Swift.Double, supportAdBuffets: Swift.Bool = false, delegate: (any BidmadSDK.VastTrackerNonLinearDelegate)? = nil) throws
+  public func updateProgress(time: Swift.Double) throws
+  public func adBreakCompleted() throws
+  @objc deinit
+}
+public enum TrackingError : Swift.Error {
+  case MissingAdBreak
+  case unableToUpdateProgressTrackingComplete
+  case unableToUpdateProgress(msg: Swift.String)
+  case unableToProvideCreativeClickThroughUrls
+  case internalError(msg: Swift.String)
+  case unableToSkipAdAtThisTime
+  case noAdFound(withId: Swift.String)
+}
+extension BidmadSDK.TrackingError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public enum VMAPError : Swift.Error {
+  case invalidXMLDocument
+  case invalidVMAPDocument
+  case unableToParseDocument
+  case unableToCreateXMLParser
+  case internalError
+  public static func == (a: BidmadSDK.VMAPError, b: BidmadSDK.VMAPError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum VMAPErrorCodes : Swift.Int {
+  case undefined
+  case vmapSchemaError
+  case vmapResponesVersionNotSupported
+  case vmapParsingError
+  case adBreakTypeNotSupported
+  case generalAdResponseDocumentError
+  case adResponseTemplateTypeNotSupported
+  case adResponseDocumentExtractionOrParsingError
+  case adResponseDocumentRetrievalTimeout
+  case adResponseDocumentRetrievalError
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum VastError : Swift.Error {
+  case invalidXMLDocument
+  case invalidVASTDocument
+  case unableToParseDocument
+  case unableToCreateXMLParser
+  case wrapperLimitReached
+  case singleRequestTimeLimitReached
+  case wrapperTimeLimitReached
+  case internalError
+  public static func == (a: BidmadSDK.VastError, b: BidmadSDK.VastError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension BidmadSDK.VastError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public enum VastErrorCodes : Swift.Int {
+  case xmlParsingError
+  case vastSchemaValidationError
+  case vastVersionOfResponseNotSupported
+  case traffickingError
+  case videoPlayerExpectingDifferentLinearity
+  case videoPlayerExpectingDifferentDuration
+  case videoPlayerExpectingDifferentSize
+  case adCategoryNotProvided
+  case generalWrapperError
+  case timeoutOfVastURI
+  case wrapperLimitReached
+  case noAdsVastResponse
+  case inlineResponseFailedToDisplayInTime
+  case generalLinearError
+  case fileNotFound
+  case timeoutOfMediaFile
+  case mediaFileNotSupported
+  case problemDisplayingMediaFile
+  case conditionalAdRejected
+  case interactiveUnitInNodeNotExecuted
+  case verificationUnitInNodeNotExecuted
+  case generalNonLinearAdsError
+  case creativeDimensionTooLarge
+  case unableToFetchResource
+  case nonLinearResourceNotSupported
+  case generalCompanionAdsError
+  case noAvailableSpace
+  case unableToDisplayCompanion
+  case unableToFetchCompanionResource
+  case companionResourceNotSupported
+  case undefinedError
+  case generalVPAIDError
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct NativeItemExtensionElements {
+}
+public struct NativeItemExtension : Swift.Codable {
+  public var logo: Foundation.URL?
+  public var name: Swift.String?
+  public var title: Swift.String?
+  public var adChannel: Swift.Bool?
+  public var adIdentity: Swift.Bool?
+  public var bodyCopy: Swift.String?
+  public var thumbnail: Foundation.URL?
+  public var subCopy: Swift.String?
+  public var landingButton: Swift.Bool?
+  public var landingTitle: Swift.String?
+  public var endCard: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum VMAPAdBreakType : Swift.String, Swift.Codable {
+  case linear
+  case nonlinear
+  case display
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VMAPAdBreak : Swift.Codable {
+  public var breakId: Swift.String?
+  public var repeatAfter: Swift.String?
+  public let breakType: BidmadSDK.VMAPAdBreakType
+  public let timeOffset: Swift.String
+  public var adSource: BidmadSDK.VMAPAdSource?
+  public var trackingEvents: [BidmadSDK.VMAPTrackingEvent]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VMAPAdBreak {
+  public init(attrDict: [Swift.String : Swift.String])
+  public func trackEvent(withType type: BidmadSDK.VMAPTrackingEventType)
+  public func trackEvents(withUrls urls: [Foundation.URL])
+}
+public enum VMAPAdSourceTemplate : Swift.String, Swift.Codable {
+  case vast
+  case vast1
+  case vast2
+  case vast3
+  case vast4
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VMAPAdSource : Swift.Codable {
+  public let allowMultipleAds: Swift.Bool
+  public let followRedirects: Swift.Bool
+  public let id: Swift.String
+  public var vastAdData: BidmadSDK.VastModel?
+  public var adTagURI: Foundation.URL?
+  public var customAdData: Swift.String?
+  public var templateType: BidmadSDK.VMAPAdSourceTemplate?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VMAPAdSource {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+public struct VMAPExtension {
+}
+public struct VMAPModel : Swift.Codable {
+  public let version: Swift.String
+  public var adBreaks: [BidmadSDK.VMAPAdBreak]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VMAPModel {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+public enum VMAPTrackingEventType : Swift.String, Swift.Codable {
+  case breakStart
+  case breakEnd
+  case error
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VMAPTrackingEvent : Swift.Codable {
+  public let event: BidmadSDK.VMAPTrackingEventType
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VMAPTrackingEvent {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+public struct IconClicks : Swift.Codable {
+  public var iconClickThrough: Foundation.URL?
+  public var iconClickTracking: [BidmadSDK.VastIconClickTracking]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.IconClicks : Swift.Equatable {
+  public static func == (a: BidmadSDK.IconClicks, b: BidmadSDK.IconClicks) -> Swift.Bool
+}
+public enum AdType : Swift.String, Swift.Codable {
+  case inline
+  case wrapper
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VastAd : Swift.Codable {
+  public var type: BidmadSDK.AdType
+  public let id: Swift.String
+  public let sequence: Swift.Int?
+  public let conditionalAd: Swift.Bool?
+  public var adSystem: BidmadSDK.VastAdSystem?
+  public var impressions: [BidmadSDK.VastImpression]
+  public var adVerifications: [BidmadSDK.VastVerification]
+  public var viewableImpression: BidmadSDK.VastViewableImpression?
+  public var pricing: BidmadSDK.VastPricing?
+  public var errors: [Foundation.URL]
+  public var creatives: [BidmadSDK.VastCreative]
+  public var extensions: [BidmadSDK.VastExtension]
+  public var adTitle: Swift.String?
+  public var adCategories: [BidmadSDK.VastAdCategory]
+  public var description: Swift.String?
+  public var advertiser: Swift.String?
+  public var surveys: [BidmadSDK.VastSurvey]
+  public var wrapper: BidmadSDK.VastWrapper?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastAd {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastAd : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastAd, b: BidmadSDK.VastAd) -> Swift.Bool
+}
+public struct VastAdCategory : Swift.Codable {
+  public let authority: Foundation.URL?
+  public var category: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastAdCategory : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastAdCategory, b: BidmadSDK.VastAdCategory) -> Swift.Bool
+}
+public struct VastAdParameters : Swift.Codable {
+  public let xmlEncoded: Swift.String?
+  public var content: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastAdParameters : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastAdParameters, b: BidmadSDK.VastAdParameters) -> Swift.Bool
+}
+public struct VastAdSystem : Swift.Codable {
+  public let version: Swift.String?
+  public var system: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastAdSystem : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastAdSystem, b: BidmadSDK.VastAdSystem) -> Swift.Bool
+}
+public struct VastAdVerificationParameters : Swift.Codable {
+  public var data: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastAdVerificationParameters : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastAdVerificationParameters, b: BidmadSDK.VastAdVerificationParameters) -> Swift.Bool
+}
+public enum CompanionsRequirement : Swift.String, Swift.Codable {
+  case all
+  case any
+  case none
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VastCompanionAds : Swift.Codable {
+  public let required: BidmadSDK.CompanionsRequirement
+  public var companions: [BidmadSDK.VastCompanionCreative]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastCompanionAds {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastCompanionAds : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastCompanionAds, b: BidmadSDK.VastCompanionAds) -> Swift.Bool
+}
+public struct VastCompanionClickTracking {
+  public let id: Swift.String?
+}
+public struct VastCompanionCreative : Swift.Codable {
+  public let width: Swift.Int
+  public let height: Swift.Int
+  public let id: Swift.String?
+  public let assetWidth: Swift.Int?
+  public let assetHeight: Swift.Int?
+  public let expandedWidth: Swift.Int?
+  public let expandedHeight: Swift.Int?
+  public let apiFramework: Swift.String?
+  public let adSlotId: Swift.String?
+  public let pxRatio: Swift.Double?
+  public var staticResource: [BidmadSDK.VastStaticResource]
+  public var iFrameResource: [Foundation.URL]
+  public var htmlResource: [Foundation.URL]
+  public var altText: Swift.String?
+  public var companionClickThrough: Foundation.URL?
+  public var companionClickTracking: [Foundation.URL]
+  public var trackingEvents: [BidmadSDK.VastTrackingEvent]
+  public var adParameters: BidmadSDK.VastAdParameters?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastCompanionCreative {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastCompanionCreative : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastCompanionCreative, b: BidmadSDK.VastCompanionCreative) -> Swift.Bool
+}
+public struct VastCreative : Swift.Codable {
+  public let id: Swift.String?
+  public let adId: Swift.String?
+  public let sequence: Swift.Int?
+  public let apiFramework: Swift.String?
+  public var universalAdId: BidmadSDK.VastUniversalAdId?
+  public var creativeExtensions: [BidmadSDK.VastCreativeExtension]
+  public var linear: BidmadSDK.VastLinearCreative?
+  public var nonLinearAds: BidmadSDK.VastNonLinearAdsCreative?
+  public var companionAds: BidmadSDK.VastCompanionAds?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastCreative {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastCreative : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastCreative, b: BidmadSDK.VastCreative) -> Swift.Bool
+}
+public struct VastCreativeExtension : Swift.Codable {
+  public let mimeType: Swift.String?
+  public var content: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastCreativeExtension {
+  public init?(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastCreativeExtension : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastCreativeExtension, b: BidmadSDK.VastCreativeExtension) -> Swift.Bool
+}
+public struct VastExtension : Swift.Codable {
+  public let type: Swift.String
+  public var viewableRate: Swift.Double?
+  public var nativeItemExtension: BidmadSDK.NativeItemExtension?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastExtension {
+  public init(attrDict: [Swift.String : Swift.String])
+  public mutating func set(nativeItem attrDict: [Swift.String : Swift.String], content: Swift.String)
+}
+extension BidmadSDK.VastExtension : Swift.Equatable {
+  public static func == (lhs: BidmadSDK.VastExtension, rhs: BidmadSDK.VastExtension) -> Swift.Bool
+}
+public struct VastIcon : Swift.Codable {
+  public let program: Swift.String
+  public let width: Swift.Int
+  public let height: Swift.Int
+  public let xPosition: Swift.String
+  public let yPosition: Swift.String
+  public let duration: Swift.Double
+  public let offset: Swift.Double
+  public let apiFramework: Swift.String
+  public let pxratio: Swift.Double
+  public var iconViewTracking: [Foundation.URL]
+  public var iconClicks: BidmadSDK.IconClicks?
+  public var staticResource: [BidmadSDK.VastStaticResource]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastIcon {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastIcon : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastIcon, b: BidmadSDK.VastIcon) -> Swift.Bool
+}
+public struct VastIconClickTracking : Swift.Codable {
+  public let id: Swift.String?
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastIconClickTracking : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastIconClickTracking, b: BidmadSDK.VastIconClickTracking) -> Swift.Bool
+}
+public struct VastImpression : Swift.Codable {
+  public let id: Swift.String?
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastImpression {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastImpression : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastImpression, b: BidmadSDK.VastImpression) -> Swift.Bool
+}
+public struct VastInteractiveCreativeFile : Swift.Codable {
+  public let type: Swift.String?
+  public let apiFramework: Swift.String?
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastInteractiveCreativeFile : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastInteractiveCreativeFile, b: BidmadSDK.VastInteractiveCreativeFile) -> Swift.Bool
+}
+public struct VastLinearCreative : Swift.Codable {
+  public let skipOffset: Swift.String?
+  public var duration: Swift.Double?
+  public var adParameters: BidmadSDK.VastAdParameters?
+  public var videoClicks: [BidmadSDK.VastVideoClick]
+  public var trackingEvents: [BidmadSDK.VastTrackingEvent]
+  public var files: BidmadSDK.VastMediaFiles
+  public var icons: [BidmadSDK.VastIcon]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastLinearCreative {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastLinearCreative : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastLinearCreative, b: BidmadSDK.VastLinearCreative) -> Swift.Bool
+}
+public struct VastMediaFile : Swift.Codable {
+  public let delivery: Swift.String
+  public let type: Swift.String
+  public let width: Swift.String
+  public let height: Swift.String
+  public let codec: Swift.String?
+  public let id: Swift.String?
+  public let bitrate: Swift.Int?
+  public let minBitrate: Swift.Int?
+  public let maxBitrate: Swift.Int?
+  public let scalable: Swift.Bool?
+  public let maintainAspectRatio: Swift.Bool?
+  public let apiFramework: Swift.String?
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastMediaFile {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastMediaFile : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastMediaFile, b: BidmadSDK.VastMediaFile) -> Swift.Bool
+}
+public struct VastMediaFiles : Swift.Codable {
+  public var mediaFiles: [BidmadSDK.VastMediaFile]
+  public var interactiveCreativeFiles: [BidmadSDK.VastInteractiveCreativeFile]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastMediaFiles : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastMediaFiles, b: BidmadSDK.VastMediaFiles) -> Swift.Bool
+}
+public struct VastModel : Swift.Codable {
+  public let version: Swift.String
+  public var ads: [BidmadSDK.VastAd]
+  public var errors: [Foundation.URL]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastModel {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastModel : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastModel, b: BidmadSDK.VastModel) -> Swift.Bool
+}
+public struct VastNonLinear : Swift.Codable {
+  public var height: Swift.String
+  public var id: Swift.String
+  public var width: Swift.String
+  public var staticResource: BidmadSDK.VastStaticResource?
+  public var nonLinearClickTracking: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastNonLinear {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastNonLinear : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastNonLinear, b: BidmadSDK.VastNonLinear) -> Swift.Bool
+}
+public struct VastNonLinearAdsCreative : Swift.Codable {
+  public var trackingEvents: [BidmadSDK.VastTrackingEvent]
+  public var nonLinear: [BidmadSDK.VastNonLinear]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastNonLinearAdsCreative : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastNonLinearAdsCreative, b: BidmadSDK.VastNonLinearAdsCreative) -> Swift.Bool
+}
+public enum PricingModel : Swift.String, Swift.Codable {
+  case cpc
+  case cpm
+  case cpe
+  case cpv
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VastPricing : Swift.Codable {
+  public let model: BidmadSDK.PricingModel
+  public let currency: Swift.String
+  public var pricing: Swift.Double?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastPricing : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastPricing, b: BidmadSDK.VastPricing) -> Swift.Bool
+}
+public struct VastResource : Swift.Codable {
+  public let apiFramework: Swift.String?
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastResource : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastResource, b: BidmadSDK.VastResource) -> Swift.Bool
+}
+public struct VastStaticResource : Swift.Codable {
+  public let creativeType: Swift.String
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastStaticResource : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastStaticResource, b: BidmadSDK.VastStaticResource) -> Swift.Bool
+}
+public struct VastSurvey : Swift.Codable {
+  public let type: Swift.String?
+  public var survey: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastSurvey : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastSurvey, b: BidmadSDK.VastSurvey) -> Swift.Bool
+}
+public enum TrackingEventType : Swift.String, Swift.Codable {
+  case firstQuartile
+  case midpoint
+  case thirdQuartile
+  case complete
+  case creativeView
+  case start
+  case mute
+  case unmute
+  case pause
+  case rewind
+  case resume
+  case fullscreen
+  case exitFullscreen
+  case playerExpand
+  case playerCollapse
+  case acceptInvitationLinear
+  case closeLinear
+  case skip
+  case progress
+  case collapse
+  case expand
+  case acceptInvitation
+  case close
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VastTrackingEvent : Swift.Codable {
+  public let type: BidmadSDK.TrackingEventType
+  public let offset: Swift.Double?
+  public var url: Foundation.URL?
+  public var tracked: Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastTrackingEvent {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastTrackingEvent : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastTrackingEvent, b: BidmadSDK.VastTrackingEvent) -> Swift.Bool
+}
+public struct VastUniversalAdId : Swift.Codable {
+  public let idRegistry: Swift.String
+  public let idValue: Swift.String
+  public var uniqueCreativeId: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastUniversalAdId {
+  public init?(attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastUniversalAdId : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastUniversalAdId, b: BidmadSDK.VastUniversalAdId) -> Swift.Bool
+}
+public struct VastVerification : Swift.Codable {
+  public let vendor: Foundation.URL?
+  public var viewableImpression: BidmadSDK.VastViewableImpression?
+  public var javaScriptResource: [BidmadSDK.VastResource]
+  public var flashResources: [BidmadSDK.VastResource]
+  public var verificationParameters: BidmadSDK.VastAdVerificationParameters?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastVerification : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastVerification, b: BidmadSDK.VastVerification) -> Swift.Bool
+}
+public enum ClickType : Swift.String, Swift.Codable {
+  case clickThrough
+  case clickTracking
+  case customClick
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VastVideoClick : Swift.Codable {
+  public let id: Swift.String?
+  public let type: BidmadSDK.ClickType
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastVideoClick {
+  public init(type: BidmadSDK.ClickType, attrDict: [Swift.String : Swift.String])
+}
+extension BidmadSDK.VastVideoClick : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastVideoClick, b: BidmadSDK.VastVideoClick) -> Swift.Bool
+}
+public enum VastViewableImpressionType : Swift.String {
+  case viewable
+  case notViewable
+  case viewUndetermined
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VastViewableImpression : Swift.Codable {
+  public let id: Swift.String
+  public var url: Foundation.URL?
+  public var viewable: [Foundation.URL]
+  public var notViewable: [Foundation.URL]
+  public var viewUndetermined: [Foundation.URL]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastViewableImpression : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastViewableImpression, b: BidmadSDK.VastViewableImpression) -> Swift.Bool
+}
+public struct VastWrapper : Swift.Codable {
+  public let followAdditionalWrappers: Swift.Bool?
+  public let allowMultipleAds: Swift.Bool?
+  public let fallbackOnNoAd: Swift.Bool?
+  public var adTagUri: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension BidmadSDK.VastWrapper : Swift.Equatable {
+  public static func == (a: BidmadSDK.VastWrapper, b: BidmadSDK.VastWrapper) -> Swift.Bool
+}
+extension Swift.String {
+  public var toSeconds: Swift.Double? {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class BidmadSDKResources : ObjectiveC.NSObject {
+  @objc public class var bundle: Foundation.Bundle {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension BidmadSDK.BIDMADAdPosition : Swift.Equatable {}
+extension BidmadSDK.BIDMADAdPosition : Swift.Hashable {}
+extension BidmadSDK.BIDMADAdPosition : Swift.RawRepresentable {}
+extension BidmadSDK.BIDMADBannerViewCase : Swift.Equatable {}
+extension BidmadSDK.BIDMADBannerViewCase : Swift.Hashable {}
+extension BidmadSDK.BIDMADBannerViewCase : Swift.RawRepresentable {}
+@available(*, unavailable, renamed: "Connection")
+extension BidmadSDK.BidmadSDKReachability.NetworkStatus : Swift.Equatable {}
+@available(*, unavailable, renamed: "Connection")
+extension BidmadSDK.BidmadSDKReachability.NetworkStatus : Swift.Hashable {}
+extension BidmadSDK.BidmadSDKReachability.Connection : Swift.Equatable {}
+extension BidmadSDK.BidmadSDKReachability.Connection : Swift.Hashable {}
+@available(iOS 13.0, *)
+extension BidmadSDK.BidmadTracker : Swift.Sendable {}
+extension BidmadSDK.BidmadLogLevel : Swift.Equatable {}
+extension BidmadSDK.BidmadLogLevel : Swift.Hashable {}
+extension BidmadSDK.BidmadLogLevel : Swift.RawRepresentable {}
+extension BidmadSDK.VMAPError : Swift.Equatable {}
+extension BidmadSDK.VMAPError : Swift.Hashable {}
+extension BidmadSDK.VMAPErrorCodes : Swift.Equatable {}
+extension BidmadSDK.VMAPErrorCodes : Swift.Hashable {}
+extension BidmadSDK.VMAPErrorCodes : Swift.RawRepresentable {}
+extension BidmadSDK.VastError : Swift.Equatable {}
+extension BidmadSDK.VastError : Swift.Hashable {}
+extension BidmadSDK.VastErrorCodes : Swift.Equatable {}
+extension BidmadSDK.VastErrorCodes : Swift.Hashable {}
+extension BidmadSDK.VastErrorCodes : Swift.RawRepresentable {}
+extension BidmadSDK.VMAPAdBreakType : Swift.Equatable {}
+extension BidmadSDK.VMAPAdBreakType : Swift.Hashable {}
+extension BidmadSDK.VMAPAdBreakType : Swift.RawRepresentable {}
+extension BidmadSDK.VMAPAdSourceTemplate : Swift.Equatable {}
+extension BidmadSDK.VMAPAdSourceTemplate : Swift.Hashable {}
+extension BidmadSDK.VMAPAdSourceTemplate : Swift.RawRepresentable {}
+extension BidmadSDK.VMAPTrackingEventType : Swift.Equatable {}
+extension BidmadSDK.VMAPTrackingEventType : Swift.Hashable {}
+extension BidmadSDK.VMAPTrackingEventType : Swift.RawRepresentable {}
+extension BidmadSDK.AdType : Swift.Equatable {}
+extension BidmadSDK.AdType : Swift.Hashable {}
+extension BidmadSDK.AdType : Swift.RawRepresentable {}
+extension BidmadSDK.CompanionsRequirement : Swift.Equatable {}
+extension BidmadSDK.CompanionsRequirement : Swift.Hashable {}
+extension BidmadSDK.CompanionsRequirement : Swift.RawRepresentable {}
+extension BidmadSDK.PricingModel : Swift.Equatable {}
+extension BidmadSDK.PricingModel : Swift.Hashable {}
+extension BidmadSDK.PricingModel : Swift.RawRepresentable {}
+extension BidmadSDK.TrackingEventType : Swift.Equatable {}
+extension BidmadSDK.TrackingEventType : Swift.Hashable {}
+extension BidmadSDK.TrackingEventType : Swift.RawRepresentable {}
+extension BidmadSDK.ClickType : Swift.Equatable {}
+extension BidmadSDK.ClickType : Swift.Hashable {}
+extension BidmadSDK.ClickType : Swift.RawRepresentable {}
+extension BidmadSDK.VastViewableImpressionType : Swift.Equatable {}
+extension BidmadSDK.VastViewableImpressionType : Swift.Hashable {}
+extension BidmadSDK.VastViewableImpressionType : Swift.RawRepresentable {}

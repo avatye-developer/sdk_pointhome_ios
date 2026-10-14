@@ -1,0 +1,10 @@
+framework module AvatyePointHome {
+  umbrella header "AvatyePointHome.h"
+  export *
+
+  module * { export * }
+}
+
+module AvatyePointHome.Swift {
+  header "AvatyePointHome-Swift.h"
+}
